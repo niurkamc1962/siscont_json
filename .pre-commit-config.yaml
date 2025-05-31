@@ -1,6 +1,7 @@
 default_stages: [ pre-commit, pre-push ]
 
 repos:
+  # Hooks generales de limpieza y validación de archivos
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
     hooks:
@@ -9,29 +10,34 @@ repos:
       - id: check-yaml
       - id: check-added-large-files
 
+  # Formateo automático de código Python con Black
   - repo: https://github.com/psf/black
     rev: 25.1.0
     hooks:
       - id: black
-        language_version: python3.11  # Ajusta según tu versión
+        language_version: python3.11  # Ajusta según la versión que uses
 
+  # Ordena imports automáticamente
   - repo: https://github.com/PyCQA/isort
     rev: 6.0.1
     hooks:
       - id: isort
 
+  # Linter de Python con plugins útiles
   - repo: https://github.com/PyCQA/flake8
     rev: 7.2.0
     hooks:
       - id: flake8
         additional_dependencies: [ flake8-bugbear, flake8-comprehensions ]
 
+  # Chequeo de tipos estáticos con mypy
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.16.0
     hooks:
       - id: mypy
         args: [ --ignore-missing-imports ]
 
+  # Análisis de seguridad para Python
   - repo: https://github.com/PyCQA/bandit
     rev: 1.8.3
     hooks:
