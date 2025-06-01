@@ -15,7 +15,7 @@ def show_module_content(module_name: str):
     Renderiza el contenido del módulo seleccionado.
     Esta función es refrescable, lo que permite actualizar solo esta sección.
     """
-    print(f"DEBUG: Renderizando contenido para: {module_name}")
+    # print(f"DEBUG: Renderizando contenido para: {module_name}")
 
     # Limpiamos el contenido existente dentro de este contenedor refrescable
     # NiceGUI lo maneja automáticamente con @ui.refreshable,
@@ -72,7 +72,7 @@ def handle_logout():
     # Actualiza el estado de inicio de sesión y limpia el IP del servidor
     app.storage.user.update(
         {
-            "logged_in": False,
+            "connected": False,
             "server_ip_display": "",
             "current_view": "General",
             # Restablece la vista actual al cerrar sesión

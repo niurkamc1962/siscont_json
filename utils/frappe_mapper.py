@@ -1,0 +1,26 @@
+def map_sql_type_to_frappe(sql_type: str) -> str:
+    mapping = {
+        "varchar": "Data",
+        "nvarchar": "Data",
+        "char": "Data",
+        "text": "Text",
+        "ntext": "Text",
+        "int": "Int",
+        "smallint": "Int",
+        "bigint": "Int",
+        "decimal": "Float",
+        "numeric": "Float",
+        "float": "Float",
+        "real": "Float",
+        "date": "Date",
+        "datetime": "Datetime",
+        "datetime2": "Datetime",
+        "smalldatetime": "Datetime",
+        "time": "Time",
+        "bit": "Check",
+        "tinyint": "Int",
+        "binary": "Data",
+        "varbinary": "Data",
+        "uniqueidentifier": "Data",
+    }
+    return mapping.get(sql_type.lower(), "Data")

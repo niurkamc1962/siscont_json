@@ -1,4 +1,4 @@
-# ui/pages/modules/nomina.py
+# ui/pages/modules/api_nomina.py
 from nicegui import ui
 
 
