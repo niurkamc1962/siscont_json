@@ -50,22 +50,22 @@ def get_output_dir():
     # Intenta obtener desde la variable de entorno
     json_dir = os.getenv("JSON_OUTPUT_DIR")
 
-    # if output_dir:
-    #     return output_dir
+    if json_dir:
+        return json_dir
+
+    # Si no está definida, se usa la ruta por defecto relativa al archivo actual
+    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    default_dir = os.path.join(base_dir, "archivos_json")
+    os.makedirs(default_dir, exist_ok=True)
+    return default_dir
+
+    # # Obtiene la ruta absoluta de la carpeta donde está este archivo (por ejemplo, db/)
+    # base_dir = os.path.dirname(os.path.abspath(__file__))
     #
-    # # Si no está definida, se usa la ruta por defecto relativa al archivo actual
-    # base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    # default_dir = os.path.join(base_dir, "archivos_json")
-    # os.makedirs(default_dir, exist_ok=True)
-    # return default_dir
-
-    # Obtiene la ruta absoluta de la carpeta donde está este archivo (por ejemplo, db/)
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-
-    # Sube un nivel para llegar a la raíz del proyecto (siscont_json)
-    project_root = os.path.abspath(os.path.join(base_dir, ".."))
-
-    # Une la ruta del proyecto con la carpeta deseada
-    output_dir = os.path.join(project_root, json_dir)
-
-    return output_dir
+    # # Sube un nivel para llegar a la raíz del proyecto (siscont_json)
+    # project_root = os.path.abspath(os.path.join(base_dir, ".."))
+    #
+    # # Une la ruta del proyecto con la carpeta deseada
+    # output_dir = os.path.join(project_root, json_dir)
+    #
+    # return output_dir

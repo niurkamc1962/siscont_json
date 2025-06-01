@@ -4,6 +4,8 @@ from decimal import Decimal
 
 
 def serialize_value(value):
+    if value is None:
+        return None
     if isinstance(value, (datetime, date)):
         # return value.isoformat()
         if value.year == 1753:

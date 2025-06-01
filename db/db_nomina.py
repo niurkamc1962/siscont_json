@@ -5,7 +5,8 @@ from utils.jsons_utils import save_json_file
 from utils.serializations import serialize_value  # importa tu helper
 
 
-# Funcion para obtener los datos de SCPTrabajadores segun el query necesario para el JSON
+# Funcion para obtener los datos de SCPTrabajadores segun el query necesario
+# para el JSON
 def get_trabajadores(db) -> List[Dict]:
     doctype_name = "Employee"
     sqlserver_name = "SCPTRABAJADORES"
@@ -31,7 +32,7 @@ def get_trabajadores(db) -> List[Dict]:
         ("category_name", ("occupational_category", "C.CategODescripcion")),
         ("designation_name", ("designation", "CAR.CargDescripcion")),
         ("province_name", ("province", "R.ProvCod")),
-        ("id", ("city", "R.MunicCod")),
+        ("id_city", ("city", "R.MunicCod")),
     ]
 
     # Construimos la cláusula SELECT
@@ -61,26 +62,15 @@ def get_trabajadores(db) -> List[Dict]:
             result = []
             for row in rows:
                 employee_data = {}
-
                 for col, val in zip(columns, row):
-                    for alias, (doctype, _) in field_mapping:
-                        if alias == col:
-                            val = serialize_value(val)
-
-                            if doctype == "employee":
-                                employee_data[alias] = val
-                            else:
-                                if doctype not in employee_data:
-                                    employee_data[doctype] = {}
-                                employee_data[doctype][alias] = val
-                            break
-
-                result.append({"employee": employee_data})
-
+                    employee_data[col] = serialize_value(val)
+                # result.append({"employee": employee_data})
+                result.append(employee_data)
             output_path = save_json_file(
                 doctype_name, result, module_name, sqlserver_name
             )
-            logging.info(f"{doctype_name}.json guardado correctamente en {output_path}")
+            logging.info(
+                f"{doctype_name}.json guardado correctamente en {output_path}")
 
             return result
 
@@ -89,7 +79,8 @@ def get_trabajadores(db) -> List[Dict]:
         raise Exception(f"Error al obtener datos de SCPTrabajadores: {str(e)}")
 
 
-# Prepara la relacion entre las tablas con SCPTrabajadores y las muestra en el frontend
+# Prepara la relacion entre las tablas con SCPTrabajadores y las muestra en
+# el frontend
 def get_relaciones_trabajadores(db) -> List[Dict]:
     query = """
     SELECT
@@ -100,12 +91,18 @@ def get_relaciones_trabajadores(db) -> List[Dict]:
     FROM
         information_schema.referential_constraints rc
     JOIN
-        information_schema.key_column_usage fk ON rc.constraint_name = fk.constraint_name
+        information_schema.key_column_usage fk ON rc.constraint_name = 
+        fk.constraint_name
     JOIN
-        information_schema.key_column_usage pk ON rc.unique_constraint_name = pk.constraint_name
+        information_schema.key_column_usage pk ON rc.unique_constraint_name = 
+        pk.constraint_name
     WHERE
-        fk.table_name IN ('SCPTrabajadores', 'SNOCARGOS', 'SNOTIPOTRABAJADOR', 'SRHPersonas', 'SRHPersonasDireccion', 'TEREPARTOS')
-        OR pk.table_name IN ('SCPTrabajadores', 'SNOCARGOS', 'SNOTIPOTRABAJADOR', 'SRHPersonas', 'SRHPersonasDireccion', 'TEREPARTOS')
+        fk.table_name IN ('SCPTrabajadores', 'SNOCARGOS', 
+        'SNOTIPOTRABAJADOR', 'SRHPersonas', 'SRHPersonasDireccion', 
+        'TEREPARTOS')
+        OR pk.table_name IN ('SCPTrabajadores', 'SNOCARGOS', 
+        'SNOTIPOTRABAJADOR', 'SRHPersonas', 'SRHPersonasDireccion', 
+        'TEREPARTOS')
     """
 
     try:
@@ -151,7 +148,8 @@ def construir_tree_trabajadores(relaciones):
             }
 
         tree[src]["children"][tgt]["children"].append(
-            {"id": f"rel_{counter}", "description": f"{src_col} → {tgt}.{tgt_col}"}
+            {"id": f"rel_{counter}",
+             "description": f"{src_col} → {tgt}.{tgt_col}"}
         )
 
         counter += 1
@@ -168,7 +166,8 @@ def construir_tree_trabajadores(relaciones):
     ]
 
 
-# Para obtener las categorias ocupacionales y poniendo alias con el nombre del campo en el doctype
+# Para obtener las categorias ocupacionales y poniendo alias con el nombre
+# del campo en el doctype
 def get_categorias_ocupacionales(db):
     doctype_name = "Occupational Category"
     sqlserver_name = "SNOCATEGOCUP"
@@ -190,10 +189,12 @@ def get_categorias_ocupacionales(db):
             output_path = save_json_file(
                 doctype_name, result, module_name, sqlserver_name
             )
-            logging.info(f"{doctype_name}.json guardado correctamente en {output_path}")
+            logging.info(
+                f"{doctype_name}.json guardado correctamente en {output_path}")
             return result
     except Exception as e:
-        logging.error(f"Error al obtener datos de las categorias ocupacionales: {e}")
+        logging.error(
+            f"Error al obtener datos de las categorias ocupacionales: {e}")
         raise
 
 
@@ -214,16 +215,19 @@ def get_cargos_trabajadores(db):
             rows = cursor.fetchall()
             # serializando los campos para que no de error los decimales
             result = [
-                {key: serialize_value(value) for key, value in zip(columns, row)}
+                {key: serialize_value(value) for key, value in
+                 zip(columns, row)}
                 for row in rows
             ]
             output_path = save_json_file(
                 doctype_name, result, module_name, sqlserver_name
             )
-            logging.info(f"{doctype_name}.json guardado correctamente en {output_path}")
+            logging.info(
+                f"{doctype_name}.json guardado correctamente en {output_path}")
             return result
     except Exception as e:
-        logging.error(f"Error al obtener datos de los cargos de los trabajadores: {e}")
+        logging.error(
+            f"Error al obtener datos de los cargos de los trabajadores: {e}")
         raise
 
 
@@ -244,16 +248,19 @@ def get_tipos_trabajadores(db):
             rows = cursor.fetchall()
             # serializando los campos para que no de error los decimales
             result = [
-                {key: serialize_value(value) for key, value in zip(columns, row)}
+                {key: serialize_value(value) for key, value in
+                 zip(columns, row)}
                 for row in rows
             ]
             output_path = save_json_file(
                 doctype_name, result, module_name, sqlserver_name
             )
-            logging.info(f"{doctype_name}.json guardado correctamente en {output_path}")
+            logging.info(
+                f"{doctype_name}.json guardado correctamente en {output_path}")
             return result
     except Exception as e:
-        logging.error(f"Error al obtener datos de los tipos de trabajadores: {e}")
+        logging.error(
+            f"Error al obtener datos de los tipos de trabajadores: {e}")
         raise
 
 
@@ -269,7 +276,8 @@ def get_tipos_retenciones(db):
         CRetPPrioridad as priority,
         CRetPPenAlimenticia as child_support,
         CRetPConPlazos as by_installments
-        FROM SCPCONRETPAGAR s LEFT JOIN SCGCLASIFICADORDECUENTAS c ON s.ClcuIDCuenta = c.ClcuIDCuenta
+        FROM SCPCONRETPAGAR s LEFT JOIN SCGCLASIFICADORDECUENTAS c ON 
+        s.ClcuIDCuenta = c.ClcuIDCuenta
         WHERE CRetPDesactivado  = '' OR CRetPDesactivado IS NULL
     """
     try:
@@ -279,16 +287,19 @@ def get_tipos_retenciones(db):
             rows = cursor.fetchall()
             # serializando los campos para que no de error los decimales
             result = [
-                {key: serialize_value(value) for key, value in zip(columns, row)}
+                {key: serialize_value(value) for key, value in
+                 zip(columns, row)}
                 for row in rows
             ]
             output_path = save_json_file(
                 doctype_name, result, module_name, sqlserver_name
             )
-            logging.info(f"{doctype_name}.json guardado correctamente en {output_path}")
+            logging.info(
+                f"{doctype_name}.json guardado correctamente en {output_path}")
             return result
     except Exception as e:
-        logging.error(f"Error al obtener datos de los tipos de retenciones: {e}")
+        logging.error(
+            f"Error al obtener datos de los tipos de retenciones: {e}")
         raise
 
 
@@ -299,7 +310,8 @@ def get_pensionados(db):
     module_name = "Selling"
     query = """
         SELECT MantPensCiPens as NODEFINIDO,
-        (MantPensNombre + ' ' + MantPensPriApe + ' ' + MantPensSegApe ) as customer_name,
+        (MantPensNombre + ' ' + MantPensPriApe + ' ' + MantPensSegApe ) as 
+        customer_name,
         MantPensDir as customer_primary_address,
         MantPensFormPag as NODEFINIDO,
         MantPensTMagn as NODEFINIDO
@@ -313,13 +325,15 @@ def get_pensionados(db):
             rows = cursor.fetchall()
             # serializando los campos para que no de error los decimales
             result = [
-                {key: serialize_value(value) for key, value in zip(columns, row)}
+                {key: serialize_value(value) for key, value in
+                 zip(columns, row)}
                 for row in rows
             ]
             output_path = save_json_file(
                 doctype_name, result, module_name, sqlserver_name
             )
-            logging.info(f"{doctype_name}.json guardado correctamente en {output_path}")
+            logging.info(
+                f"{doctype_name}.json guardado correctamente en {output_path}")
             return result
     except Exception as e:
         logging.error(f"Error al obtener datos de los pensionados: {e}")
@@ -344,13 +358,15 @@ def get_tasas_destajos(db):
             rows = cursor.fetchall()
             # serializando los campos para que no de error los decimales
             result = [
-                {key: serialize_value(value) for key, value in zip(columns, row)}
+                {key: serialize_value(value) for key, value in
+                 zip(columns, row)}
                 for row in rows
             ]
             output_path = save_json_file(
                 doctype_name, result, module_name, sqlserver_name
             )
-            logging.info(f"{doctype_name}.json guardado correctamente en {output_path}")
+            logging.info(
+                f"{doctype_name}.json guardado correctamente en {output_path}")
             return result
     except Exception as e:
         logging.error(f"Error al obtener datos de las tasas de destajos: {e}")
@@ -374,13 +390,15 @@ def get_colectivos(db):
             rows = cursor.fetchall()
             # serializando los campos para que no de error los decimales
             result = [
-                {key: serialize_value(value) for key, value in zip(columns, row)}
+                {key: serialize_value(value) for key, value in
+                 zip(columns, row)}
                 for row in rows
             ]
             output_path = save_json_file(
                 doctype_name, result, module_name, sqlserver_name
             )
-            logging.info(f"{doctype_name}.json guardado correctamente en {output_path}")
+            logging.info(
+                f"{doctype_name}.json guardado correctamente en {output_path}")
             return result
     except Exception as e:
         logging.error(f"Error al obtener datos de los colectivos: {e}")
@@ -409,13 +427,15 @@ def get_departamentos(db):
             rows = cursor.fetchall()
             # serializando los campos para que no de error los decimales
             result = [
-                {key: serialize_value(value) for key, value in zip(columns, row)}
+                {key: serialize_value(value) for key, value in
+                 zip(columns, row)}
                 for row in rows
             ]
             output_path = save_json_file(
                 doctype_name, result, module_name, sqlserver_name
             )
-            logging.info(f"{doctype_name}.json guardado correctamente en {output_path}")
+            logging.info(
+                f"{doctype_name}.json guardado correctamente en {output_path}")
             return result
     except Exception as e:
         logging.error(f"Error al obtener datos de los colectivos: {e}")
