@@ -15,29 +15,32 @@ def get_trabajadores(db) -> List[Dict]:
     # Definimos un mapeo explícito de campos
     field_mapping = [
         # Campos del doctype principal (trabajador)
-        ("identity_number", ("employee", "T.CPTrabConsecutivoID")),
-        ("first_name", ("employee", "T.CPTrabNombre")),
-        ("last_name", ("employee", "T.CPTrabPriApellido")),
-        ("second_surname", ("employee", "T.CPTrabSegApellido")),
-        ("gender", ("employee", "T.TrabSexo")),
-        ("date_of_joining", ("employee", "T.TrabFechaAlta")),
-        ("contract_end_date", ("employee", "T.TrabFechaBaja")),
-        ("salary_mode", ("employee", "T.TrabFormaCobro")),
-        ("banc_ac_no", ("employee", "T.TrabTmagnMN")),
-        ("company_email", ("employee", "T.TrabCorreo")),
-        ("accumulate_vacation", ("employee", "T.TrabCPVacaciones")),
-        ("direccion", ("employee", "PD.SRHPersDireccionDir")),
-        ("oficial", ("employee", "PD.SRHPersDireccionOficial")),
-        # Campos de otros doctypes
-        ("category_name", ("occupational_category", "C.CategODescripcion")),
-        ("designation_name", ("designation", "CAR.CargDescripcion")),
-        ("province_name", ("province", "R.ProvCod")),
-        ("id_city", ("city", "R.MunicCod")),
+        # (alias, (sql_field, doctype_field_type))
+        ("identity_number", ("T.CPTrabConsecutivoID", 'string')),
+        ("first_name", ("T.CPTrabNombre", 'string')),
+        ("last_name", ("T.CPTrabPriApellido", 'string')),
+        ("second_surname", ("T.CPTrabSegApellido", 'string')),
+        ("gender", ("T.TrabSexo", 'string')),
+        ("occupational_category", ("C.CategODescripcion", 'string')),
+        ("designation", ("CAR.CargDescripcion", 'string')),
+        ("employment_type", ("TT.TipTrabDescripcion", 'string')),
+        ("date_of_joining", ("T.TrabFechaAlta", 'string')),
+        ("contract_end_date", ("T.TrabFechaBaja", 'string')),
+        ("salary_mode", ("T.TrabFormaCobro", 'numeric')),  # es un
+        # campo select por lo que le pongo true para que aparezca el numero
+        # sin comillas
+        ("banc_ac_no", ("T.TrabTmagnMN", 'string')),
+        ("company_email", ("T.TrabCorreo", 'string')),
+        ("accumulate_vacations", ("T.TrabCPVacaciones", 'string')),
+        ("current_address", ("PD.SRHPersDireccionDir", 'string')),
+        ("permanent_address", ("PD.SRHPersDireccionOficial", 'string')),
+        ("state_province", ("R.ProvCod", 'string')),
+        ("city_town", ("R.MunicCod", 'string')),
     ]
 
     # Construimos la cláusula SELECT
     select_clauses = [
-        f"{sql_field} as {alias}" for alias, (_, sql_field) in field_mapping
+        f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
     ]
 
     query = f"""
@@ -59,12 +62,16 @@ def get_trabajadores(db) -> List[Dict]:
             columns = [desc[0] for desc in cursor.description]
             rows = cursor.fetchall()
 
+            # Creamos un diccionario de tipos por campo
+            field_types = {alias: field_type for alias, (_, field_type) in
+                           field_mapping}
             result = []
             for row in rows:
                 employee_data = {}
                 for col, val in zip(columns, row):
-                    employee_data[col] = serialize_value(val)
-                # result.append({"employee": employee_data})
+                    field_type = field_types.get(col, 'auto')
+                    employee_data[col] = serialize_value(val, field_type)
+
                 result.append(employee_data)
             output_path = save_json_file(
                 doctype_name, result, module_name, sqlserver_name
@@ -199,6 +206,7 @@ def get_categorias_ocupacionales(db):
 
 
 # Para obtener los cargos de los trabajadores
+# No le pongo field_mapping por ser un solo campo tipo texto
 def get_cargos_trabajadores(db):
     doctype_name = "Designation"
     sqlserver_name = "SNOCARGOS"
@@ -232,6 +240,7 @@ def get_cargos_trabajadores(db):
 
 
 # Para obtener los tipos de trabajadores
+# No field_mapping por ser solo campo tipo texto
 def get_tipos_trabajadores(db):
     doctype_name = "Employment Type"
     sqlserver_name = "SNOCTIPOTRABAJADOR"
@@ -264,11 +273,27 @@ def get_tipos_trabajadores(db):
         raise
 
 
-# Para obtener las retenciones
+# Para obtener los tipos de  retenciones
 def get_tipos_retenciones(db):
     doctype_name = "Withholding Type"
     sqlserver_name = "SCPCONRETPAGAR"
     module_name = "Cuba"
+
+    # Mapeo de campos con información adicional sobre su tipo
+    field_mapping = [
+        # (alias, (sql_field, doctype_field_type))
+        ("withholding_type_name", ("CPCRetDescripcion", 'string')),
+        ("debt_to", ("CRetDeudaCon", 'string')),
+        ("account", ("c.ClcuDescripcion", 'string')),
+        ("priority", ("CRetPPrioridad", 'integer')),
+        ("child_support", ("CRetPPenAlimenticia",'boolean')),
+        ("by_installments", ("CRetPConPlazos", 'check'))
+    ]
+
+    # Construimos la cláusula SELECT
+    select_clauses = [
+        f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
+    ]
     query = """
         SELECT CPCRetDescripcion  as withholding_type_name,
         CRetDeudaCon as debt_to,
@@ -303,13 +328,86 @@ def get_tipos_retenciones(db):
         raise
 
 
+# Para obtener maestro de  retenciones
+def get_maestro_retenciones(db):
+    doctype_name = "XXXXXX"
+    sqlserver_name = "SCPMAESTRORETENCION"
+    module_name = "XXXXXX"
+
+    # Mapeo de campos con información adicional sobre su tipo
+    field_mapping = [
+        # (alias, (sql_field, doctype_field_type))
+        ("employee_id", ("", 'string')),
+        ("employee_name", ("", 'string')),
+        ("withholding_type", ("", 'string')),
+        ("banking_record", ("", '')),
+        ("debt", ("", '')),
+        ("term_amount", ("", '')),
+        ("payroll_frecuency", ("", '')),
+        ("fortnight", ("", '')),
+        ("from_date", ("", '')),
+        ("salary_component", ("", '')),
+        ("customer", ("", '')),
+    ]
+
+    # Construimos la cláusula SELECT
+    select_clauses = [
+        f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
+    ]
+    query = """
+        
+    """
+    try:
+        with db.cursor() as cursor:
+            cursor.execute(query)
+            columns = [col[0] for col in cursor.description]
+            rows = cursor.fetchall()
+            # serializando los campos para que no de error los decimales
+            result = [
+                {key: serialize_value(value) for key, value in
+                 zip(columns, row)}
+                for row in rows
+            ]
+            output_path = save_json_file(
+                doctype_name, result, module_name, sqlserver_name
+            )
+            logging.info(
+                f"{doctype_name}.json guardado correctamente en {output_path}")
+            return result
+    except Exception as e:
+        logging.error(
+            f"Error al obtener datos del maestro de retenciones: {e}")
+        raise
+
+
+
 # Para obtener loa pensionados
 def get_pensionados(db):
     doctype_name = "Customer"
     sqlserver_name = "SNOMANTPENS"
     module_name = "Selling"
+
+    field_mapping = [
+        # (alias, (sql_field, doctype_field_type))
+        ("employee_id", ("", 'string')),
+        ("employee_name", ("", 'string')),
+        ("withholding_type", ("", 'string')),
+        ("banking_record", ("", '')),
+        ("debt", ("", '')),
+        ("term_amount", ("", '')),
+        ("payroll_frecuency", ("", '')),
+        ("fortnight", ("", '')),
+        ("from_date", ("", '')),
+        ("salary_component", ("", '')),
+        ("customer", ("", '')),
+    ]
+
+    # Construimos la cláusula SELECT
+    select_clauses = [
+        f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
+    ]
+
     query = """
-        SELECT MantPensCiPens as NODEFINIDO,
         (MantPensNombre + ' ' + MantPensPriApe + ' ' + MantPensSegApe ) as 
         customer_name,
         MantPensDir as customer_primary_address,

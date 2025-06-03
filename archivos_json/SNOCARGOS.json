@@ -1,0 +1,440 @@
+{
+    "doctype": "Designation",
+    "data": [
+        {
+            "designation_name": "DIRECTOR GENERAL"
+        },
+        {
+            "designation_name": "DIRECTOR RECURSOS HUMANOS"
+        },
+        {
+            "designation_name": "DIRECTOR CONTABLE FINANCIEROS"
+        },
+        {
+            "designation_name": "DIRECTOR TECNICO"
+        },
+        {
+            "designation_name": "DIRECTOR UEB SOPORTE A APLICACIONES"
+        },
+        {
+            "designation_name": "DIRECTOR UEB AUTOMATICA INDUSTRIAL"
+        },
+        {
+            "designation_name": "DIRECTOR UEB SERVICIOS ADMINIST."
+        },
+        {
+            "designation_name": "DIRECTOR ADJUNTO"
+        },
+        {
+            "designation_name": "ESP.C GESTION CAPITAL HUMANO"
+        },
+        {
+            "designation_name": "ESP.B GESTION ECONOMICA"
+        },
+        {
+            "designation_name": "TECNICO CIENCIAS INFORMATICAS"
+        },
+        {
+            "designation_name": "ESP B CIENCIAS INFORMATICAS"
+        },
+        {
+            "designation_name": "ESP B GESTION DE CALIDAD"
+        },
+        {
+            "designation_name": "ESP C CIENCIAS INFORMATICAS"
+        },
+        {
+            "designation_name": "ESPECIALISTA EN INFORMATICA"
+        },
+        {
+            "designation_name": "ESP COMPRAS VENTAS COMERCIO INTER."
+        },
+        {
+            "designation_name": "ESP.PRINC.SERV.TEC.EQ.Y SIST.INFORM"
+        },
+        {
+            "designation_name": "ESPECIALISTA GENERAL EN AUTOMATICA"
+        },
+        {
+            "designation_name": "ESP.GRAL SERV. TEC.EQUIPOS Y SIST."
+        },
+        {
+            "designation_name": "ESP.B COMPRAS VENTAS COMERCIO INTER"
+        },
+        {
+            "designation_name": "ESP.C GESTION COMERCIAL"
+        },
+        {
+            "designation_name": "ESP.A COMPRAS.VENTAS COMERCIO INTER"
+        },
+        {
+            "designation_name": "ESP.SERVICIOS TEC.EQ.Y SISTEMAS"
+        },
+        {
+            "designation_name": "ESP.B GESTION ECONOMICA ESP PRINC."
+        },
+        {
+            "designation_name": "ESP.A EN AUTOMATIZACION"
+        },
+        {
+            "designation_name": "ESP. COMPRA VENTA COMERCIO EXTERIOR"
+        },
+        {
+            "designation_name": "ESPECIALISTA GENERAL AUTOMATICA."
+        },
+        {
+            "designation_name": "ESP.COMERC. PROGRAMC CONTROL PROY I"
+        },
+        {
+            "designation_name": "ESPECIALISTA GENERAL TELEMATICA"
+        },
+        {
+            "designation_name": "ESP. C GESTION DOCUMENTAL"
+        },
+        {
+            "designation_name": "ESP. B SEGURIDAD Y PROTECCION"
+        },
+        {
+            "designation_name": "DIREC.UEB GESTION INFOCOMUNICACIONE"
+        },
+        {
+            "designation_name": "TEC B GESTION CAPITAL HUMANO"
+        },
+        {
+            "designation_name": "TECNICO MEDIO EN ADIESTRAMIENTO"
+        },
+        {
+            "designation_name": "TECNICO A GESTION ECONOMICA"
+        },
+        {
+            "designation_name": "TECNICO A COMUNICACION Y TELECONTRO"
+        },
+        {
+            "designation_name": "DIRECTOR MERCADO Y COMUNICACIÓN"
+        },
+        {
+            "designation_name": "TECNICO GESTION DOCUMENTAL"
+        },
+        {
+            "designation_name": "TECNICO SUPERIOR EN ADIESTRAMIENTO"
+        },
+        {
+            "designation_name": "TEC B COMPRA VENTA COMERC INTERNAC"
+        },
+        {
+            "designation_name": "TEC ABASTECIM TECNICO MATERIAL"
+        },
+        {
+            "designation_name": "TECNICO A ECONOMIA DE ALMACENES"
+        },
+        {
+            "designation_name": "TECNICO CLIMATIZACION Y REFRIGERAC"
+        },
+        {
+            "designation_name": "TECNICO EXPLOTACION DEL TRANSPORTE"
+        },
+        {
+            "designation_name": "TECNICO AHORRO Y USO RACIONAL ENERG"
+        },
+        {
+            "designation_name": "TECNICO EN INSTRUMENTACIÓN"
+        },
+        {
+            "designation_name": "CONTADOR D"
+        },
+        {
+            "designation_name": "CONTADOR C"
+        },
+        {
+            "designation_name": "CONTADOR B ESPECIALISTA PRINCIPAL"
+        },
+        {
+            "designation_name": "CHOFER D"
+        },
+        {
+            "designation_name": "CONTADOR A"
+        },
+        {
+            "designation_name": "CONSULTOR A"
+        },
+        {
+            "designation_name": "CONSULTOR B"
+        },
+        {
+            "designation_name": "CHOFER C"
+        },
+        {
+            "designation_name": "SECRETARIA"
+        },
+        {
+            "designation_name": "SISTEMATIZADOR C"
+        },
+        {
+            "designation_name": "SISTEMATIZADOR B"
+        },
+        {
+            "designation_name": "ASESOR B JURIDICO"
+        },
+        {
+            "designation_name": "AUXILIAR ECONOMICO"
+        },
+        {
+            "designation_name": "AYUDANTE"
+        },
+        {
+            "designation_name": "AUXILIAR ESP. OPERATIVO OPERARIO"
+        },
+        {
+            "designation_name": "DEPENDIENTE DE ALMACEN"
+        },
+        {
+            "designation_name": "GESTOR B DE COMUNIC Y MARKETING"
+        },
+        {
+            "designation_name": "TRAMITADOR DE PASAJES Y VISA INTERN"
+        },
+        {
+            "designation_name": "EJECUTIVO COMERCIAL DE TELEMATICA"
+        },
+        {
+            "designation_name": "OPERARIO EN TELEMATICA Y COMUNICACI"
+        },
+        {
+            "designation_name": "ENCARGADO RECEP Y PIZARRA TELEFON."
+        },
+        {
+            "designation_name": "MECANICO A AUTOMOTOR"
+        },
+        {
+            "designation_name": "MECANICO B AUTOMOTOR"
+        },
+        {
+            "designation_name": "JEFE TALLER TRANSPORTE"
+        },
+        {
+            "designation_name": "ELECTRICISTA B AUTOMOTOR"
+        },
+        {
+            "designation_name": "OPERARIO GENERAL DE MANTENIMIENTO"
+        },
+        {
+            "designation_name": "ASPIRANTE A COMPRADOR INTERNACIONAL"
+        },
+        {
+            "designation_name": "TECNICO EN AUTOMATICA"
+        },
+        {
+            "designation_name": "MECANICO DE MOTO"
+        },
+        {
+            "designation_name": "ELECTRICISTA MANTENIM. C"
+        },
+        {
+            "designation_name": "DIRECTOR UEB DESAR.SISTEMA INFORMAT"
+        },
+        {
+            "designation_name": "TEC. AHORRO Y USO RAC.ENERGIA"
+        },
+        {
+            "designation_name": "AUXILIAR DE OFICINA"
+        },
+        {
+            "designation_name": "ESP. TRAMITADOR ANTE ADUANA"
+        },
+        {
+            "designation_name": "DIRECTOR UEB COMERCIAL"
+        },
+        {
+            "designation_name": "DIRECTOR UEB SOPORTE TECNICO"
+        },
+        {
+            "designation_name": "JEFE DEPARTAMENTO DE CONTABILIDAD"
+        },
+        {
+            "designation_name": "ESPECIALISTA A EN CUADROS"
+        },
+        {
+            "designation_name": "TECNICO A DEL TRANSPORTE AUTOMOTOR"
+        },
+        {
+            "designation_name": "ESP.B SEG Y PROTECCION (EP)"
+        },
+        {
+            "designation_name": "SECRETARIA EJECUTIVA"
+        },
+        {
+            "designation_name": "SUPERVISOR INTEGRAL A"
+        },
+        {
+            "designation_name": "ESP. B EN GESTION DOCUMENTAL"
+        },
+        {
+            "designation_name": "ESP. B EN GESTION DOCUMENTAL (EP)"
+        },
+        {
+            "designation_name": "ESP.B GESTION REC HUMANOS (EP)"
+        },
+        {
+            "designation_name": "ESP.B EN GESTION RECURSOS HUMANOS"
+        },
+        {
+            "designation_name": "OPERADOR GRAL MTTO Y REPAR. J BRIG."
+        },
+        {
+            "designation_name": "AUXILIAR DE LIMPIEZA"
+        },
+        {
+            "designation_name": "PANTRISTA"
+        },
+        {
+            "designation_name": "ESP. C SEGUR. Y SALUD DEL TRABAJO"
+        },
+        {
+            "designation_name": "ESP. B EN GESTION DE LA CALIDAD(EP)"
+        },
+        {
+            "designation_name": "ESP.B EN CIENCIAS INFORMATICAS (EP)"
+        },
+        {
+            "designation_name": "ESP.A COMUNICACIONES Y TELECONTROL"
+        },
+        {
+            "designation_name": "ESPECIALISTA C EN GESTION ECONOMICA"
+        },
+        {
+            "designation_name": "ESPECIALISTA B GESTION COMERCIAL"
+        },
+        {
+            "designation_name": "JEFE DEPARTAMENTO VENTAS Y COBROS"
+        },
+        {
+            "designation_name": "JEFE DEPARTAMENTO MERCADO"
+        },
+        {
+            "designation_name": "J DEPARTAM. COMPRAS E IMPORTACIONES"
+        },
+        {
+            "designation_name": "JEFE DEPARTAMENTO LOGISTICA"
+        },
+        {
+            "designation_name": "AUX.TRAFICO DEL TRANSPORTE J BRIGAD"
+        },
+        {
+            "designation_name": "ESP.PCPAL.TEC.COM.AUT.Y SERV.TEC(EP"
+        },
+        {
+            "designation_name": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC."
+        },
+        {
+            "designation_name": "ESP.GRAL.TECNOL.COM.AUT.Y SERV.TEC"
+        },
+        {
+            "designation_name": "TEC.COMUNICAC.Y TELECONTROL J BRIGA"
+        },
+        {
+            "designation_name": "TORRERO A"
+        },
+        {
+            "designation_name": "TORRERO B"
+        },
+        {
+            "designation_name": "ESP.SUP.L.TEC.COM.AUT.Y SERV.TEC"
+        },
+        {
+            "designation_name": "OPERARIO C INSTALADOR REPARADOR"
+        },
+        {
+            "designation_name": "OPERARIO DE TALLER DE CABLE"
+        },
+        {
+            "designation_name": "OPER.CTRO SUP.CONTROL RADCOM J BRIG"
+        },
+        {
+            "designation_name": "OPERARIO.CTRO SUP.CONTROL RADIOCOM."
+        },
+        {
+            "designation_name": "SISTEMATIZADOR B (EP)"
+        },
+        {
+            "designation_name": "TEC.GRA.INF.TEC.COMUN.ELEC.AUT.STEC"
+        },
+        {
+            "designation_name": "BALANCISTA DISTRIBUIDOR"
+        },
+        {
+            "designation_name": "TECNICO A TRANSPORTE AUTOM. J'BRIGA"
+        },
+        {
+            "designation_name": "TEC.EN ECONOMIA Y MANIPULACION ALM."
+        },
+        {
+            "designation_name": "TEC B.COMPRA VENTA COM.INTERIOR"
+        },
+        {
+            "designation_name": "ESPECIALISTA B EN INVERSIONES"
+        },
+        {
+            "designation_name": "TÉCNICO GESTIÓN COMERCIAL"
+        },
+        {
+            "designation_name": "PANTRISTA J'BRIGADA"
+        },
+        {
+            "designation_name": "DIRECTOR UBE ASEGURAMIENTO"
+        },
+        {
+            "designation_name": "ESP. EN PROTECCIÓN FISICA Y SECRETO"
+        },
+        {
+            "designation_name": "ESP.B EN INVERSIONES EP"
+        },
+        {
+            "designation_name": "ESP.B SEGURIDAD Y SALUD"
+        },
+        {
+            "designation_name": "OPERADOR A INSTALADOR REPARADOR"
+        },
+        {
+            "designation_name": "AGENTE DE SEGURIDAD Y PROTECCIÓN"
+        },
+        {
+            "designation_name": "ASESOR C JURIDICO"
+        },
+        {
+            "designation_name": "JEFE CTM"
+        },
+        {
+            "designation_name": "ESPECIALISTA METROLOGIA"
+        },
+        {
+            "designation_name": "TÉCNICO EN METROLOGIA"
+        },
+        {
+            "designation_name": "MECÁNICO A ELECT.MONT.EQ.MED.CONT."
+        },
+        {
+            "designation_name": "DIRECTOR UEB METROLOGÍA"
+        },
+        {
+            "designation_name": "ESP. C GESTIÓN CALIDAD"
+        },
+        {
+            "designation_name": "ESP.C EN AHORRO Y USO RACIONAL E"
+        },
+        {
+            "designation_name": "DIRECTOR UEB STGO.CUBA"
+        },
+        {
+            "designation_name": "ESP.A EN AUTOMATIZACION (EP)"
+        },
+        {
+            "designation_name": "MEC. A ELECT.MONT.EQ.MED.CONT. (JB)"
+        },
+        {
+            "designation_name": "MECÁNICO A DE TALLER"
+        },
+        {
+            "designation_name": "ESP. TRANSP. AUTOMOTOR (EP)"
+        }
+    ]
+}

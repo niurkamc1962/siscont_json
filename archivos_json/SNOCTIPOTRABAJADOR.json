@@ -1,0 +1,23 @@
+{
+    "doctype": "Employment Type",
+    "data": [
+        {
+            "employee_type_name": "ADIESTRADO"
+        },
+        {
+            "employee_type_name": "CONTRATADO"
+        },
+        {
+            "employee_type_name": "DISPONIBLE"
+        },
+        {
+            "employee_type_name": "INDETERMINADO"
+        },
+        {
+            "employee_type_name": "DISPONIBLES REUBICADO"
+        },
+        {
+            "employee_type_name": "DESTAJO"
+        }
+    ]
+}
