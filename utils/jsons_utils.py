@@ -2,12 +2,15 @@
 # helpers
 import json
 import logging
+import math
 import os
 from collections import OrderedDict
 import datetime
 import decimal
+from typing import List, Dict, Any, Tuple
 
-from config import get_output_dir
+from config import get_output_dir, DEFAULT_MODULE, PAGINATION_THRESHOLD, \
+    DEFAULT_PAGE_SIZE
 
 
 def save_json_file(
@@ -138,4 +141,91 @@ def export_table_to_json(db, doctype_name, sqlserver_name, module_name,
 
     except Exception as e:
         logging.error(f"Error exportando {doctype_name}: {e}")
+        raise
+
+
+def export_table_to_json_paginated(
+        db,
+        doctype_name: str,
+        sqlserver_name: str,
+        module_name: str,
+        field_mapping: List[Tuple[str, Tuple[str, str]]],
+        base_query_from: str,
+        order_clause: str = ""
+) -> List[Dict[str, Any]]:
+    """
+    Exporta los resultados paginados de una tabla a un archivo JSON.
+
+    :param db: Conexión activa a la base de datos
+    :param doctype_name: Nombre del tipo de documento
+    :param sqlserver_name: Nombre de la tabla origen
+    :param module_name: Módulo del sistema
+    :param field_mapping: Lista de mapeos de campos (alias, (sql_field, tipo))
+    :param base_query_from: FROM ... WHERE ... GROUP BY ...
+    :param order_clause: ORDER BY ...
+    :return: Lista de diccionarios con los datos serializados
+    """
+    try:
+        select_clauses = [
+            f"{sql_field} AS {alias}" for alias, (sql_field, _) in field_mapping
+        ]
+        select_clause = f"SELECT {', '.join(select_clauses)}"
+
+        select_query = f"{select_clause} {base_query_from} {order_clause}"
+        # ❗ IMPORTANTE: Eliminar ORDER BY de la subconsulta del conteo
+        count_query = f"SELECT COUNT(*) FROM ({select_clause} {base_query_from}) AS sub"
+
+        field_type_map = {alias: field_type for alias, (_, field_type) in
+                          field_mapping}
+
+        with db.cursor() as cursor:
+            cursor.execute(count_query)
+            total_items = cursor.fetchone()[0]
+            logging.warning(f"Total de registros: {total_items}")
+
+            if total_items == 0:
+                logging.warning(f"No hay registros para {doctype_name}")
+                return []
+
+            all_results = []
+
+            if total_items > PAGINATION_THRESHOLD:
+                total_pages = math.ceil(total_items / DEFAULT_PAGE_SIZE)
+                logging.warning(
+                    f"Paginar {total_items} registros en {total_pages} páginas."
+                )
+                for page_num in range(total_pages):
+                    offset = page_num * DEFAULT_PAGE_SIZE
+                    paginated_query = f"{select_query} OFFSET {offset} ROWS FETCH NEXT {DEFAULT_PAGE_SIZE} ROWS ONLY"
+                    cursor.execute(paginated_query)
+                    columns = [col[0] for col in cursor.description]
+                    rows = cursor.fetchall()
+                    page_results = [
+                        {
+                            key: serialize_value(value, field_type_map[key])
+                            for key, value in zip(columns, row)
+                        }
+                        for row in rows
+                    ]
+                    all_results.extend(page_results)
+            else:
+                cursor.execute(select_query)
+                columns = [col[0] for col in cursor.description]
+                rows = cursor.fetchall()
+                all_results = [
+                    {
+                        key: serialize_value(value, field_type_map[key])
+                        for key, value in zip(columns, row)
+                    }
+                    for row in rows
+                ]
+
+            output_path = save_json_file(
+                doctype_name, all_results, module_name, sqlserver_name
+            )
+            logging.warning(f"{doctype_name}.json guardado en {output_path}")
+            return all_results
+
+    except Exception as e:
+        logging.error(f"❌ Error al exportar {doctype_name}: {e}")
         raise

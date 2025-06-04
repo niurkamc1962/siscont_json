@@ -1,0 +1,2315 @@
+{
+    "doctype": "Employee Opening Vacation Subledger",
+    "data": [
+        {
+            "initial_balance_in_amount": 9229.27,
+            "initial_balance_in_days": 27.976,
+            "carnet_identidad_trabajador": "90112137858",
+            "expediente_laboral": null,
+            "SMVacId": 127041
+        },
+        {
+            "initial_balance_in_amount": 4550.12,
+            "initial_balance_in_days": 22.99,
+            "carnet_identidad_trabajador": "97070606423",
+            "expediente_laboral": null,
+            "SMVacId": 127040
+        },
+        {
+            "initial_balance_in_amount": 7694.86,
+            "initial_balance_in_days": 24.433,
+            "carnet_identidad_trabajador": "84090704856",
+            "expediente_laboral": null,
+            "SMVacId": 127039
+        },
+        {
+            "initial_balance_in_amount": 6803.0,
+            "initial_balance_in_days": 27.025,
+            "carnet_identidad_trabajador": "83022003782",
+            "expediente_laboral": null,
+            "SMVacId": 127038
+        },
+        {
+            "initial_balance_in_amount": 3960.82,
+            "initial_balance_in_days": 25.034,
+            "carnet_identidad_trabajador": "74020903131",
+            "expediente_laboral": null,
+            "SMVacId": 127037
+        },
+        {
+            "initial_balance_in_amount": 9578.16,
+            "initial_balance_in_days": 23.148,
+            "carnet_identidad_trabajador": "63071332297",
+            "expediente_laboral": "898  ",
+            "SMVacId": 127036
+        },
+        {
+            "initial_balance_in_amount": 26700.27,
+            "initial_balance_in_days": 25.953,
+            "carnet_identidad_trabajador": "63022400679",
+            "expediente_laboral": "554  ",
+            "SMVacId": 127035
+        },
+        {
+            "initial_balance_in_amount": 14585.95,
+            "initial_balance_in_days": 25.384,
+            "carnet_identidad_trabajador": "62102112478",
+            "expediente_laboral": "677  ",
+            "SMVacId": 127034
+        },
+        {
+            "initial_balance_in_amount": 11248.45,
+            "initial_balance_in_days": 26.555,
+            "carnet_identidad_trabajador": "62080120399",
+            "expediente_laboral": "2005 ",
+            "SMVacId": 127033
+        },
+        {
+            "initial_balance_in_amount": 2745.01,
+            "initial_balance_in_days": 25.232,
+            "carnet_identidad_trabajador": "58110301744",
+            "expediente_laboral": "1564 ",
+            "SMVacId": 127032
+        },
+        {
+            "initial_balance_in_amount": 13516.72,
+            "initial_balance_in_days": 24.345,
+            "carnet_identidad_trabajador": "56123014421",
+            "expediente_laboral": null,
+            "SMVacId": 127031
+        },
+        {
+            "initial_balance_in_amount": 2508.73,
+            "initial_balance_in_days": 12.399,
+            "carnet_identidad_trabajador": "00032166882",
+            "expediente_laboral": null,
+            "SMVacId": 127030
+        },
+        {
+            "initial_balance_in_amount": 3792.8,
+            "initial_balance_in_days": 22.142,
+            "carnet_identidad_trabajador": "96101825400",
+            "expediente_laboral": null,
+            "SMVacId": 127029
+        },
+        {
+            "initial_balance_in_amount": 7308.7,
+            "initial_balance_in_days": 24.507,
+            "carnet_identidad_trabajador": "92070428977",
+            "expediente_laboral": null,
+            "SMVacId": 127028
+        },
+        {
+            "initial_balance_in_amount": 8167.23,
+            "initial_balance_in_days": 23.161,
+            "carnet_identidad_trabajador": "92013036426",
+            "expediente_laboral": null,
+            "SMVacId": 127027
+        },
+        {
+            "initial_balance_in_amount": 7769.24,
+            "initial_balance_in_days": 24.9,
+            "carnet_identidad_trabajador": "89070318656",
+            "expediente_laboral": null,
+            "SMVacId": 127026
+        },
+        {
+            "initial_balance_in_amount": 6086.92,
+            "initial_balance_in_days": 23.788,
+            "carnet_identidad_trabajador": "89042620231",
+            "expediente_laboral": null,
+            "SMVacId": 127025
+        },
+        {
+            "initial_balance_in_amount": 9895.56,
+            "initial_balance_in_days": 24.642,
+            "carnet_identidad_trabajador": "89010920566",
+            "expediente_laboral": null,
+            "SMVacId": 127024
+        },
+        {
+            "initial_balance_in_amount": 14430.81,
+            "initial_balance_in_days": 24.909,
+            "carnet_identidad_trabajador": "87071911784",
+            "expediente_laboral": null,
+            "SMVacId": 127023
+        },
+        {
+            "initial_balance_in_amount": 10394.64,
+            "initial_balance_in_days": 24.659,
+            "carnet_identidad_trabajador": "87071506898",
+            "expediente_laboral": null,
+            "SMVacId": 127022
+        },
+        {
+            "initial_balance_in_amount": 13136.16,
+            "initial_balance_in_days": 23.896,
+            "carnet_identidad_trabajador": "86041008748",
+            "expediente_laboral": null,
+            "SMVacId": 127021
+        },
+        {
+            "initial_balance_in_amount": 11284.86,
+            "initial_balance_in_days": 22.915,
+            "carnet_identidad_trabajador": "86011025647",
+            "expediente_laboral": null,
+            "SMVacId": 127020
+        },
+        {
+            "initial_balance_in_amount": 23897.45,
+            "initial_balance_in_days": 23.872,
+            "carnet_identidad_trabajador": "83122125234",
+            "expediente_laboral": null,
+            "SMVacId": 127019
+        },
+        {
+            "initial_balance_in_amount": 23712.25,
+            "initial_balance_in_days": 24.949,
+            "carnet_identidad_trabajador": "82082217473",
+            "expediente_laboral": "984  ",
+            "SMVacId": 127018
+        },
+        {
+            "initial_balance_in_amount": 21281.91,
+            "initial_balance_in_days": 25.318,
+            "carnet_identidad_trabajador": "82012508016",
+            "expediente_laboral": "1376 ",
+            "SMVacId": 127017
+        },
+        {
+            "initial_balance_in_amount": 8242.53,
+            "initial_balance_in_days": 24.749,
+            "carnet_identidad_trabajador": "79112504547",
+            "expediente_laboral": null,
+            "SMVacId": 127016
+        },
+        {
+            "initial_balance_in_amount": 16245.72,
+            "initial_balance_in_days": 24.882,
+            "carnet_identidad_trabajador": "79040205100",
+            "expediente_laboral": null,
+            "SMVacId": 127015
+        },
+        {
+            "initial_balance_in_amount": 15587.82,
+            "initial_balance_in_days": 22.124,
+            "carnet_identidad_trabajador": "79022723451",
+            "expediente_laboral": null,
+            "SMVacId": 127014
+        },
+        {
+            "initial_balance_in_amount": 8059.04,
+            "initial_balance_in_days": 33.751,
+            "carnet_identidad_trabajador": "77111804598",
+            "expediente_laboral": "1447 ",
+            "SMVacId": 127013
+        },
+        {
+            "initial_balance_in_amount": 10481.48,
+            "initial_balance_in_days": 24.574,
+            "carnet_identidad_trabajador": "77061106410",
+            "expediente_laboral": null,
+            "SMVacId": 127012
+        },
+        {
+            "initial_balance_in_amount": 12191.29,
+            "initial_balance_in_days": 24.389,
+            "carnet_identidad_trabajador": "76101811667",
+            "expediente_laboral": null,
+            "SMVacId": 127011
+        },
+        {
+            "initial_balance_in_amount": 4977.68,
+            "initial_balance_in_days": 25.359,
+            "carnet_identidad_trabajador": "76022501488",
+            "expediente_laboral": null,
+            "SMVacId": 127010
+        },
+        {
+            "initial_balance_in_amount": 6552.05,
+            "initial_balance_in_days": 14.502,
+            "carnet_identidad_trabajador": "75082732919",
+            "expediente_laboral": null,
+            "SMVacId": 127009
+        },
+        {
+            "initial_balance_in_amount": 6455.13,
+            "initial_balance_in_days": 24.498,
+            "carnet_identidad_trabajador": "74080202985",
+            "expediente_laboral": null,
+            "SMVacId": 127008
+        },
+        {
+            "initial_balance_in_amount": 9115.53,
+            "initial_balance_in_days": 25.091,
+            "carnet_identidad_trabajador": "73102201389",
+            "expediente_laboral": null,
+            "SMVacId": 127007
+        },
+        {
+            "initial_balance_in_amount": 13925.44,
+            "initial_balance_in_days": 24.799,
+            "carnet_identidad_trabajador": "73081800054",
+            "expediente_laboral": null,
+            "SMVacId": 127006
+        },
+        {
+            "initial_balance_in_amount": 14609.61,
+            "initial_balance_in_days": 25.807,
+            "carnet_identidad_trabajador": "73022507152",
+            "expediente_laboral": "846  ",
+            "SMVacId": 127005
+        },
+        {
+            "initial_balance_in_amount": 5014.74,
+            "initial_balance_in_days": 24.848,
+            "carnet_identidad_trabajador": "72022232122",
+            "expediente_laboral": null,
+            "SMVacId": 127004
+        },
+        {
+            "initial_balance_in_amount": 15448.61,
+            "initial_balance_in_days": 28.136,
+            "carnet_identidad_trabajador": "72011801188",
+            "expediente_laboral": null,
+            "SMVacId": 127003
+        },
+        {
+            "initial_balance_in_amount": 12175.0,
+            "initial_balance_in_days": 24.536,
+            "carnet_identidad_trabajador": "70061711880",
+            "expediente_laboral": null,
+            "SMVacId": 127002
+        },
+        {
+            "initial_balance_in_amount": 6686.36,
+            "initial_balance_in_days": 31.799,
+            "carnet_identidad_trabajador": "69070526229",
+            "expediente_laboral": "733  ",
+            "SMVacId": 127001
+        },
+        {
+            "initial_balance_in_amount": 18346.18,
+            "initial_balance_in_days": 24.179,
+            "carnet_identidad_trabajador": "68042828842",
+            "expediente_laboral": null,
+            "SMVacId": 127000
+        },
+        {
+            "initial_balance_in_amount": 13278.56,
+            "initial_balance_in_days": 24.444,
+            "carnet_identidad_trabajador": "67110214750",
+            "expediente_laboral": "923  ",
+            "SMVacId": 126999
+        },
+        {
+            "initial_balance_in_amount": 25796.49,
+            "initial_balance_in_days": 25.529,
+            "carnet_identidad_trabajador": "67101520259",
+            "expediente_laboral": "952  ",
+            "SMVacId": 126998
+        },
+        {
+            "initial_balance_in_amount": 10228.36,
+            "initial_balance_in_days": 24.931,
+            "carnet_identidad_trabajador": "67100416944",
+            "expediente_laboral": null,
+            "SMVacId": 126997
+        },
+        {
+            "initial_balance_in_amount": 7065.3,
+            "initial_balance_in_days": 23.569,
+            "carnet_identidad_trabajador": "67082919113",
+            "expediente_laboral": null,
+            "SMVacId": 126996
+        },
+        {
+            "initial_balance_in_amount": 7080.07,
+            "initial_balance_in_days": 24.547,
+            "carnet_identidad_trabajador": "67031012497",
+            "expediente_laboral": null,
+            "SMVacId": 126995
+        },
+        {
+            "initial_balance_in_amount": 18551.89,
+            "initial_balance_in_days": 24.504,
+            "carnet_identidad_trabajador": "66070701597",
+            "expediente_laboral": "1690 ",
+            "SMVacId": 126994
+        },
+        {
+            "initial_balance_in_amount": 10999.33,
+            "initial_balance_in_days": 24.408,
+            "carnet_identidad_trabajador": "65062801334",
+            "expediente_laboral": null,
+            "SMVacId": 126993
+        },
+        {
+            "initial_balance_in_amount": 6265.22,
+            "initial_balance_in_days": 24.655,
+            "carnet_identidad_trabajador": "65052741605",
+            "expediente_laboral": "1639 ",
+            "SMVacId": 126992
+        },
+        {
+            "initial_balance_in_amount": 7226.42,
+            "initial_balance_in_days": 25.942,
+            "carnet_identidad_trabajador": "65020302310",
+            "expediente_laboral": null,
+            "SMVacId": 126991
+        },
+        {
+            "initial_balance_in_amount": 22875.9,
+            "initial_balance_in_days": 23.906,
+            "carnet_identidad_trabajador": "65012100819",
+            "expediente_laboral": null,
+            "SMVacId": 126990
+        },
+        {
+            "initial_balance_in_amount": 25587.93,
+            "initial_balance_in_days": 25.83,
+            "carnet_identidad_trabajador": "65010203132",
+            "expediente_laboral": "943  ",
+            "SMVacId": 126989
+        },
+        {
+            "initial_balance_in_amount": 9602.14,
+            "initial_balance_in_days": 24.089,
+            "carnet_identidad_trabajador": "64100614317",
+            "expediente_laboral": null,
+            "SMVacId": 126988
+        },
+        {
+            "initial_balance_in_amount": 32884.97,
+            "initial_balance_in_days": 24.664,
+            "carnet_identidad_trabajador": "64070212605",
+            "expediente_laboral": null,
+            "SMVacId": 126987
+        },
+        {
+            "initial_balance_in_amount": 5271.88,
+            "initial_balance_in_days": 27.586,
+            "carnet_identidad_trabajador": "63091713447",
+            "expediente_laboral": "1684 ",
+            "SMVacId": 126986
+        },
+        {
+            "initial_balance_in_amount": 8327.78,
+            "initial_balance_in_days": 25.289,
+            "carnet_identidad_trabajador": "63033011409",
+            "expediente_laboral": null,
+            "SMVacId": 126985
+        },
+        {
+            "initial_balance_in_amount": 8238.68,
+            "initial_balance_in_days": 24.563,
+            "carnet_identidad_trabajador": "63012903201",
+            "expediente_laboral": null,
+            "SMVacId": 126984
+        },
+        {
+            "initial_balance_in_amount": 10573.03,
+            "initial_balance_in_days": 24.597,
+            "carnet_identidad_trabajador": "62110407625",
+            "expediente_laboral": null,
+            "SMVacId": 126983
+        },
+        {
+            "initial_balance_in_amount": 8684.01,
+            "initial_balance_in_days": 23.853,
+            "carnet_identidad_trabajador": "62012414685",
+            "expediente_laboral": null,
+            "SMVacId": 126982
+        },
+        {
+            "initial_balance_in_amount": 10705.34,
+            "initial_balance_in_days": 27.087,
+            "carnet_identidad_trabajador": "61111004421",
+            "expediente_laboral": "1475 ",
+            "SMVacId": 126981
+        },
+        {
+            "initial_balance_in_amount": 14674.19,
+            "initial_balance_in_days": 24.263,
+            "carnet_identidad_trabajador": "61040215600",
+            "expediente_laboral": null,
+            "SMVacId": 126980
+        },
+        {
+            "initial_balance_in_amount": 11104.17,
+            "initial_balance_in_days": 24.555,
+            "carnet_identidad_trabajador": "61020912428",
+            "expediente_laboral": null,
+            "SMVacId": 126979
+        },
+        {
+            "initial_balance_in_amount": 3840.63,
+            "initial_balance_in_days": 24.297,
+            "carnet_identidad_trabajador": "61013130984",
+            "expediente_laboral": null,
+            "SMVacId": 126978
+        },
+        {
+            "initial_balance_in_amount": 17251.63,
+            "initial_balance_in_days": 25.017,
+            "carnet_identidad_trabajador": "60092509624",
+            "expediente_laboral": null,
+            "SMVacId": 126977
+        },
+        {
+            "initial_balance_in_amount": 4998.37,
+            "initial_balance_in_days": 26.133,
+            "carnet_identidad_trabajador": "59120737394",
+            "expediente_laboral": null,
+            "SMVacId": 126976
+        },
+        {
+            "initial_balance_in_amount": 12821.13,
+            "initial_balance_in_days": 24.88,
+            "carnet_identidad_trabajador": "59071104585",
+            "expediente_laboral": null,
+            "SMVacId": 126975
+        },
+        {
+            "initial_balance_in_amount": 8227.12,
+            "initial_balance_in_days": 24.875,
+            "carnet_identidad_trabajador": "58122901495",
+            "expediente_laboral": "1574 ",
+            "SMVacId": 126974
+        },
+        {
+            "initial_balance_in_amount": 5109.01,
+            "initial_balance_in_days": 25.459,
+            "carnet_identidad_trabajador": "54052609319",
+            "expediente_laboral": "360  ",
+            "SMVacId": 126973
+        },
+        {
+            "initial_balance_in_amount": 13837.76,
+            "initial_balance_in_days": 24.947,
+            "carnet_identidad_trabajador": "53071310166",
+            "expediente_laboral": null,
+            "SMVacId": 126972
+        },
+        {
+            "initial_balance_in_amount": 8678.77,
+            "initial_balance_in_days": 26.562,
+            "carnet_identidad_trabajador": "48091922809",
+            "expediente_laboral": null,
+            "SMVacId": 126971
+        },
+        {
+            "initial_balance_in_amount": 6897.18,
+            "initial_balance_in_days": 23.147,
+            "carnet_identidad_trabajador": "04123167705",
+            "expediente_laboral": null,
+            "SMVacId": 126970
+        },
+        {
+            "initial_balance_in_amount": 1544.76,
+            "initial_balance_in_days": 5.89,
+            "carnet_identidad_trabajador": "03012166916",
+            "expediente_laboral": null,
+            "SMVacId": 126969
+        },
+        {
+            "initial_balance_in_amount": 8309.34,
+            "initial_balance_in_days": 24.856,
+            "carnet_identidad_trabajador": "01042968463",
+            "expediente_laboral": null,
+            "SMVacId": 126968
+        },
+        {
+            "initial_balance_in_amount": 17889.36,
+            "initial_balance_in_days": 24.398,
+            "carnet_identidad_trabajador": "01021568460",
+            "expediente_laboral": null,
+            "SMVacId": 126967
+        },
+        {
+            "initial_balance_in_amount": 3879.55,
+            "initial_balance_in_days": 16.086,
+            "carnet_identidad_trabajador": "00010367527",
+            "expediente_laboral": null,
+            "SMVacId": 126966
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "99082806338",
+            "expediente_laboral": null,
+            "SMVacId": 126965
+        },
+        {
+            "initial_balance_in_amount": 368.95,
+            "initial_balance_in_days": 1.499,
+            "carnet_identidad_trabajador": "99020405613",
+            "expediente_laboral": null,
+            "SMVacId": 126964
+        },
+        {
+            "initial_balance_in_amount": 6948.48,
+            "initial_balance_in_days": 16.999,
+            "carnet_identidad_trabajador": "97033007133",
+            "expediente_laboral": null,
+            "SMVacId": 126963
+        },
+        {
+            "initial_balance_in_amount": 14924.73,
+            "initial_balance_in_days": 26.574,
+            "carnet_identidad_trabajador": "96071907556",
+            "expediente_laboral": null,
+            "SMVacId": 126962
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "92111628820",
+            "expediente_laboral": null,
+            "SMVacId": 126961
+        },
+        {
+            "initial_balance_in_amount": 18383.95,
+            "initial_balance_in_days": 27.54,
+            "carnet_identidad_trabajador": "90112126433",
+            "expediente_laboral": null,
+            "SMVacId": 126960
+        },
+        {
+            "initial_balance_in_amount": 13600.04,
+            "initial_balance_in_days": 24.489,
+            "carnet_identidad_trabajador": "89110521169",
+            "expediente_laboral": null,
+            "SMVacId": 126959
+        },
+        {
+            "initial_balance_in_amount": 19141.01,
+            "initial_balance_in_days": 26.054,
+            "carnet_identidad_trabajador": "88112808110",
+            "expediente_laboral": null,
+            "SMVacId": 126958
+        },
+        {
+            "initial_balance_in_amount": 19427.66,
+            "initial_balance_in_days": 25.297,
+            "carnet_identidad_trabajador": "88050701385",
+            "expediente_laboral": null,
+            "SMVacId": 126957
+        },
+        {
+            "initial_balance_in_amount": 16880.43,
+            "initial_balance_in_days": 25.595,
+            "carnet_identidad_trabajador": "85050306188",
+            "expediente_laboral": "1719 ",
+            "SMVacId": 126954
+        },
+        {
+            "initial_balance_in_amount": 8868.86,
+            "initial_balance_in_days": 24.641,
+            "carnet_identidad_trabajador": "84062405452",
+            "expediente_laboral": null,
+            "SMVacId": 126953
+        },
+        {
+            "initial_balance_in_amount": 19721.76,
+            "initial_balance_in_days": 24.863,
+            "carnet_identidad_trabajador": "82081507867",
+            "expediente_laboral": null,
+            "SMVacId": 126952
+        },
+        {
+            "initial_balance_in_amount": 9608.35,
+            "initial_balance_in_days": 24.826,
+            "carnet_identidad_trabajador": "73092506265",
+            "expediente_laboral": null,
+            "SMVacId": 126949
+        },
+        {
+            "initial_balance_in_amount": 8556.46,
+            "initial_balance_in_days": 24.582,
+            "carnet_identidad_trabajador": "71071401070",
+            "expediente_laboral": null,
+            "SMVacId": 126948
+        },
+        {
+            "initial_balance_in_amount": 20110.22,
+            "initial_balance_in_days": 27.402,
+            "carnet_identidad_trabajador": "66121614613",
+            "expediente_laboral": "939  ",
+            "SMVacId": 126946
+        },
+        {
+            "initial_balance_in_amount": 14186.96,
+            "initial_balance_in_days": 24.683,
+            "carnet_identidad_trabajador": "66071301536",
+            "expediente_laboral": "1450 ",
+            "SMVacId": 126945
+        },
+        {
+            "initial_balance_in_amount": 12766.42,
+            "initial_balance_in_days": 24.199,
+            "carnet_identidad_trabajador": "64101800709",
+            "expediente_laboral": null,
+            "SMVacId": 126944
+        },
+        {
+            "initial_balance_in_amount": 13932.85,
+            "initial_balance_in_days": 25.514,
+            "carnet_identidad_trabajador": "60072325181",
+            "expediente_laboral": null,
+            "SMVacId": 126943
+        },
+        {
+            "initial_balance_in_amount": 9759.28,
+            "initial_balance_in_days": 26.451,
+            "carnet_identidad_trabajador": "57062501617",
+            "expediente_laboral": "1640 ",
+            "SMVacId": 126941
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "01071866737",
+            "expediente_laboral": null,
+            "SMVacId": 126940
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "01020867617",
+            "expediente_laboral": null,
+            "SMVacId": 126939
+        },
+        {
+            "initial_balance_in_amount": 368.95,
+            "initial_balance_in_days": 1.499,
+            "carnet_identidad_trabajador": "00112560300",
+            "expediente_laboral": null,
+            "SMVacId": 126938
+        },
+        {
+            "initial_balance_in_amount": 6844.71,
+            "initial_balance_in_days": 21.806,
+            "carnet_identidad_trabajador": "99111921182",
+            "expediente_laboral": null,
+            "SMVacId": 126937
+        },
+        {
+            "initial_balance_in_amount": 4575.84,
+            "initial_balance_in_days": 13.702,
+            "carnet_identidad_trabajador": "99111907007",
+            "expediente_laboral": null,
+            "SMVacId": 126936
+        },
+        {
+            "initial_balance_in_amount": 9506.44,
+            "initial_balance_in_days": 14.194,
+            "carnet_identidad_trabajador": "96112500102",
+            "expediente_laboral": null,
+            "SMVacId": 126935
+        },
+        {
+            "initial_balance_in_amount": 7595.69,
+            "initial_balance_in_days": 10.995,
+            "carnet_identidad_trabajador": "96030723684",
+            "expediente_laboral": null,
+            "SMVacId": 126934
+        },
+        {
+            "initial_balance_in_amount": 6386.7,
+            "initial_balance_in_days": 25.13,
+            "carnet_identidad_trabajador": "95100728648",
+            "expediente_laboral": null,
+            "SMVacId": 126933
+        },
+        {
+            "initial_balance_in_amount": 22454.38,
+            "initial_balance_in_days": 20.654,
+            "carnet_identidad_trabajador": "94113030827",
+            "expediente_laboral": null,
+            "SMVacId": 126932
+        },
+        {
+            "initial_balance_in_amount": 15249.72,
+            "initial_balance_in_days": 20.203,
+            "carnet_identidad_trabajador": "94071429534",
+            "expediente_laboral": null,
+            "SMVacId": 126931
+        },
+        {
+            "initial_balance_in_amount": 7567.68,
+            "initial_balance_in_days": 18.374,
+            "carnet_identidad_trabajador": "93070114739",
+            "expediente_laboral": null,
+            "SMVacId": 126930
+        },
+        {
+            "initial_balance_in_amount": 16108.62,
+            "initial_balance_in_days": 25.119,
+            "carnet_identidad_trabajador": "93032506269",
+            "expediente_laboral": null,
+            "SMVacId": 126929
+        },
+        {
+            "initial_balance_in_amount": 16959.39,
+            "initial_balance_in_days": 13.003,
+            "carnet_identidad_trabajador": "92062931055",
+            "expediente_laboral": null,
+            "SMVacId": 126928
+        },
+        {
+            "initial_balance_in_amount": 11792.75,
+            "initial_balance_in_days": 24.89,
+            "carnet_identidad_trabajador": "92032731158",
+            "expediente_laboral": null,
+            "SMVacId": 126927
+        },
+        {
+            "initial_balance_in_amount": 13250.7,
+            "initial_balance_in_days": 24.744,
+            "carnet_identidad_trabajador": "92020731215",
+            "expediente_laboral": null,
+            "SMVacId": 126926
+        },
+        {
+            "initial_balance_in_amount": 12318.93,
+            "initial_balance_in_days": 24.829,
+            "carnet_identidad_trabajador": "91102107818",
+            "expediente_laboral": null,
+            "SMVacId": 126925
+        },
+        {
+            "initial_balance_in_amount": 9171.78,
+            "initial_balance_in_days": 13.003,
+            "carnet_identidad_trabajador": "91070347148",
+            "expediente_laboral": null,
+            "SMVacId": 126924
+        },
+        {
+            "initial_balance_in_amount": 15034.92,
+            "initial_balance_in_days": 24.791,
+            "carnet_identidad_trabajador": "91070330890",
+            "expediente_laboral": null,
+            "SMVacId": 126923
+        },
+        {
+            "initial_balance_in_amount": 1343.07,
+            "initial_balance_in_days": 3.794,
+            "carnet_identidad_trabajador": "91042836749",
+            "expediente_laboral": null,
+            "SMVacId": 126922
+        },
+        {
+            "initial_balance_in_amount": 9549.01,
+            "initial_balance_in_days": 24.671,
+            "carnet_identidad_trabajador": "91010130094",
+            "expediente_laboral": null,
+            "SMVacId": 126921
+        },
+        {
+            "initial_balance_in_amount": 13504.15,
+            "initial_balance_in_days": 21.305,
+            "carnet_identidad_trabajador": "90120928205",
+            "expediente_laboral": null,
+            "SMVacId": 126920
+        },
+        {
+            "initial_balance_in_amount": 15162.6,
+            "initial_balance_in_days": 24.618,
+            "carnet_identidad_trabajador": "90111746183",
+            "expediente_laboral": null,
+            "SMVacId": 126918
+        },
+        {
+            "initial_balance_in_amount": 8283.21,
+            "initial_balance_in_days": 16.982,
+            "carnet_identidad_trabajador": "88122735050",
+            "expediente_laboral": null,
+            "SMVacId": 126917
+        },
+        {
+            "initial_balance_in_amount": 19875.97,
+            "initial_balance_in_days": 27.117,
+            "carnet_identidad_trabajador": "88110212096",
+            "expediente_laboral": null,
+            "SMVacId": 126915
+        },
+        {
+            "initial_balance_in_amount": 7072.9,
+            "initial_balance_in_days": 24.387,
+            "carnet_identidad_trabajador": "88091409586",
+            "expediente_laboral": null,
+            "SMVacId": 126914
+        },
+        {
+            "initial_balance_in_amount": 13145.89,
+            "initial_balance_in_days": 26.087,
+            "carnet_identidad_trabajador": "87122133500",
+            "expediente_laboral": null,
+            "SMVacId": 126912
+        },
+        {
+            "initial_balance_in_amount": 11497.23,
+            "initial_balance_in_days": 23.937,
+            "carnet_identidad_trabajador": "87111133547",
+            "expediente_laboral": null,
+            "SMVacId": 126911
+        },
+        {
+            "initial_balance_in_amount": 16446.38,
+            "initial_balance_in_days": 24.759,
+            "carnet_identidad_trabajador": "87042933505",
+            "expediente_laboral": null,
+            "SMVacId": 126910
+        },
+        {
+            "initial_balance_in_amount": 14409.08,
+            "initial_balance_in_days": 24.181,
+            "carnet_identidad_trabajador": "87042507930",
+            "expediente_laboral": null,
+            "SMVacId": 126909
+        },
+        {
+            "initial_balance_in_amount": 2098.53,
+            "initial_balance_in_days": 9.495,
+            "carnet_identidad_trabajador": "86022814902",
+            "expediente_laboral": null,
+            "SMVacId": 126908
+        },
+        {
+            "initial_balance_in_amount": 12748.28,
+            "initial_balance_in_days": 24.589,
+            "carnet_identidad_trabajador": "85082026926",
+            "expediente_laboral": null,
+            "SMVacId": 126906
+        },
+        {
+            "initial_balance_in_amount": 8210.66,
+            "initial_balance_in_days": 24.349,
+            "carnet_identidad_trabajador": "84111522684",
+            "expediente_laboral": null,
+            "SMVacId": 126905
+        },
+        {
+            "initial_balance_in_amount": 2838.6,
+            "initial_balance_in_days": 4.191,
+            "carnet_identidad_trabajador": "84082926745",
+            "expediente_laboral": null,
+            "SMVacId": 126904
+        },
+        {
+            "initial_balance_in_amount": 12917.86,
+            "initial_balance_in_days": 24.79,
+            "carnet_identidad_trabajador": "84080206181",
+            "expediente_laboral": null,
+            "SMVacId": 126903
+        },
+        {
+            "initial_balance_in_amount": 15696.58,
+            "initial_balance_in_days": 20.772,
+            "carnet_identidad_trabajador": "80021023415",
+            "expediente_laboral": null,
+            "SMVacId": 126899
+        },
+        {
+            "initial_balance_in_amount": 20.56,
+            "initial_balance_in_days": 0.096,
+            "carnet_identidad_trabajador": "79090608073",
+            "expediente_laboral": null,
+            "SMVacId": 126898
+        },
+        {
+            "initial_balance_in_amount": 23640.37,
+            "initial_balance_in_days": 24.806,
+            "carnet_identidad_trabajador": "79070211084",
+            "expediente_laboral": null,
+            "SMVacId": 126897
+        },
+        {
+            "initial_balance_in_amount": 19349.82,
+            "initial_balance_in_days": 24.485,
+            "carnet_identidad_trabajador": "79030923413",
+            "expediente_laboral": null,
+            "SMVacId": 126895
+        },
+        {
+            "initial_balance_in_amount": 10261.73,
+            "initial_balance_in_days": 24.377,
+            "carnet_identidad_trabajador": "78071817664",
+            "expediente_laboral": null,
+            "SMVacId": 126893
+        },
+        {
+            "initial_balance_in_amount": 21814.88,
+            "initial_balance_in_days": 24.385,
+            "carnet_identidad_trabajador": "78070530837",
+            "expediente_laboral": null,
+            "SMVacId": 126892
+        },
+        {
+            "initial_balance_in_amount": 25184.64,
+            "initial_balance_in_days": 24.62,
+            "carnet_identidad_trabajador": "76090405486",
+            "expediente_laboral": null,
+            "SMVacId": 126890
+        },
+        {
+            "initial_balance_in_amount": 9846.97,
+            "initial_balance_in_days": 37.698,
+            "carnet_identidad_trabajador": "75102101862",
+            "expediente_laboral": "1397 ",
+            "SMVacId": 126889
+        },
+        {
+            "initial_balance_in_amount": 16010.18,
+            "initial_balance_in_days": 24.603,
+            "carnet_identidad_trabajador": "74062432273",
+            "expediente_laboral": null,
+            "SMVacId": 126887
+        },
+        {
+            "initial_balance_in_amount": 9535.99,
+            "initial_balance_in_days": 26.838,
+            "carnet_identidad_trabajador": "72011405144",
+            "expediente_laboral": "1649 ",
+            "SMVacId": 126884
+        },
+        {
+            "initial_balance_in_amount": 10697.55,
+            "initial_balance_in_days": 24.674,
+            "carnet_identidad_trabajador": "72011402366",
+            "expediente_laboral": null,
+            "SMVacId": 126883
+        },
+        {
+            "initial_balance_in_amount": 13340.85,
+            "initial_balance_in_days": 24.688,
+            "carnet_identidad_trabajador": "71102900618",
+            "expediente_laboral": null,
+            "SMVacId": 126882
+        },
+        {
+            "initial_balance_in_amount": 15066.8,
+            "initial_balance_in_days": 24.947,
+            "carnet_identidad_trabajador": "71100404315",
+            "expediente_laboral": null,
+            "SMVacId": 126881
+        },
+        {
+            "initial_balance_in_amount": 12404.58,
+            "initial_balance_in_days": 17.5,
+            "carnet_identidad_trabajador": "71020411640",
+            "expediente_laboral": null,
+            "SMVacId": 126880
+        },
+        {
+            "initial_balance_in_amount": 18018.76,
+            "initial_balance_in_days": 24.778,
+            "carnet_identidad_trabajador": "70122713634",
+            "expediente_laboral": "800  ",
+            "SMVacId": 126879
+        },
+        {
+            "initial_balance_in_amount": 11774.98,
+            "initial_balance_in_days": 24.688,
+            "carnet_identidad_trabajador": "70081909843",
+            "expediente_laboral": null,
+            "SMVacId": 126878
+        },
+        {
+            "initial_balance_in_amount": 26281.86,
+            "initial_balance_in_days": 24.632,
+            "carnet_identidad_trabajador": "68082901410",
+            "expediente_laboral": null,
+            "SMVacId": 126876
+        },
+        {
+            "initial_balance_in_amount": 18221.17,
+            "initial_balance_in_days": 25.601,
+            "carnet_identidad_trabajador": "68061101495",
+            "expediente_laboral": "1643 ",
+            "SMVacId": 126875
+        },
+        {
+            "initial_balance_in_amount": 15675.63,
+            "initial_balance_in_days": 17.5,
+            "carnet_identidad_trabajador": "68020223204",
+            "expediente_laboral": null,
+            "SMVacId": 126873
+        },
+        {
+            "initial_balance_in_amount": 9639.75,
+            "initial_balance_in_days": 24.495,
+            "carnet_identidad_trabajador": "68011022269",
+            "expediente_laboral": null,
+            "SMVacId": 126872
+        },
+        {
+            "initial_balance_in_amount": 19832.57,
+            "initial_balance_in_days": 26.512,
+            "carnet_identidad_trabajador": "67101100203",
+            "expediente_laboral": null,
+            "SMVacId": 126869
+        },
+        {
+            "initial_balance_in_amount": 17788.78,
+            "initial_balance_in_days": 25.181,
+            "carnet_identidad_trabajador": "67082711832",
+            "expediente_laboral": "1476 ",
+            "SMVacId": 126867
+        },
+        {
+            "initial_balance_in_amount": 17241.81,
+            "initial_balance_in_days": 23.683,
+            "carnet_identidad_trabajador": "67040401352",
+            "expediente_laboral": null,
+            "SMVacId": 126866
+        },
+        {
+            "initial_balance_in_amount": 11416.6,
+            "initial_balance_in_days": 25.127,
+            "carnet_identidad_trabajador": "66122221764",
+            "expediente_laboral": null,
+            "SMVacId": 126865
+        },
+        {
+            "initial_balance_in_amount": 12322.99,
+            "initial_balance_in_days": 17.611,
+            "carnet_identidad_trabajador": "66071512721",
+            "expediente_laboral": null,
+            "SMVacId": 126863
+        },
+        {
+            "initial_balance_in_amount": 10615.68,
+            "initial_balance_in_days": 24.45,
+            "carnet_identidad_trabajador": "66032609913",
+            "expediente_laboral": null,
+            "SMVacId": 126860
+        },
+        {
+            "initial_balance_in_amount": 21658.23,
+            "initial_balance_in_days": 25.598,
+            "carnet_identidad_trabajador": "65113006695",
+            "expediente_laboral": "1530 ",
+            "SMVacId": 126859
+        },
+        {
+            "initial_balance_in_amount": 27737.76,
+            "initial_balance_in_days": 26.206,
+            "carnet_identidad_trabajador": "65100828046",
+            "expediente_laboral": null,
+            "SMVacId": 126858
+        },
+        {
+            "initial_balance_in_amount": 8984.27,
+            "initial_balance_in_days": 19.646,
+            "carnet_identidad_trabajador": "65080710955",
+            "expediente_laboral": null,
+            "SMVacId": 126857
+        },
+        {
+            "initial_balance_in_amount": 10750.12,
+            "initial_balance_in_days": 24.753,
+            "carnet_identidad_trabajador": "65011100751",
+            "expediente_laboral": null,
+            "SMVacId": 126854
+        },
+        {
+            "initial_balance_in_amount": 10451.53,
+            "initial_balance_in_days": 23.396,
+            "carnet_identidad_trabajador": "64091211135",
+            "expediente_laboral": null,
+            "SMVacId": 126851
+        },
+        {
+            "initial_balance_in_amount": 13688.37,
+            "initial_balance_in_days": 24.921,
+            "carnet_identidad_trabajador": "64082627337",
+            "expediente_laboral": "1544 ",
+            "SMVacId": 126850
+        },
+        {
+            "initial_balance_in_amount": 21681.35,
+            "initial_balance_in_days": 24.663,
+            "carnet_identidad_trabajador": "62121213429",
+            "expediente_laboral": null,
+            "SMVacId": 126848
+        },
+        {
+            "initial_balance_in_amount": 14636.34,
+            "initial_balance_in_days": 43.958,
+            "carnet_identidad_trabajador": "62100616222",
+            "expediente_laboral": "460  ",
+            "SMVacId": 126846
+        },
+        {
+            "initial_balance_in_amount": 15404.12,
+            "initial_balance_in_days": 24.593,
+            "carnet_identidad_trabajador": "61090815769",
+            "expediente_laboral": null,
+            "SMVacId": 126845
+        },
+        {
+            "initial_balance_in_amount": 12843.0,
+            "initial_balance_in_days": 24.891,
+            "carnet_identidad_trabajador": "61021013243",
+            "expediente_laboral": null,
+            "SMVacId": 126844
+        },
+        {
+            "initial_balance_in_amount": 10200.52,
+            "initial_balance_in_days": 24.74,
+            "carnet_identidad_trabajador": "60061908918",
+            "expediente_laboral": null,
+            "SMVacId": 126842
+        },
+        {
+            "initial_balance_in_amount": 11792.3,
+            "initial_balance_in_days": 24.976,
+            "carnet_identidad_trabajador": "60031600409",
+            "expediente_laboral": null,
+            "SMVacId": 126841
+        },
+        {
+            "initial_balance_in_amount": 5020.91,
+            "initial_balance_in_days": 16.49,
+            "carnet_identidad_trabajador": "60020411994",
+            "expediente_laboral": null,
+            "SMVacId": 126840
+        },
+        {
+            "initial_balance_in_amount": 13683.63,
+            "initial_balance_in_days": 21.577,
+            "carnet_identidad_trabajador": "57120800602",
+            "expediente_laboral": null,
+            "SMVacId": 126839
+        },
+        {
+            "initial_balance_in_amount": 19755.01,
+            "initial_balance_in_days": 26.723,
+            "carnet_identidad_trabajador": "54112310206",
+            "expediente_laboral": null,
+            "SMVacId": 126838
+        },
+        {
+            "initial_balance_in_amount": 16809.23,
+            "initial_balance_in_days": 25.518,
+            "carnet_identidad_trabajador": "53111426851",
+            "expediente_laboral": "321  ",
+            "SMVacId": 126837
+        },
+        {
+            "initial_balance_in_amount": 15223.08,
+            "initial_balance_in_days": 24.358,
+            "carnet_identidad_trabajador": "52071214905",
+            "expediente_laboral": null,
+            "SMVacId": 126836
+        },
+        {
+            "initial_balance_in_amount": 8196.24,
+            "initial_balance_in_days": 24.984,
+            "carnet_identidad_trabajador": "50042100804",
+            "expediente_laboral": null,
+            "SMVacId": 126835
+        },
+        {
+            "initial_balance_in_amount": 3326.26,
+            "initial_balance_in_days": 15.892,
+            "carnet_identidad_trabajador": "03112967703",
+            "expediente_laboral": null,
+            "SMVacId": 126834
+        },
+        {
+            "initial_balance_in_amount": 16739.88,
+            "initial_balance_in_days": 17.676,
+            "carnet_identidad_trabajador": "02021364491",
+            "expediente_laboral": null,
+            "SMVacId": 126833
+        },
+        {
+            "initial_balance_in_amount": 6925.66,
+            "initial_balance_in_days": 13.786,
+            "carnet_identidad_trabajador": "01073081731",
+            "expediente_laboral": null,
+            "SMVacId": 126832
+        },
+        {
+            "initial_balance_in_amount": 16385.78,
+            "initial_balance_in_days": 23.285,
+            "carnet_identidad_trabajador": "93120819966",
+            "expediente_laboral": null,
+            "SMVacId": 126830
+        },
+        {
+            "initial_balance_in_amount": 11278.8,
+            "initial_balance_in_days": 24.163,
+            "carnet_identidad_trabajador": "88101407058",
+            "expediente_laboral": null,
+            "SMVacId": 126829
+        },
+        {
+            "initial_balance_in_amount": 25161.95,
+            "initial_balance_in_days": 44.358,
+            "carnet_identidad_trabajador": "84091505700",
+            "expediente_laboral": null,
+            "SMVacId": 126828
+        },
+        {
+            "initial_balance_in_amount": 16675.65,
+            "initial_balance_in_days": 24.487,
+            "carnet_identidad_trabajador": "84061905700",
+            "expediente_laboral": null,
+            "SMVacId": 126827
+        },
+        {
+            "initial_balance_in_amount": 12040.38,
+            "initial_balance_in_days": 52.748,
+            "carnet_identidad_trabajador": "84041306261",
+            "expediente_laboral": "1723 ",
+            "SMVacId": 126826
+        },
+        {
+            "initial_balance_in_amount": 11901.6,
+            "initial_balance_in_days": 25.473,
+            "carnet_identidad_trabajador": "80050303779",
+            "expediente_laboral": null,
+            "SMVacId": 126825
+        },
+        {
+            "initial_balance_in_amount": 18775.05,
+            "initial_balance_in_days": 25.081,
+            "carnet_identidad_trabajador": "68112210141",
+            "expediente_laboral": null,
+            "SMVacId": 126824
+        },
+        {
+            "initial_balance_in_amount": 21930.63,
+            "initial_balance_in_days": 24.891,
+            "carnet_identidad_trabajador": "60061800102",
+            "expediente_laboral": null,
+            "SMVacId": 126823
+        },
+        {
+            "initial_balance_in_amount": 5199.64,
+            "initial_balance_in_days": 34.482,
+            "carnet_identidad_trabajador": "95122523501",
+            "expediente_laboral": null,
+            "SMVacId": 126822
+        },
+        {
+            "initial_balance_in_amount": 5778.73,
+            "initial_balance_in_days": 34.482,
+            "carnet_identidad_trabajador": "91080328667",
+            "expediente_laboral": null,
+            "SMVacId": 126821
+        },
+        {
+            "initial_balance_in_amount": 12056.85,
+            "initial_balance_in_days": 25.371,
+            "carnet_identidad_trabajador": "81013104141",
+            "expediente_laboral": null,
+            "SMVacId": 126818
+        },
+        {
+            "initial_balance_in_amount": 4146.42,
+            "initial_balance_in_days": 23.958,
+            "carnet_identidad_trabajador": "63060209449",
+            "expediente_laboral": null,
+            "SMVacId": 126816
+        },
+        {
+            "initial_balance_in_amount": 7955.4,
+            "initial_balance_in_days": 24.066,
+            "carnet_identidad_trabajador": "97123106821",
+            "expediente_laboral": null,
+            "SMVacId": 126797
+        },
+        {
+            "initial_balance_in_amount": 8657.11,
+            "initial_balance_in_days": 19.888,
+            "carnet_identidad_trabajador": "96071508988",
+            "expediente_laboral": null,
+            "SMVacId": 126795
+        },
+        {
+            "initial_balance_in_amount": 9883.93,
+            "initial_balance_in_days": 24.609,
+            "carnet_identidad_trabajador": "94110228594",
+            "expediente_laboral": null,
+            "SMVacId": 126794
+        },
+        {
+            "initial_balance_in_amount": 10408.75,
+            "initial_balance_in_days": 22.662,
+            "carnet_identidad_trabajador": "92100127764",
+            "expediente_laboral": null,
+            "SMVacId": 126790
+        },
+        {
+            "initial_balance_in_amount": 7298.35,
+            "initial_balance_in_days": 24.886,
+            "carnet_identidad_trabajador": "91092528621",
+            "expediente_laboral": null,
+            "SMVacId": 126787
+        },
+        {
+            "initial_balance_in_amount": 4443.89,
+            "initial_balance_in_days": 13.995,
+            "carnet_identidad_trabajador": "90120628415",
+            "expediente_laboral": null,
+            "SMVacId": 126785
+        },
+        {
+            "initial_balance_in_amount": 12514.63,
+            "initial_balance_in_days": 25.421,
+            "carnet_identidad_trabajador": "90073027536",
+            "expediente_laboral": null,
+            "SMVacId": 126783
+        },
+        {
+            "initial_balance_in_amount": 9481.07,
+            "initial_balance_in_days": 24.785,
+            "carnet_identidad_trabajador": "90051128845",
+            "expediente_laboral": null,
+            "SMVacId": 126782
+        },
+        {
+            "initial_balance_in_amount": 11194.05,
+            "initial_balance_in_days": 26.191,
+            "carnet_identidad_trabajador": "89110222545",
+            "expediente_laboral": null,
+            "SMVacId": 126781
+        },
+        {
+            "initial_balance_in_amount": 19576.58,
+            "initial_balance_in_days": 27.398,
+            "carnet_identidad_trabajador": "89092146148",
+            "expediente_laboral": null,
+            "SMVacId": 126780
+        },
+        {
+            "initial_balance_in_amount": 503.07,
+            "initial_balance_in_days": 1.999,
+            "carnet_identidad_trabajador": "89021024292",
+            "expediente_laboral": null,
+            "SMVacId": 126777
+        },
+        {
+            "initial_balance_in_amount": 7489.89,
+            "initial_balance_in_days": 24.432,
+            "carnet_identidad_trabajador": "88041708419",
+            "expediente_laboral": null,
+            "SMVacId": 126775
+        },
+        {
+            "initial_balance_in_amount": 9120.66,
+            "initial_balance_in_days": 26.907,
+            "carnet_identidad_trabajador": "87091006761",
+            "expediente_laboral": null,
+            "SMVacId": 126774
+        },
+        {
+            "initial_balance_in_amount": 2917.16,
+            "initial_balance_in_days": 8.997,
+            "carnet_identidad_trabajador": "87051525822",
+            "expediente_laboral": null,
+            "SMVacId": 126772
+        },
+        {
+            "initial_balance_in_amount": 6003.38,
+            "initial_balance_in_days": 24.988,
+            "carnet_identidad_trabajador": "86121505535",
+            "expediente_laboral": null,
+            "SMVacId": 126771
+        },
+        {
+            "initial_balance_in_amount": 8989.99,
+            "initial_balance_in_days": 25.004,
+            "carnet_identidad_trabajador": "86102208394",
+            "expediente_laboral": null,
+            "SMVacId": 126770
+        },
+        {
+            "initial_balance_in_amount": 11857.96,
+            "initial_balance_in_days": 24.56,
+            "carnet_identidad_trabajador": "86061705784",
+            "expediente_laboral": "1529 ",
+            "SMVacId": 126769
+        },
+        {
+            "initial_balance_in_amount": 14350.17,
+            "initial_balance_in_days": 29.587,
+            "carnet_identidad_trabajador": "85122515217",
+            "expediente_laboral": null,
+            "SMVacId": 126768
+        },
+        {
+            "initial_balance_in_amount": 404.2,
+            "initial_balance_in_days": 1.295,
+            "carnet_identidad_trabajador": "85110104937",
+            "expediente_laboral": null,
+            "SMVacId": 126767
+        },
+        {
+            "initial_balance_in_amount": 4379.43,
+            "initial_balance_in_days": 7.997,
+            "carnet_identidad_trabajador": "84080226961",
+            "expediente_laboral": null,
+            "SMVacId": 126766
+        },
+        {
+            "initial_balance_in_amount": 3586.93,
+            "initial_balance_in_days": 25.113,
+            "carnet_identidad_trabajador": "84032708888",
+            "expediente_laboral": "1688 ",
+            "SMVacId": 126764
+        },
+        {
+            "initial_balance_in_amount": 5557.41,
+            "initial_balance_in_days": 23.571,
+            "carnet_identidad_trabajador": "83120528216",
+            "expediente_laboral": null,
+            "SMVacId": 126763
+        },
+        {
+            "initial_balance_in_amount": 3178.35,
+            "initial_balance_in_days": 8.594,
+            "carnet_identidad_trabajador": "83072130026",
+            "expediente_laboral": null,
+            "SMVacId": 126762
+        },
+        {
+            "initial_balance_in_amount": 5153.84,
+            "initial_balance_in_days": 23.553,
+            "carnet_identidad_trabajador": "83040729386",
+            "expediente_laboral": "1605 ",
+            "SMVacId": 126761
+        },
+        {
+            "initial_balance_in_amount": 8223.95,
+            "initial_balance_in_days": 25.286,
+            "carnet_identidad_trabajador": "82110107069",
+            "expediente_laboral": null,
+            "SMVacId": 126760
+        },
+        {
+            "initial_balance_in_amount": 5715.24,
+            "initial_balance_in_days": 25.522,
+            "carnet_identidad_trabajador": "82090406028",
+            "expediente_laboral": "1597 ",
+            "SMVacId": 126759
+        },
+        {
+            "initial_balance_in_amount": 6110.91,
+            "initial_balance_in_days": 24.958,
+            "carnet_identidad_trabajador": "82071507077",
+            "expediente_laboral": null,
+            "SMVacId": 126757
+        },
+        {
+            "initial_balance_in_amount": 10191.39,
+            "initial_balance_in_days": 29.832,
+            "carnet_identidad_trabajador": "82062907210",
+            "expediente_laboral": "1430 ",
+            "SMVacId": 126756
+        },
+        {
+            "initial_balance_in_amount": 7042.51,
+            "initial_balance_in_days": 24.457,
+            "carnet_identidad_trabajador": "81121805778",
+            "expediente_laboral": null,
+            "SMVacId": 126754
+        },
+        {
+            "initial_balance_in_amount": 7873.79,
+            "initial_balance_in_days": 28.421,
+            "carnet_identidad_trabajador": "81111915288",
+            "expediente_laboral": "1698 ",
+            "SMVacId": 126753
+        },
+        {
+            "initial_balance_in_amount": 7332.51,
+            "initial_balance_in_days": 25.664,
+            "carnet_identidad_trabajador": "81101823439",
+            "expediente_laboral": "1635 ",
+            "SMVacId": 126752
+        },
+        {
+            "initial_balance_in_amount": 5920.05,
+            "initial_balance_in_days": 20.182,
+            "carnet_identidad_trabajador": "81082904152",
+            "expediente_laboral": null,
+            "SMVacId": 126751
+        },
+        {
+            "initial_balance_in_amount": 8712.91,
+            "initial_balance_in_days": 24.815,
+            "carnet_identidad_trabajador": "80063006019",
+            "expediente_laboral": null,
+            "SMVacId": 126749
+        },
+        {
+            "initial_balance_in_amount": 7106.43,
+            "initial_balance_in_days": 24.887,
+            "carnet_identidad_trabajador": "78122120906",
+            "expediente_laboral": null,
+            "SMVacId": 126747
+        },
+        {
+            "initial_balance_in_amount": 6701.64,
+            "initial_balance_in_days": 23.363,
+            "carnet_identidad_trabajador": "78022606391",
+            "expediente_laboral": null,
+            "SMVacId": 126746
+        },
+        {
+            "initial_balance_in_amount": 4715.78,
+            "initial_balance_in_days": 26.553,
+            "carnet_identidad_trabajador": "77122906206",
+            "expediente_laboral": "918  ",
+            "SMVacId": 126745
+        },
+        {
+            "initial_balance_in_amount": 4042.45,
+            "initial_balance_in_days": 24.868,
+            "carnet_identidad_trabajador": "77100411811",
+            "expediente_laboral": null,
+            "SMVacId": 126744
+        },
+        {
+            "initial_balance_in_amount": 11258.25,
+            "initial_balance_in_days": 31.778,
+            "carnet_identidad_trabajador": "77072409588",
+            "expediente_laboral": null,
+            "SMVacId": 126743
+        },
+        {
+            "initial_balance_in_amount": 4921.22,
+            "initial_balance_in_days": 22.162,
+            "carnet_identidad_trabajador": "76111802301",
+            "expediente_laboral": null,
+            "SMVacId": 126741
+        },
+        {
+            "initial_balance_in_amount": 10923.93,
+            "initial_balance_in_days": 24.958,
+            "carnet_identidad_trabajador": "76110411432",
+            "expediente_laboral": "1513 ",
+            "SMVacId": 126740
+        },
+        {
+            "initial_balance_in_amount": 7767.82,
+            "initial_balance_in_days": 24.857,
+            "carnet_identidad_trabajador": "76072212550",
+            "expediente_laboral": null,
+            "SMVacId": 126738
+        },
+        {
+            "initial_balance_in_amount": 18096.3,
+            "initial_balance_in_days": 25.329,
+            "carnet_identidad_trabajador": "76050801464",
+            "expediente_laboral": null,
+            "SMVacId": 126737
+        },
+        {
+            "initial_balance_in_amount": 4054.47,
+            "initial_balance_in_days": 12.791,
+            "carnet_identidad_trabajador": "76020601494",
+            "expediente_laboral": null,
+            "SMVacId": 126735
+        },
+        {
+            "initial_balance_in_amount": 9738.81,
+            "initial_balance_in_days": 26.95,
+            "carnet_identidad_trabajador": "75021503226",
+            "expediente_laboral": null,
+            "SMVacId": 126734
+        },
+        {
+            "initial_balance_in_amount": 3163.06,
+            "initial_balance_in_days": 25.324,
+            "carnet_identidad_trabajador": "74083104982",
+            "expediente_laboral": "981  ",
+            "SMVacId": 126733
+        },
+        {
+            "initial_balance_in_amount": 1317.56,
+            "initial_balance_in_days": 8.196,
+            "carnet_identidad_trabajador": "74031400934",
+            "expediente_laboral": null,
+            "SMVacId": 126731
+        },
+        {
+            "initial_balance_in_amount": 13655.11,
+            "initial_balance_in_days": 24.755,
+            "carnet_identidad_trabajador": "73103112290",
+            "expediente_laboral": null,
+            "SMVacId": 126730
+        },
+        {
+            "initial_balance_in_amount": 5652.84,
+            "initial_balance_in_days": 24.279,
+            "carnet_identidad_trabajador": "72120513573",
+            "expediente_laboral": null,
+            "SMVacId": 126728
+        },
+        {
+            "initial_balance_in_amount": 6283.58,
+            "initial_balance_in_days": 24.838,
+            "carnet_identidad_trabajador": "72092112041",
+            "expediente_laboral": null,
+            "SMVacId": 126727
+        },
+        {
+            "initial_balance_in_amount": 8012.87,
+            "initial_balance_in_days": 24.815,
+            "carnet_identidad_trabajador": "72090214936",
+            "expediente_laboral": "1620 ",
+            "SMVacId": 126726
+        },
+        {
+            "initial_balance_in_amount": 15818.47,
+            "initial_balance_in_days": 24.725,
+            "carnet_identidad_trabajador": "72052600151",
+            "expediente_laboral": null,
+            "SMVacId": 126725
+        },
+        {
+            "initial_balance_in_amount": 7110.97,
+            "initial_balance_in_days": 21.584,
+            "carnet_identidad_trabajador": "72022501830",
+            "expediente_laboral": null,
+            "SMVacId": 126724
+        },
+        {
+            "initial_balance_in_amount": 12421.8,
+            "initial_balance_in_days": 25.704,
+            "carnet_identidad_trabajador": "71091302482",
+            "expediente_laboral": "1592 ",
+            "SMVacId": 126720
+        },
+        {
+            "initial_balance_in_amount": 8119.8,
+            "initial_balance_in_days": 24.552,
+            "carnet_identidad_trabajador": "71021015293",
+            "expediente_laboral": null,
+            "SMVacId": 126719
+        },
+        {
+            "initial_balance_in_amount": 5170.59,
+            "initial_balance_in_days": 26.416,
+            "carnet_identidad_trabajador": "70121613831",
+            "expediente_laboral": null,
+            "SMVacId": 126717
+        },
+        {
+            "initial_balance_in_amount": 13255.59,
+            "initial_balance_in_days": 26.418,
+            "carnet_identidad_trabajador": "70090232902",
+            "expediente_laboral": null,
+            "SMVacId": 126716
+        },
+        {
+            "initial_balance_in_amount": 5077.72,
+            "initial_balance_in_days": 17.98,
+            "carnet_identidad_trabajador": "70060113916",
+            "expediente_laboral": null,
+            "SMVacId": 126715
+        },
+        {
+            "initial_balance_in_amount": 8532.55,
+            "initial_balance_in_days": 28.292,
+            "carnet_identidad_trabajador": "70042707628",
+            "expediente_laboral": "1699 ",
+            "SMVacId": 126714
+        },
+        {
+            "initial_balance_in_amount": 4045.08,
+            "initial_balance_in_days": 24.055,
+            "carnet_identidad_trabajador": "69110632184",
+            "expediente_laboral": null,
+            "SMVacId": 126713
+        },
+        {
+            "initial_balance_in_amount": 17461.12,
+            "initial_balance_in_days": 26.033,
+            "carnet_identidad_trabajador": "69062601447",
+            "expediente_laboral": null,
+            "SMVacId": 126712
+        },
+        {
+            "initial_balance_in_amount": 5476.52,
+            "initial_balance_in_days": 24.8,
+            "carnet_identidad_trabajador": "68122720203",
+            "expediente_laboral": null,
+            "SMVacId": 126711
+        },
+        {
+            "initial_balance_in_amount": 11916.55,
+            "initial_balance_in_days": 23.395,
+            "carnet_identidad_trabajador": "68112701419",
+            "expediente_laboral": null,
+            "SMVacId": 126710
+        },
+        {
+            "initial_balance_in_amount": 6428.07,
+            "initial_balance_in_days": 25.358,
+            "carnet_identidad_trabajador": "68072831736",
+            "expediente_laboral": null,
+            "SMVacId": 126709
+        },
+        {
+            "initial_balance_in_amount": 6216.49,
+            "initial_balance_in_days": 25.34,
+            "carnet_identidad_trabajador": "68031431551",
+            "expediente_laboral": null,
+            "SMVacId": 126707
+        },
+        {
+            "initial_balance_in_amount": 12918.49,
+            "initial_balance_in_days": 25.324,
+            "carnet_identidad_trabajador": "67101301590",
+            "expediente_laboral": null,
+            "SMVacId": 126705
+        },
+        {
+            "initial_balance_in_amount": 11420.34,
+            "initial_balance_in_days": 25.63,
+            "carnet_identidad_trabajador": "67080601065",
+            "expediente_laboral": null,
+            "SMVacId": 126703
+        },
+        {
+            "initial_balance_in_amount": 17916.53,
+            "initial_balance_in_days": 26.706,
+            "carnet_identidad_trabajador": "66071909334",
+            "expediente_laboral": "1630 ",
+            "SMVacId": 126700
+        },
+        {
+            "initial_balance_in_amount": 4643.63,
+            "initial_balance_in_days": 24.053,
+            "carnet_identidad_trabajador": "66042706903",
+            "expediente_laboral": null,
+            "SMVacId": 126699
+        },
+        {
+            "initial_balance_in_amount": 7296.7,
+            "initial_balance_in_days": 24.283,
+            "carnet_identidad_trabajador": "66042318899",
+            "expediente_laboral": null,
+            "SMVacId": 126698
+        },
+        {
+            "initial_balance_in_amount": 10891.28,
+            "initial_balance_in_days": 24.817,
+            "carnet_identidad_trabajador": "66021014731",
+            "expediente_laboral": null,
+            "SMVacId": 126697
+        },
+        {
+            "initial_balance_in_amount": 5407.38,
+            "initial_balance_in_days": 26.476,
+            "carnet_identidad_trabajador": "65100301963",
+            "expediente_laboral": "776  ",
+            "SMVacId": 126696
+        },
+        {
+            "initial_balance_in_amount": 10438.57,
+            "initial_balance_in_days": 28.713,
+            "carnet_identidad_trabajador": "65021208470",
+            "expediente_laboral": "1381 ",
+            "SMVacId": 126693
+        },
+        {
+            "initial_balance_in_amount": 5873.42,
+            "initial_balance_in_days": 28.81,
+            "carnet_identidad_trabajador": "64111113073",
+            "expediente_laboral": null,
+            "SMVacId": 126690
+        },
+        {
+            "initial_balance_in_amount": 9091.93,
+            "initial_balance_in_days": 27.688,
+            "carnet_identidad_trabajador": "64102433806",
+            "expediente_laboral": "873  ",
+            "SMVacId": 126689
+        },
+        {
+            "initial_balance_in_amount": 11662.37,
+            "initial_balance_in_days": 24.593,
+            "carnet_identidad_trabajador": "64090916067",
+            "expediente_laboral": null,
+            "SMVacId": 126688
+        },
+        {
+            "initial_balance_in_amount": 16694.29,
+            "initial_balance_in_days": 26.6,
+            "carnet_identidad_trabajador": "64060502286",
+            "expediente_laboral": "1663 ",
+            "SMVacId": 126687
+        },
+        {
+            "initial_balance_in_amount": 12522.92,
+            "initial_balance_in_days": 27.299,
+            "carnet_identidad_trabajador": "64011002001",
+            "expediente_laboral": "1493 ",
+            "SMVacId": 126686
+        },
+        {
+            "initial_balance_in_amount": 12788.2,
+            "initial_balance_in_days": 24.884,
+            "carnet_identidad_trabajador": "63120612865",
+            "expediente_laboral": null,
+            "SMVacId": 126685
+        },
+        {
+            "initial_balance_in_amount": 1904.6,
+            "initial_balance_in_days": 23.248,
+            "carnet_identidad_trabajador": "63112013099",
+            "expediente_laboral": "889  ",
+            "SMVacId": 126684
+        },
+        {
+            "initial_balance_in_amount": 9503.98,
+            "initial_balance_in_days": 25.163,
+            "carnet_identidad_trabajador": "63090716955",
+            "expediente_laboral": null,
+            "SMVacId": 126682
+        },
+        {
+            "initial_balance_in_amount": 3325.82,
+            "initial_balance_in_days": 24.443,
+            "carnet_identidad_trabajador": "62121415152",
+            "expediente_laboral": null,
+            "SMVacId": 126678
+        },
+        {
+            "initial_balance_in_amount": 127.04,
+            "initial_balance_in_days": 0.999,
+            "carnet_identidad_trabajador": "61110603939",
+            "expediente_laboral": null,
+            "SMVacId": 126675
+        },
+        {
+            "initial_balance_in_amount": 3969.15,
+            "initial_balance_in_days": 23.915,
+            "carnet_identidad_trabajador": "61041514073",
+            "expediente_laboral": null,
+            "SMVacId": 126674
+        },
+        {
+            "initial_balance_in_amount": 7957.39,
+            "initial_balance_in_days": 31.115,
+            "carnet_identidad_trabajador": "61012114684",
+            "expediente_laboral": "861  ",
+            "SMVacId": 126670
+        },
+        {
+            "initial_balance_in_amount": 6679.26,
+            "initial_balance_in_days": 24.451,
+            "carnet_identidad_trabajador": "60081311597",
+            "expediente_laboral": null,
+            "SMVacId": 126669
+        },
+        {
+            "initial_balance_in_amount": 4967.24,
+            "initial_balance_in_days": 20.928,
+            "carnet_identidad_trabajador": "59092610779",
+            "expediente_laboral": null,
+            "SMVacId": 126667
+        },
+        {
+            "initial_balance_in_amount": 6225.39,
+            "initial_balance_in_days": 25.763,
+            "carnet_identidad_trabajador": "59091512986",
+            "expediente_laboral": "1570 ",
+            "SMVacId": 126666
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "58111512534",
+            "expediente_laboral": null,
+            "SMVacId": 126664
+        },
+        {
+            "initial_balance_in_amount": 3408.75,
+            "initial_balance_in_days": 25.841,
+            "carnet_identidad_trabajador": "58110701978",
+            "expediente_laboral": null,
+            "SMVacId": 126663
+        },
+        {
+            "initial_balance_in_amount": 9658.32,
+            "initial_balance_in_days": 24.457,
+            "carnet_identidad_trabajador": "58042107793",
+            "expediente_laboral": null,
+            "SMVacId": 126661
+        },
+        {
+            "initial_balance_in_amount": 5930.69,
+            "initial_balance_in_days": 24.598,
+            "carnet_identidad_trabajador": "57070110022",
+            "expediente_laboral": null,
+            "SMVacId": 126660
+        },
+        {
+            "initial_balance_in_amount": 4107.41,
+            "initial_balance_in_days": 26.096,
+            "carnet_identidad_trabajador": "56031212668",
+            "expediente_laboral": "1391 ",
+            "SMVacId": 126659
+        },
+        {
+            "initial_balance_in_amount": 12866.26,
+            "initial_balance_in_days": 25.559,
+            "carnet_identidad_trabajador": "55031224446",
+            "expediente_laboral": null,
+            "SMVacId": 126658
+        },
+        {
+            "initial_balance_in_amount": 12727.69,
+            "initial_balance_in_days": 26.131,
+            "carnet_identidad_trabajador": "54060900020",
+            "expediente_laboral": "299  ",
+            "SMVacId": 126657
+        },
+        {
+            "initial_balance_in_amount": 756.54,
+            "initial_balance_in_days": 25.492,
+            "carnet_identidad_trabajador": "53011506846",
+            "expediente_laboral": null,
+            "SMVacId": 126654
+        },
+        {
+            "initial_balance_in_amount": 5576.78,
+            "initial_balance_in_days": 26.698,
+            "carnet_identidad_trabajador": "52091610773",
+            "expediente_laboral": null,
+            "SMVacId": 126653
+        },
+        {
+            "initial_balance_in_amount": 7445.98,
+            "initial_balance_in_days": 24.122,
+            "carnet_identidad_trabajador": "02110766885",
+            "expediente_laboral": null,
+            "SMVacId": 126648
+        },
+        {
+            "initial_balance_in_amount": 5263.1,
+            "initial_balance_in_days": 19.469,
+            "carnet_identidad_trabajador": "02101361880",
+            "expediente_laboral": null,
+            "SMVacId": 126647
+        },
+        {
+            "initial_balance_in_amount": 4143.02,
+            "initial_balance_in_days": 17.683,
+            "carnet_identidad_trabajador": "01111468033",
+            "expediente_laboral": null,
+            "SMVacId": 126646
+        },
+        {
+            "initial_balance_in_amount": 8045.24,
+            "initial_balance_in_days": 25.258,
+            "carnet_identidad_trabajador": "87092908330",
+            "expediente_laboral": null,
+            "SMVacId": 126562
+        },
+        {
+            "initial_balance_in_amount": 57.69,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "82081106611",
+            "expediente_laboral": null,
+            "SMVacId": 126528
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "76101004480",
+            "expediente_laboral": null,
+            "SMVacId": 126498
+        },
+        {
+            "initial_balance_in_amount": 1789.8,
+            "initial_balance_in_days": 8.9,
+            "carnet_identidad_trabajador": "99101207324",
+            "expediente_laboral": null,
+            "SMVacId": 126340
+        },
+        {
+            "initial_balance_in_amount": 7548.89,
+            "initial_balance_in_days": 23.101,
+            "carnet_identidad_trabajador": "97081421404",
+            "expediente_laboral": null,
+            "SMVacId": 126338
+        },
+        {
+            "initial_balance_in_amount": 9446.92,
+            "initial_balance_in_days": 24.405,
+            "carnet_identidad_trabajador": "96111809985",
+            "expediente_laboral": null,
+            "SMVacId": 126335
+        },
+        {
+            "initial_balance_in_amount": 8150.29,
+            "initial_balance_in_days": 11.996,
+            "carnet_identidad_trabajador": "95102833059",
+            "expediente_laboral": null,
+            "SMVacId": 126329
+        },
+        {
+            "initial_balance_in_amount": 8150.66,
+            "initial_balance_in_days": 24.385,
+            "carnet_identidad_trabajador": "94073029908",
+            "expediente_laboral": null,
+            "SMVacId": 126325
+        },
+        {
+            "initial_balance_in_amount": 8864.04,
+            "initial_balance_in_days": 21.183,
+            "carnet_identidad_trabajador": "93112505545",
+            "expediente_laboral": null,
+            "SMVacId": 126322
+        },
+        {
+            "initial_balance_in_amount": 9725.16,
+            "initial_balance_in_days": 25.557,
+            "carnet_identidad_trabajador": "93072248217",
+            "expediente_laboral": null,
+            "SMVacId": 126321
+        },
+        {
+            "initial_balance_in_amount": 10152.26,
+            "initial_balance_in_days": 24.442,
+            "carnet_identidad_trabajador": "92040748185",
+            "expediente_laboral": null,
+            "SMVacId": 126315
+        },
+        {
+            "initial_balance_in_amount": 12222.5,
+            "initial_balance_in_days": 24.413,
+            "carnet_identidad_trabajador": "91103128671",
+            "expediente_laboral": null,
+            "SMVacId": 126311
+        },
+        {
+            "initial_balance_in_amount": 11362.04,
+            "initial_balance_in_days": 15.455,
+            "carnet_identidad_trabajador": "87020910060",
+            "expediente_laboral": null,
+            "SMVacId": 126277
+        },
+        {
+            "initial_balance_in_amount": 7666.22,
+            "initial_balance_in_days": 24.387,
+            "carnet_identidad_trabajador": "86072525862",
+            "expediente_laboral": null,
+            "SMVacId": 126274
+        },
+        {
+            "initial_balance_in_amount": 16668.65,
+            "initial_balance_in_days": 21.078,
+            "carnet_identidad_trabajador": "85062222984",
+            "expediente_laboral": null,
+            "SMVacId": 126267
+        },
+        {
+            "initial_balance_in_amount": 10379.53,
+            "initial_balance_in_days": 25.651,
+            "carnet_identidad_trabajador": "79100705218",
+            "expediente_laboral": "1558 ",
+            "SMVacId": 126236
+        },
+        {
+            "initial_balance_in_amount": 11966.0,
+            "initial_balance_in_days": 24.619,
+            "carnet_identidad_trabajador": "78120517686",
+            "expediente_laboral": null,
+            "SMVacId": 126230
+        },
+        {
+            "initial_balance_in_amount": 14100.4,
+            "initial_balance_in_days": 25.776,
+            "carnet_identidad_trabajador": "76103100761",
+            "expediente_laboral": null,
+            "SMVacId": 126219
+        },
+        {
+            "initial_balance_in_amount": 4279.79,
+            "initial_balance_in_days": 15.26,
+            "carnet_identidad_trabajador": "76103045717",
+            "expediente_laboral": null,
+            "SMVacId": 126218
+        },
+        {
+            "initial_balance_in_amount": 5850.79,
+            "initial_balance_in_days": 25.916,
+            "carnet_identidad_trabajador": "73060317826",
+            "expediente_laboral": null,
+            "SMVacId": 126198
+        },
+        {
+            "initial_balance_in_amount": 2364.26,
+            "initial_balance_in_days": 23.736,
+            "carnet_identidad_trabajador": "63121515197",
+            "expediente_laboral": null,
+            "SMVacId": 126120
+        },
+        {
+            "initial_balance_in_amount": 8614.49,
+            "initial_balance_in_days": 19.382,
+            "carnet_identidad_trabajador": "63110910091",
+            "expediente_laboral": null,
+            "SMVacId": 126118
+        },
+        {
+            "initial_balance_in_amount": 5883.25,
+            "initial_balance_in_days": 22.507,
+            "carnet_identidad_trabajador": "63060432157",
+            "expediente_laboral": null,
+            "SMVacId": 126114
+        },
+        {
+            "initial_balance_in_amount": 2254.7,
+            "initial_balance_in_days": 9.46,
+            "carnet_identidad_trabajador": "62092013053",
+            "expediente_laboral": null,
+            "SMVacId": 126104
+        },
+        {
+            "initial_balance_in_amount": 4835.13,
+            "initial_balance_in_days": 24.822,
+            "carnet_identidad_trabajador": "62030100909",
+            "expediente_laboral": null,
+            "SMVacId": 126102
+        },
+        {
+            "initial_balance_in_amount": 2196.17,
+            "initial_balance_in_days": 11.788,
+            "carnet_identidad_trabajador": "58061809809",
+            "expediente_laboral": null,
+            "SMVacId": 126077
+        },
+        {
+            "initial_balance_in_amount": 3277.99,
+            "initial_balance_in_days": 24.883,
+            "carnet_identidad_trabajador": "53041901822",
+            "expediente_laboral": null,
+            "SMVacId": 126064
+        },
+        {
+            "initial_balance_in_amount": 4808.46,
+            "initial_balance_in_days": 19.589,
+            "carnet_identidad_trabajador": "03022260411",
+            "expediente_laboral": null,
+            "SMVacId": 126056
+        },
+        {
+            "initial_balance_in_amount": 3895.94,
+            "initial_balance_in_days": 25.447,
+            "carnet_identidad_trabajador": "44112700209",
+            "expediente_laboral": "416  ",
+            "SMVacId": 126019
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "83021619390",
+            "expediente_laboral": null,
+            "SMVacId": 125204
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "81121823467",
+            "expediente_laboral": null,
+            "SMVacId": 125198
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "78092232031",
+            "expediente_laboral": null,
+            "SMVacId": 125188
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "78081200306",
+            "expediente_laboral": null,
+            "SMVacId": 125187
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "77070917325",
+            "expediente_laboral": null,
+            "SMVacId": 125182
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "69020609077",
+            "expediente_laboral": null,
+            "SMVacId": 125147
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "58032310548",
+            "expediente_laboral": null,
+            "SMVacId": 125091
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "56081507615",
+            "expediente_laboral": null,
+            "SMVacId": 125089
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "59070405140",
+            "expediente_laboral": null,
+            "SMVacId": 124749
+        },
+        {
+            "initial_balance_in_amount": 1040.4,
+            "initial_balance_in_days": 24.643,
+            "carnet_identidad_trabajador": "83013027850",
+            "expediente_laboral": "1588 ",
+            "SMVacId": 124600
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "70053014583",
+            "expediente_laboral": null,
+            "SMVacId": 124514
+        },
+        {
+            "initial_balance_in_amount": 4882.7,
+            "initial_balance_in_days": 24.996,
+            "carnet_identidad_trabajador": "59032810660",
+            "expediente_laboral": null,
+            "SMVacId": 124409
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "02111266773",
+            "expediente_laboral": null,
+            "SMVacId": 124378
+        },
+        {
+            "initial_balance_in_amount": 0.0,
+            "initial_balance_in_days": 0.0,
+            "carnet_identidad_trabajador": "02011365770",
+            "expediente_laboral": null,
+            "SMVacId": 124374
+        }
+    ]
+}

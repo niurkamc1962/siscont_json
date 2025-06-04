@@ -1,9 +1,10 @@
 import logging
-from typing import Dict, List
+import math
+from typing import Dict, List, Any
 
-# from utils.jsons_utils import save_json_file
-# from utils.serializations import serialize_value  # importa tu helper
-from utils.jsons_utils import export_table_to_json
+from utils.jsons_utils import export_table_to_json, save_json_file, \
+    serialize_value, export_table_to_json_paginated
+from config import DEFAULT_PAGE_SIZE, PAGINATION_THRESHOLD
 
 
 # Funcion para obtener los datos de SCPTrabajadores segun el query necesario
@@ -439,7 +440,7 @@ def get_colectivos(db):
     )
 
 
-# Para obtener colectivos
+# Para obtener departamentos
 def get_departamentos(db):
     doctype_name = "Department"
     sqlserver_name = "SMGAREASUBAREA"
@@ -476,4 +477,105 @@ def get_departamentos(db):
         module_name=module_name,
         field_mapping=field_mapping,
         table_query=query
+    )
+
+
+# Submayor de vacaciones
+def get_colectivos(db):
+    doctype_name = "Employee Group"
+    sqlserver_name = "SNONOMENCLADORCOLECTIVOS"
+    module_name = "Setup"
+
+    field_mapping = [
+        # (alias, (sql_field, doctype_field_type))
+        ("employee_group_name", ("ColecDescripcion", 'string')),
+    ]
+
+    # Construimos la cláusula SELECT
+    select_clauses = [
+        f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
+    ]
+
+    query = f"""
+        SELECT 
+            {', '.join(select_clauses)}
+        FROM SNONOMENCLADORCOLECTIVOS
+        WHERE ColecDesactivado  != '' OR ColecDesactivado IS NOT NULL
+    """
+    return export_table_to_json(
+        db=db,
+        doctype_name=doctype_name,
+        sqlserver_name=sqlserver_name,
+        module_name=module_name,
+        field_mapping=field_mapping,
+        table_query=query
+    )
+
+
+# Para submayor de vacaciones
+def get_submayor_vacaciones(db):
+    doctype_name = "Employee Opening Vacation Subledger"
+    sqlserver_name = "SNOSMVACACIONES"
+    module_name = "Cuba"
+
+    field_mapping = [
+        ("initial_balance_in_amount", ("MAX(s.SMVacSaldoInicialI)", "float")),
+        ("initial_balance_in_days", ("MAX(s.SMVacSaldoInicialD)", "float")),
+        ("carnet_identidad_trabajador", ("s.CPTrabConsecutivoID", "string")),
+        ("expediente_laboral", ("MAX(s2.CPTrabExp)", "string")),
+        ("SMVacId", ("MAX(s.SMVacId)", "integer")),
+    ]
+
+    base_query_from = """
+        FROM S5Principal.dbo.SNOSMVACACIONES s
+        JOIN S5Principal.dbo.SCPTRABAJADORES s2
+            ON s.CPTrabConsecutivoID = s2.CPTrabConsecutivoID
+        WHERE s.SMVacDesactivado = '' AND s2.TrabDesactivado = ''
+        GROUP BY s.CPTrabConsecutivoID
+    """
+
+    order_clause = "ORDER BY MAX(s.SMVacId) DESC"
+
+    return export_table_to_json_paginated(
+        db=db,
+        doctype_name=doctype_name,
+        sqlserver_name=sqlserver_name,
+        module_name=module_name,
+        field_mapping=field_mapping,
+        base_query_from=base_query_from,
+        order_clause=order_clause
+    )
+
+
+# Para submayor de salarios no reclamados
+def get_submayor_salarios_no_reclamados(db):
+    doctype_name = "Opening of the Unclaimed Salary Subledger"
+    sqlserver_name = "SNOSMREINTEGRONR"
+    module_name = "Cuba"
+
+    field_mapping = [
+        ("employee",
+         ("s2.CPTrabNombre + ' ' + s2.CPTrabPriApellido + ' ' + "
+          "s2.CPTrabSegApellido",
+          "string")),
+        ("amount", ("s.SMrnrImporte", "float")),
+        ("reimbursement_date", ("s.SMrnrFecha", "date"))
+    ]
+
+    base_query_from = """
+        FROM SNOSMREINTEGRONR s join SCPTRABAJADORES s2 on 
+        s.CPTrabConsecutivoID = s2.CPTrabConsecutivoID 
+        WHERE s.SMrnrDebito = 0 AND s.SMrnrIdenPaga IS NULL
+    """
+
+    order_clause = "ORDER BY s.SMrnrIdentificador"
+
+    return export_table_to_json_paginated(
+        db=db,
+        doctype_name=doctype_name,
+        sqlserver_name=sqlserver_name,
+        module_name=module_name,
+        field_mapping=field_mapping,
+        base_query_from=base_query_from,
+        order_clause=order_clause
     )

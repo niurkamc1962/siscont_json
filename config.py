@@ -13,6 +13,11 @@ load_dotenv()
 APP_TITLE = "Exportar Siscont"
 STORAGE_SECRET = os.getenv("STORAGE_SECRET", "siscont-json")
 
+PAGINATION_THRESHOLD = (
+    5000  # Número de registros a partir del cual se activa la paginación
+)
+DEFAULT_PAGE_SIZE = 1000
+
 # UI Modules Config(modulo:icon)
 MODULES = {
     "General": "home",
