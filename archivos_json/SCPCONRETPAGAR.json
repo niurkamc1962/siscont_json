@@ -1,0 +1,101 @@
+{
+    "doctype": "Withholding Type",
+    "data": [
+        {
+            "withholding_type_name": "CONTRIBUCION E IMPUESTOS",
+            "debt_to": 2,
+            "account": "DEUDAS DE  TRABAJADORES",
+            "priority": 2,
+            "child_support": false,
+            "by_installments": true
+        },
+        {
+            "withholding_type_name": "PENSIÓN ALIMENTICIA",
+            "debt_to": true,
+            "account": "PENSIONES ALIMENTICIAS",
+            "priority": true,
+            "child_support": true,
+            "by_installments": 2
+        },
+        {
+            "withholding_type_name": "CRÉDITO BANCARIO",
+            "debt_to": true,
+            "account": "CREDITOS A LA POBLACION",
+            "priority": 3,
+            "child_support": false,
+            "by_installments": true
+        },
+        {
+            "withholding_type_name": "LEY GRAL DE VIVIENDA",
+            "debt_to": true,
+            "account": "LEY GENERAL DE LA VIVIENDA",
+            "priority": 4,
+            "child_support": false,
+            "by_installments": true
+        },
+        {
+            "withholding_type_name": "PRES. EST. DEC",
+            "debt_to": true,
+            "account": "PRESTAMOS ESTUDIANTILES",
+            "priority": 5,
+            "child_support": false,
+            "by_installments": true
+        },
+        {
+            "withholding_type_name": "CUENTA DE AHORRO BPA",
+            "debt_to": true,
+            "account": "FORMACION DE FONDO(CUENTAS AHORRO)",
+            "priority": 11,
+            "child_support": false,
+            "by_installments": 2
+        },
+        {
+            "withholding_type_name": "EMBARGO JUDICIAL",
+            "debt_to": true,
+            "account": "EMBARGOS JUDICIALES",
+            "priority": 6,
+            "child_support": false,
+            "by_installments": true
+        },
+        {
+            "withholding_type_name": "CUENTAS COBRAR PER. ENT.",
+            "debt_to": 2,
+            "account": "DEUDAS DE  TRABAJADORES",
+            "priority": 7,
+            "child_support": false,
+            "by_installments": true
+        },
+        {
+            "withholding_type_name": "MULTAS ADMINISTRATIVAS",
+            "debt_to": true,
+            "account": "MULTAS ADMINISTRATIVAS",
+            "priority": 8,
+            "child_support": false,
+            "by_installments": true
+        },
+        {
+            "withholding_type_name": "RECARGO CRED. BANCARIO",
+            "debt_to": true,
+            "account": "RECARGO DE CREDITO BANCARIO",
+            "priority": 9,
+            "child_support": false,
+            "by_installments": 2
+        },
+        {
+            "withholding_type_name": "VIVIENDA VINCULADA",
+            "debt_to": true,
+            "account": "VIVIENDAS VINCULADAS",
+            "priority": 10,
+            "child_support": false,
+            "by_installments": 2
+        },
+        {
+            "withholding_type_name": "SEGURO DE VIDA PERSONALES",
+            "debt_to": true,
+            "account": "SEGURO DE VIDA",
+            "priority": 12,
+            "child_support": false,
+            "by_installments": 2
+        }
+    ]
+}

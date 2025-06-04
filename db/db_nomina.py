@@ -283,24 +283,20 @@ def get_tipos_retenciones(db):
     field_mapping = [
         # (alias, (sql_field, doctype_field_type))
         ("withholding_type_name", ("CPCRetDescripcion", 'string')),
-        ("debt_to", ("CRetDeudaCon", 'string')),
+        ("debt_to", ("CRetDeudaCon", 'integer')),
         ("account", ("c.ClcuDescripcion", 'string')),
         ("priority", ("CRetPPrioridad", 'integer')),
         ("child_support", ("CRetPPenAlimenticia", 'boolean')),
-        ("by_installments", ("CRetPConPlazos", 'check'))
+        ("by_installments", ("CRetPConPlazos", 'integer'))
     ]
 
     # Construimos la cláusula SELECT
     select_clauses = [
         f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
     ]
-    query = """
-        SELECT CPCRetDescripcion  as withholding_type_name,
-        CRetDeudaCon as debt_to,
-        c.ClcuDescripcion as account,
-        CRetPPrioridad as priority,
-        CRetPPenAlimenticia as child_support,
-        CRetPConPlazos as by_installments
+    query = f"""
+        SELECT 
+            {', '.join(select_clauses)}
         FROM SCPCONRETPAGAR s LEFT JOIN SCGCLASIFICADORDECUENTAS c ON 
         s.ClcuIDCuenta = c.ClcuIDCuenta
         WHERE CRetPDesactivado  = '' OR CRetPDesactivado IS NULL
@@ -356,6 +352,7 @@ def get_maestro_retenciones(db):
     select_clauses = [
         f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
     ]
+
     query = f"""
         SELECT
             {', '.join(select_clauses)}

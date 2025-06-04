@@ -1,0 +1,1121 @@
+{
+    "doctype": "Item Price",
+    "data": [
+        {
+            "item_name": "REPARACION SIMPLE DE PC",
+            "price_list_rate": 6.7427
+        },
+        {
+            "item_name": "REPARACION SIMPLE TECNICO",
+            "price_list_rate": 14.3283
+        },
+        {
+            "item_name": "REPARACION SIMPLE ESPECIALISTA",
+            "price_list_rate": 3.7928
+        },
+        {
+            "item_name": "REAPRACION SIMPLE FACTURADORA",
+            "price_list_rate": 2.9499
+        },
+        {
+            "item_name": "REPARACION MEDIA PC TECNICO",
+            "price_list_rate": 39.28
+        },
+        {
+            "item_name": "REPARACION MEDIA PCCESPECIALISTA",
+            "price_list_rate": 10.4
+        },
+        {
+            "item_name": "REPARACION MEDIA PC FACTURADORA",
+            "price_list_rate": 8.087
+        },
+        {
+            "item_name": "REPARACION MEDIA PC CAMAGUEY",
+            "price_list_rate": 18.4851
+        },
+        {
+            "item_name": "MODERNIZACION DE PC TECNICO",
+            "price_list_rate": 45.5134
+        },
+        {
+            "item_name": "MODERNIZACION DE PC ESPECIALISTA",
+            "price_list_rate": 12.0477
+        },
+        {
+            "item_name": "MODERNIZACION PC FACTURAORA",
+            "price_list_rate": 9.3704
+        },
+        {
+            "item_name": "MODERNIZACION PC CAMAGUEY",
+            "price_list_rate": 21.4181
+        },
+        {
+            "item_name": "MANTENIMIENTO PC TECNICO",
+            "price_list_rate": 21.071
+        },
+        {
+            "item_name": "MANTENIMIENTO PC ESPECIALISTA",
+            "price_list_rate": 5.5776
+        },
+        {
+            "item_name": "MANTENIEMIENTO PC FACTURADORA",
+            "price_list_rate": 4.3382
+        },
+        {
+            "item_name": "MATENIEMIENTO PC CAMAGUEY",
+            "price_list_rate": 9.9158
+        },
+        {
+            "item_name": "DICTAMEN TECNICO DE BAJA PC TECNICO",
+            "price_list_rate": 18.5425
+        },
+        {
+            "item_name": "DICTAMEN TECNICO DE BAJA PC ESPEC",
+            "price_list_rate": 4.9083
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA PC FACTURAD",
+            "price_list_rate": 3.8176
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA PC CAMAGUEY",
+            "price_list_rate": 8.7259
+        },
+        {
+            "item_name": "REPARACION SIMPLE LAPTOP TECNICO",
+            "price_list_rate": 91.491
+        },
+        {
+            "item_name": "REPARACION SIMPLE LAPTOP ESPECIALIS",
+            "price_list_rate": 24.2182
+        },
+        {
+            "item_name": "REPARACION SIMPLE LAPTOP FACTURAD",
+            "price_list_rate": 18.8364
+        },
+        {
+            "item_name": "REPARACION SIMPLE LAPTOP CAMAGUEY",
+            "price_list_rate": 43.0546
+        },
+        {
+            "item_name": "REPARACION MEDIA LAPTOP TECNICO",
+            "price_list_rate": 121.325
+        },
+        {
+            "item_name": "REPARACION MEDIA LAPTOP ESPECIALIST",
+            "price_list_rate": 32.1154
+        },
+        {
+            "item_name": "REPARACION MEDIA LAPTOP FACTURADORA",
+            "price_list_rate": 57.0941
+        },
+        {
+            "item_name": "REPARACION SIMPLE LAPTOP CAMAGUEY",
+            "price_list_rate": 43.0546
+        },
+        {
+            "item_name": "MTTO LAPTOP TECNICO",
+            "price_list_rate": 41.7676
+        },
+        {
+            "item_name": "MTTO LAPTOP ESPECIALISTA",
+            "price_list_rate": 11.0561
+        },
+        {
+            "item_name": "MTTO LAPTOP FACTURADORA",
+            "price_list_rate": 8.5992
+        },
+        {
+            "item_name": "MTTO LAPTOP CAMAGUEY",
+            "price_list_rate": 19.6554
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA LAPTOP TECNIC",
+            "price_list_rate": 45.7455
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA LAPTOP ESP",
+            "price_list_rate": 12.1091
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA LAPTOP FACT",
+            "price_list_rate": 9.4182
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA LAPTOP CAMAGU",
+            "price_list_rate": 21.5273
+        },
+        {
+            "item_name": "REPRACION SIMPLE SERVIDORES TECNICO",
+            "price_list_rate": 91.491
+        },
+        {
+            "item_name": "REPRACION SIMPLE SERVIDORES ESPC",
+            "price_list_rate": 24.2182
+        },
+        {
+            "item_name": "REPRACION SIMPLE SERVIDORES FACTURA",
+            "price_list_rate": 18.8364
+        },
+        {
+            "item_name": "REPRACION SIMPLE SERVIDORES CAMAGUE",
+            "price_list_rate": 43.0546
+        },
+        {
+            "item_name": "REPARACION MEDIA SERVIDORES TECNI",
+            "price_list_rate": 115.3582
+        },
+        {
+            "item_name": "REPARACION MEDIA SERVIDORES ESPEC",
+            "price_list_rate": 30.536
+        },
+        {
+            "item_name": "REPARACION MEDIA SERVIDORES FACTURA",
+            "price_list_rate": 23.7502
+        },
+        {
+            "item_name": "REPARACION MEDIA SERVIDORESCAMAGUEY",
+            "price_list_rate": 54.2862
+        },
+        {
+            "item_name": "MTTO SERVIDORES TECNICI",
+            "price_list_rate": 43.7566
+        },
+        {
+            "item_name": "MTTO SERVIDORES ESPECIALISTA",
+            "price_list_rate": 11.5826
+        },
+        {
+            "item_name": "MTTO SERVIDORES FACTURADORA",
+            "price_list_rate": 9.0087
+        },
+        {
+            "item_name": "MTOO SERVIDORES CAMAGUEY",
+            "price_list_rate": 20.5913
+        },
+        {
+            "item_name": "DICTAMEN TEC BAJA SERVIDORES TECN",
+            "price_list_rate": 35.8008
+        },
+        {
+            "item_name": "DICTAMEN TEC BAJA SERV ESPECIALISTA",
+            "price_list_rate": 9.4767
+        },
+        {
+            "item_name": "DICTAMEN TEC BAJA SERV FACTURADORA",
+            "price_list_rate": 7.3708
+        },
+        {
+            "item_name": "DICTAMEN TEC BAJA SERV CAMAGUEY",
+            "price_list_rate": 16.8474
+        },
+        {
+            "item_name": "REPARACION MONITORES ESPECIALISTA",
+            "price_list_rate": 41.7676
+        },
+        {
+            "item_name": "REPARACION DE MONITORES ESPECIALIST",
+            "price_list_rate": 11.0561
+        },
+        {
+            "item_name": "REPARACION DE MONITORES FACTURADORA",
+            "price_list_rate": 8.5992
+        },
+        {
+            "item_name": "REPARACION DE MONITORES CAMAGUEY",
+            "price_list_rate": 19.6554
+        },
+        {
+            "item_name": "MTTO MONITORES TECNICO",
+            "price_list_rate": 11.7998
+        },
+        {
+            "item_name": "MTTO MONITORES ESPECIALISTA",
+            "price_list_rate": 3.1235
+        },
+        {
+            "item_name": "MTTO MONITORES FACTURADORA",
+            "price_list_rate": 2.4294
+        },
+        {
+            "item_name": "MTTO MONITORES CAMAGUEY",
+            "price_list_rate": 5.5528
+        },
+        {
+            "item_name": "DICTAMEN BAJA MONITORES TECNICO",
+            "price_list_rate": 26.8506
+        },
+        {
+            "item_name": "DICTAMEN BAJA MONITORES ESPECIALIST",
+            "price_list_rate": 7.1075
+        },
+        {
+            "item_name": "DICTAMEN BAJA MONITORES FACTURADORA",
+            "price_list_rate": 5.5281
+        },
+        {
+            "item_name": "DICTAMEN TEC BAJA MONITORES CAMAGUE",
+            "price_list_rate": 12.6356
+        },
+        {
+            "item_name": "REPARACION  IMPRESORA TECNICO",
+            "price_list_rate": 63.6459
+        },
+        {
+            "item_name": "REPARACION  IMPRESORA ESPECIALISTA",
+            "price_list_rate": 16.8474
+        },
+        {
+            "item_name": "REPARACION DE IMPRESORA  FACTURADOR",
+            "price_list_rate": 13.1036
+        },
+        {
+            "item_name": "REPARACION DE IMPRESORA CAMAGUEY",
+            "price_list_rate": 29.951
+        },
+        {
+            "item_name": "MTTO DE IMPRESORA TECNICO",
+            "price_list_rate": 27.8451
+        },
+        {
+            "item_name": "MANTENIMIENTO DE IMPRESORA ESPECIAL",
+            "price_list_rate": 7.3708
+        },
+        {
+            "item_name": "MANTENIMIENTO IMPRESORA FACTURADOR",
+            "price_list_rate": 5.7328
+        },
+        {
+            "item_name": "MANTENIMIENTO IMPRESORA CAMAGUEY",
+            "price_list_rate": 13.1036
+        },
+        {
+            "item_name": "DICTAMEN TEC BAJA DE IMPRESORA TEC",
+            "price_list_rate": 41.7676
+        },
+        {
+            "item_name": "DICTAMEN TEC BAJA DE IMPRESORA ESPE",
+            "price_list_rate": 11.0561
+        },
+        {
+            "item_name": "DICTAMEN TEC BAJA IMPRESORA FACTURA",
+            "price_list_rate": 8.5992
+        },
+        {
+            "item_name": "DICTAMEN TEC BAJA IMPRESORA CAMAGUE",
+            "price_list_rate": 19.6554
+        },
+        {
+            "item_name": "REPARACION SIMPLE UPS TECNICO",
+            "price_list_rate": 20.2282
+        },
+        {
+            "item_name": "REPARACION SIMPLE UPS ESPECIALISTA",
+            "price_list_rate": 5.3545
+        },
+        {
+            "item_name": "REPARACION SIMPLE UPS FACTURADORA",
+            "price_list_rate": 4.1646
+        },
+        {
+            "item_name": "REPARACION SIMPLE UPS CAMAGUEY",
+            "price_list_rate": 9.5191
+        },
+        {
+            "item_name": "REPARACION MEDIA UPS TECNICO",
+            "price_list_rate": 29.834
+        },
+        {
+            "item_name": "REPARACION MEDIA UPS ESPECIALISTA",
+            "price_list_rate": 7.8972
+        },
+        {
+            "item_name": "REPARACION MEDIA UPS FACTURADORA",
+            "price_list_rate": 6.1423
+        },
+        {
+            "item_name": "REPARACION MEDIA UPS CAMAGUEY",
+            "price_list_rate": 14.0395
+        },
+        {
+            "item_name": "MANTENIMIENTO UPS TECNICO",
+            "price_list_rate": 14.3283
+        },
+        {
+            "item_name": "MANTENIMIENTO UPS ESPECIALISTA",
+            "price_list_rate": 3.7928
+        },
+        {
+            "item_name": "MANTENIEMIENTO UPS FACTURADORA",
+            "price_list_rate": 2.9499
+        },
+        {
+            "item_name": "MANTENIMIENTO UPS CAMAGUEY",
+            "price_list_rate": 6.7427
+        },
+        {
+            "item_name": "DICTAMEN TEC BAJA UPS ESPECIALISTA",
+            "price_list_rate": 19.8893
+        },
+        {
+            "item_name": "DICTAMEN TEC BAJA UPS ESPECIALISTA",
+            "price_list_rate": 5.2648
+        },
+        {
+            "item_name": "DICTAMEN TEC BAJA UPS FACTURADORA",
+            "price_list_rate": 4.0949
+        },
+        {
+            "item_name": "DICTAMEN TEC BAJA UPS CAMAGUEY",
+            "price_list_rate": 9.3597
+        },
+        {
+            "item_name": "REPARACION SIMPLE PDA ESPECIALISTA",
+            "price_list_rate": 83.7692
+        },
+        {
+            "item_name": "REPARACION SIMPLE PDA ESPECIALISTA",
+            "price_list_rate": 22.1742
+        },
+        {
+            "item_name": "REPARACION SIMPLE PDA FACTURADORA",
+            "price_list_rate": 17.2466
+        },
+        {
+            "item_name": "REPARACION SIMPLE PDA CAMAGUEY",
+            "price_list_rate": 39.4208
+        },
+        {
+            "item_name": "REPARACION MEDIA PDA TECNICO",
+            "price_list_rate": 91.0008
+        },
+        {
+            "item_name": "REPARACION MEDIA PDA ESPECIALISTA",
+            "price_list_rate": 24.0884
+        },
+        {
+            "item_name": "REPARACION MEDIA PDA FACTUIRADORA",
+            "price_list_rate": 18.7355
+        },
+        {
+            "item_name": "REAPRACION MEDIA PDA CAMAGUEY",
+            "price_list_rate": 42.8239
+        },
+        {
+            "item_name": "MANTENIMIENTO PDA ESPECIALISTA",
+            "price_list_rate": 26.9709
+        },
+        {
+            "item_name": "MANTENIMIENTO PDA TECNICO",
+            "price_list_rate": 7.1394
+        },
+        {
+            "item_name": "MANTENIEMINTO PDA FACTURADOR",
+            "price_list_rate": 5.5528
+        },
+        {
+            "item_name": "MANTENIMIENTO PDA CAMAGUEY",
+            "price_list_rate": 12.6922
+        },
+        {
+            "item_name": "DICTAMEN TEC, BAJA PDA TECNICO",
+            "price_list_rate": 26.8506
+        },
+        {
+            "item_name": "DICTAMEN TEC,BAJA PDA ESPECIALISTA",
+            "price_list_rate": 7.1075
+        },
+        {
+            "item_name": "DICTAMEN TEC, BAJA PDA FACTURADORA",
+            "price_list_rate": 5.5281
+        },
+        {
+            "item_name": "DICTAMEN TEC, BAJA  PDA  FACTURADOR",
+            "price_list_rate": 12.6356
+        },
+        {
+            "item_name": "REPARACION SIMPLE DE EQM TECNICO",
+            "price_list_rate": 16.014
+        },
+        {
+            "item_name": "REPARACION SIMPLE DE EQM ESPECIALIS",
+            "price_list_rate": 4.239
+        },
+        {
+            "item_name": "REPARACION SIMPLE DE EQM FACTURADOR",
+            "price_list_rate": 3.297
+        },
+        {
+            "item_name": "REPARACION SIMPLE DE EQM CAMAGUEY",
+            "price_list_rate": 7.536
+        },
+        {
+            "item_name": "DICTAMEN TEC DE BAJA EQM TECNICO",
+            "price_list_rate": 11.7998
+        },
+        {
+            "item_name": "DICTAMEN TEC BAJA DE EQM ESPECIALIS",
+            "price_list_rate": 3.1235
+        },
+        {
+            "item_name": "DICTAMEN TEC BAJA EQM FACTURADORA",
+            "price_list_rate": 2.4294
+        },
+        {
+            "item_name": "DICTAMEN TEC DE BAJA EQM CAMAGUEY",
+            "price_list_rate": 5.5528
+        },
+        {
+            "item_name": "REPAR 12 PUERTO RED (CBAJA) ESPEC",
+            "price_list_rate": 33.71
+        },
+        {
+            "item_name": "REPAR 12 PUERTO RED (C BAJA) TECNIC",
+            "price_list_rate": 8.92
+        },
+        {
+            "item_name": "REOAR 12 PUERTO RED )CBAJA) FACTURA",
+            "price_list_rate": 6.94
+        },
+        {
+            "item_name": "REPAR 12 PUERTO RED (C MEDIA)TECNIC",
+            "price_list_rate": 67.43
+        },
+        {
+            "item_name": "REPAR 12 PUERTO RED(C MEDIA)ESPEC",
+            "price_list_rate": 17.85
+        },
+        {
+            "item_name": "REPR 12 PUERTO RED (C MEDIA) FACTUR",
+            "price_list_rate": 13.88
+        },
+        {
+            "item_name": "REPR 12 PUERTO RED (C MEDIA) CAMAGU",
+            "price_list_rate": 31.73
+        },
+        {
+            "item_name": "REPAR 12 PUERTO RED(C ALTA) TECNICO",
+            "price_list_rate": 134.85
+        },
+        {
+            "item_name": "REPR 12 PUERTO RED(C ALTA) ESPECIAL",
+            "price_list_rate": 35.7
+        },
+        {
+            "item_name": "REPR 12 PUERTO RED (C ALTA) FACTURA",
+            "price_list_rate": 27.76
+        },
+        {
+            "item_name": "REPARA 12 PUERTO RED (C ALTA) CAMAG",
+            "price_list_rate": 63.46
+        },
+        {
+            "item_name": "REP 12 PUERTO RED(C BAJA) CAMAGUEY",
+            "price_list_rate": 15.87
+        },
+        {
+            "item_name": "REPARACION MEDIA DE LAPTO FACTURADO",
+            "price_list_rate": 24.9787
+        },
+        {
+            "item_name": "REPARACION MEDIA DE LAPTO CAMAGUEY",
+            "price_list_rate": 57.0941
+        },
+        {
+            "item_name": "SERVICIO DE CONSULTORIA DE GESTION",
+            "price_list_rate": 0.4
+        },
+        {
+            "item_name": "UEB DIRECC APLICACION",
+            "price_list_rate": 0.2816
+        },
+        {
+            "item_name": "CONSULTORES APLICACION",
+            "price_list_rate": 0.2816
+        },
+        {
+            "item_name": "SOPORTE FUNCIONAL S5",
+            "price_list_rate": 0.2816
+        },
+        {
+            "item_name": "OTRAS APLICACIONES SISCONT5",
+            "price_list_rate": 0.2816
+        },
+        {
+            "item_name": "MTTO SISCONT 5",
+            "price_list_rate": 0.2816
+        },
+        {
+            "item_name": "REDES I + D",
+            "price_list_rate": 0.25
+        },
+        {
+            "item_name": "DIRECC UEB METROLOGIA",
+            "price_list_rate": 0.03711
+        },
+        {
+            "item_name": "CTM HABANA",
+            "price_list_rate": 0.39
+        },
+        {
+            "item_name": "CTM MAYABEQUE",
+            "price_list_rate": 0.37
+        },
+        {
+            "item_name": "CTM CARDENAS",
+            "price_list_rate": 0.38
+        },
+        {
+            "item_name": "CTM CABAIGUAN",
+            "price_list_rate": 0.38
+        },
+        {
+            "item_name": "UEB METROLOGIA SANTIAGO",
+            "price_list_rate": 0.39
+        },
+        {
+            "item_name": "REPARACIÓN SIMPLE PC TÉCNICO",
+            "price_list_rate": 36.3486
+        },
+        {
+            "item_name": "REPARACIÓN SIMPLE PC EP",
+            "price_list_rate": 10.1562
+        },
+        {
+            "item_name": "REPARACION SIMPLE PC FACTURADORA",
+            "price_list_rate": 6.949
+        },
+        {
+            "item_name": "REPARACION SIMPLE PC EP CAMAGUEY",
+            "price_list_rate": 17.1052
+        },
+        {
+            "item_name": "REPARACION MEDIA PC TECNICO",
+            "price_list_rate": 81.9124
+        },
+        {
+            "item_name": "REPARACION MEDIA PC EP",
+            "price_list_rate": 22.89
+        },
+        {
+            "item_name": "REPARACION MEDIA PC FACTURADORA",
+            "price_list_rate": 15.66
+        },
+        {
+            "item_name": "REPARACION MEDIA PC CAMAGUEY",
+            "price_list_rate": 38.547
+        },
+        {
+            "item_name": "MODERNAZACION PC TECNICO",
+            "price_list_rate": 95.991
+        },
+        {
+            "item_name": "MODERNIZACIÓN PC EP",
+            "price_list_rate": 26.821
+        },
+        {
+            "item_name": "MODERNIZACION PC FACTURADORA",
+            "price_list_rate": 18.3512
+        },
+        {
+            "item_name": "MODERNIZACION PC CAMAGUEY",
+            "price_list_rate": 45.1723
+        },
+        {
+            "item_name": "MTTO. PC TECNICO",
+            "price_list_rate": 56.3147
+        },
+        {
+            "item_name": "MTTO. PC EP",
+            "price_list_rate": 15.735
+        },
+        {
+            "item_name": "MTTO. PC FACTURADORA",
+            "price_list_rate": 10.7661
+        },
+        {
+            "item_name": "MTTO. PC CAMAGUEY",
+            "price_list_rate": 26.5011
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA PC TECNICO",
+            "price_list_rate": 49.0194
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA PC EP",
+            "price_list_rate": 13.6966
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA PC FACTURADOR",
+            "price_list_rate": 9.3714
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA PC CAMAGUEY",
+            "price_list_rate": 23.068
+        },
+        {
+            "item_name": "REPARACION SIMPLE LAPTOP",
+            "price_list_rate": 253.6144
+        },
+        {
+            "item_name": "REPARACION SIMPLE LAPTOP EP",
+            "price_list_rate": 70.8628
+        },
+        {
+            "item_name": "REPARACION SIMPLE LAPTOP FACTURADOR",
+            "price_list_rate": 48.4851
+        },
+        {
+            "item_name": "REPARACION SIMPLE LAPTOP CAMAGUEY",
+            "price_list_rate": 119.3479
+        },
+        {
+            "item_name": "REPARACION MEDIA LAPTOP TECNICO",
+            "price_list_rate": 323.4278
+        },
+        {
+            "item_name": "REPARACION MEDIA LAPTOP EP",
+            "price_list_rate": 90.3695
+        },
+        {
+            "item_name": "REPARACION MEDIA LAPTOP FACTURADORA",
+            "price_list_rate": 61.8318
+        },
+        {
+            "item_name": "REPARACION MEDIA LAPTOP CAMAGUEY",
+            "price_list_rate": 152.2013
+        },
+        {
+            "item_name": "MTTO. LAPTOP TECNICO",
+            "price_list_rate": 120.7835
+        },
+        {
+            "item_name": "MTTO. LAPTOP EP",
+            "price_list_rate": 33.7483
+        },
+        {
+            "item_name": "MTTO. LAPTOP FACTURADORA",
+            "price_list_rate": 23.091
+        },
+        {
+            "item_name": "MTTO. LAPTOP CAMAGUEY",
+            "price_list_rate": 56.8393
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA LAPTOP TECNIC",
+            "price_list_rate": 134.9933
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA LAPTOP EP",
+            "price_list_rate": 37.7187
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA LAPTOP FACTUR",
+            "price_list_rate": 25.8075
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA LAPTOP CAMAGU",
+            "price_list_rate": 63.5262
+        },
+        {
+            "item_name": "REPARACION SIMPLE SERVIDORES TECNIC",
+            "price_list_rate": 253.5032
+        },
+        {
+            "item_name": "REPARACION SIMPLE SERVIDORES EP",
+            "price_list_rate": 70.8318
+        },
+        {
+            "item_name": "REPARACION SIMPLE SERVIDORES FACTUR",
+            "price_list_rate": 48.4638
+        },
+        {
+            "item_name": "REPARACION SIMPLE SERVIDORES CAMAGU",
+            "price_list_rate": 119.2956
+        },
+        {
+            "item_name": "REPARACION MEDIA SERVIDORES TECNICO",
+            "price_list_rate": 310.3424
+        },
+        {
+            "item_name": "REPARACION MEDIA SERVIDORES EP",
+            "price_list_rate": 86.7133
+        },
+        {
+            "item_name": "REPARACION MEDIA SERVIDORES FACTURA",
+            "price_list_rate": 59.3302
+        },
+        {
+            "item_name": "REPARACION SIMPLE SERVIDORES CAMAGU",
+            "price_list_rate": 146.0435
+        },
+        {
+            "item_name": "MTTO. SERVIDORES TECNICO",
+            "price_list_rate": 125.6148
+        },
+        {
+            "item_name": "MTTO SERVIDORES EP",
+            "price_list_rate": 35.0983
+        },
+        {
+            "item_name": "MTTO SERVIDORES FACTURADORA",
+            "price_list_rate": 24.0146
+        },
+        {
+            "item_name": "MTTO. SERVIDORES CAMAGUEY",
+            "price_list_rate": 59.1128
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA SERVIDORES TE",
+            "price_list_rate": 106.5736
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA SERVIDORES EP",
+            "price_list_rate": 29.7779
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA SERVIDORES FA",
+            "price_list_rate": 20.3744
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA SERVIDORES CA",
+            "price_list_rate": 50.1523
+        },
+        {
+            "item_name": "REPARACION MONITORES TECNICO",
+            "price_list_rate": 121.0924
+        },
+        {
+            "item_name": "REPARACION MONITORES EP",
+            "price_list_rate": 33.8346
+        },
+        {
+            "item_name": "REPARACION MONITORES FACTURADORA",
+            "price_list_rate": 23.15
+        },
+        {
+            "item_name": "REPARACION MONITORES CAMAGUEY",
+            "price_list_rate": 56.9846
+        },
+        {
+            "item_name": "MTTO. MONITORES TECNICO",
+            "price_list_rate": 31.997
+        },
+        {
+            "item_name": "MTTO. MONITORES EP",
+            "price_list_rate": 8.9403
+        },
+        {
+            "item_name": "MTTO. MONITORES FACTURADORA",
+            "price_list_rate": 6.1171
+        },
+        {
+            "item_name": "MTTO. MONITORES CAMAGUEY",
+            "price_list_rate": 15.0574
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA MONITORES TEC",
+            "price_list_rate": 84.95
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA MONITORES EP",
+            "price_list_rate": 23.736
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA MONITORES FAC",
+            "price_list_rate": 16.2404
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA MONITORES CAM",
+            "price_list_rate": 39.9765
+        },
+        {
+            "item_name": "REPARACION IMPRESORAS TECNICO",
+            "price_list_rate": 177.6227
+        },
+        {
+            "item_name": "REPARACION IMPRESORAS EP",
+            "price_list_rate": 49.6299
+        },
+        {
+            "item_name": "REPARACION IMPRESORAS FACTURADORA",
+            "price_list_rate": 33.9573
+        },
+        {
+            "item_name": "REPARACION IMPRESORA CAMAGUEY",
+            "price_list_rate": 83.5872
+        },
+        {
+            "item_name": "MTTO. IMPRESORA TECNICO",
+            "price_list_rate": 82.9853
+        },
+        {
+            "item_name": "MTTO. IMPRESORA EP",
+            "price_list_rate": 23.1871
+        },
+        {
+            "item_name": "MTTO. IMPRESORA FACTURADORA",
+            "price_list_rate": 15.8648
+        },
+        {
+            "item_name": "MTTO IMPRESORA CAMAGUEY",
+            "price_list_rate": 39.0519
+        },
+        {
+            "item_name": "DICTAMEN TEC.BAJA IMPRESORAS TECNIC",
+            "price_list_rate": 115.9521
+        },
+        {
+            "item_name": "DICTAMEN TEC.BAJA IMPRESORAS EP",
+            "price_list_rate": 32.3984
+        },
+        {
+            "item_name": "DICTAMEN TEC.BAJA IMPRESORAS FACTUR",
+            "price_list_rate": 22.1673
+        },
+        {
+            "item_name": "DICTAMEN TEC.BAJA IMPRESORAS CAMAGU",
+            "price_list_rate": 54.5657
+        },
+        {
+            "item_name": "REPARACION SIMPLE UPS TECNICO",
+            "price_list_rate": 53.243
+        },
+        {
+            "item_name": "REPARACION SIMPLE UPS EP",
+            "price_list_rate": 14.8767
+        },
+        {
+            "item_name": "REPARACION SIMPLE UPS FACTURADORA",
+            "price_list_rate": 10.1788
+        },
+        {
+            "item_name": "REPARACION SIMPLE UPS CAMAGUEY",
+            "price_list_rate": 25.0555
+        },
+        {
+            "item_name": "REPARACION MEDIA UPS TECNICO",
+            "price_list_rate": 82.9853
+        },
+        {
+            "item_name": "REPARACION MEDIA UPS EP",
+            "price_list_rate": 23.1871
+        },
+        {
+            "item_name": "REPARACION MEDIA UPS FACTURADPORA",
+            "price_list_rate": 15.8648
+        },
+        {
+            "item_name": "REPARACION MEDIA UPS CAMAGUEY",
+            "price_list_rate": 39.0519
+        },
+        {
+            "item_name": "MTTO. UPS TECNICO",
+            "price_list_rate": 37.2087
+        },
+        {
+            "item_name": "MTTO. UPS EP",
+            "price_list_rate": 10.3965
+        },
+        {
+            "item_name": "MTTO. UPS FACTURADORA",
+            "price_list_rate": 7.1134
+        },
+        {
+            "item_name": "MTTO UPS CAMAGUEY",
+            "price_list_rate": 17.51
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA UPS TECNICO",
+            "price_list_rate": 49.7344
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA UPS EP",
+            "price_list_rate": 13.8964
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA UPS FACTURADO",
+            "price_list_rate": 9.508
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA UPS CAMAGUEY",
+            "price_list_rate": 23.4044
+        },
+        {
+            "item_name": "REPARACION SIMPLE PDA TECNICO",
+            "price_list_rate": 138.2368
+        },
+        {
+            "item_name": "REPARACION SIMPLE PDA EP",
+            "price_list_rate": 38.625
+        },
+        {
+            "item_name": "REPARACION SIMPLE PDA FACFTURADORA",
+            "price_list_rate": 26.4276
+        },
+        {
+            "item_name": "REPARACION SIMPLE PDA CAMAGUEY",
+            "price_list_rate": 65.0526
+        },
+        {
+            "item_name": "REPARACION MEDIA PDA TECNICO",
+            "price_list_rate": 156.9258
+        },
+        {
+            "item_name": "REPARACION MEDIA PDA EP",
+            "price_list_rate": 43.8469
+        },
+        {
+            "item_name": "REPARACION MEDIA PDA FACTURADORA",
+            "price_list_rate": 30.0005
+        },
+        {
+            "item_name": "REPARACION MEDIA PDA CAMAGUEY",
+            "price_list_rate": 73.8474
+        },
+        {
+            "item_name": "MTTO. PDA TECNICO",
+            "price_list_rate": 74.745
+        },
+        {
+            "item_name": "MTTO. PDA EP",
+            "price_list_rate": 20.8846
+        },
+        {
+            "item_name": "MTTO. PDA FACTURADORA",
+            "price_list_rate": 14.2895
+        },
+        {
+            "item_name": "MTTO. PDA CAMAGUEY",
+            "price_list_rate": 35.1741
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA PDA TECNICO",
+            "price_list_rate": 78.154
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA PDA EP",
+            "price_list_rate": 21.8371
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA PDA FACTURADO",
+            "price_list_rate": 14.9412
+        },
+        {
+            "item_name": "DICTAMEN TECNICO BAJA PDA CAMAGUEY",
+            "price_list_rate": 36.7784
+        },
+        {
+            "item_name": "REPARAC. SIMPLE EQUIPOS MENORES TEC",
+            "price_list_rate": 23.5498
+        },
+        {
+            "item_name": "REPARAC.SIMPLE EQUIPOS MENORES EP",
+            "price_list_rate": 6.5801
+        },
+        {
+            "item_name": "REPARAC.SIMPLE EQUIPOS MENORES FACT",
+            "price_list_rate": 4.5022
+        },
+        {
+            "item_name": "REPARAC.SIMPLE EQUIPOS MENORES CAMA",
+            "price_list_rate": 11.0823
+        },
+        {
+            "item_name": "DIC.TEC.BAJA EQUIPOS MENORES TECNIC",
+            "price_list_rate": 23.0379
+        },
+        {
+            "item_name": "DICT.TEC.BAJA EQUIPOS MENORES EP",
+            "price_list_rate": 6.437
+        },
+        {
+            "item_name": "DICT.TEC. BAJA EQUIPOS MENORES FACT",
+            "price_list_rate": 4.4043
+        },
+        {
+            "item_name": "DICT.TEC. BAJA EQUIPOS MENORES CAMA",
+            "price_list_rate": 10.8413
+        },
+        {
+            "item_name": "REP.PURT.RED UTP COMP.BAJA TECNICO",
+            "price_list_rate": 51.2
+        },
+        {
+            "item_name": "REP.PURT.RED UTP COMP.BAJA EP",
+            "price_list_rate": 14.3
+        },
+        {
+            "item_name": "REP.PURT.RED UPT COMP.BAJA FACTURAD",
+            "price_list_rate": 9.79
+        },
+        {
+            "item_name": "REP.PURT.RED UTP COMP.BAJA CAMAGUEY",
+            "price_list_rate": 24.09
+        },
+        {
+            "item_name": "REP.PURT.RED UTP COMP.MEDIA TECNICO",
+            "price_list_rate": 102.390447
+        },
+        {
+            "item_name": "REP.PURT.RED UTP COMP.MEDIA EP",
+            "price_list_rate": 28.6090955
+        },
+        {
+            "item_name": "REP.PURT.RED UTP COMP.MEDIA FACTURA",
+            "price_list_rate": 19.5746443
+        },
+        {
+            "item_name": "REP.PURT.RED UTP COMP.MEDIA CAMAGUE",
+            "price_list_rate": 48.1837398
+        },
+        {
+            "item_name": "REP.PURT.RED UTP COMP.ALTA TECNICO",
+            "price_list_rate": 204.780894
+        },
+        {
+            "item_name": "REP.PURT.RED UTP COMP.ALTA EP",
+            "price_list_rate": 57.218191
+        },
+        {
+            "item_name": "REP.PURT.RED UTP COMP.ALTA FACTURAD",
+            "price_list_rate": 39.1492886
+        },
+        {
+            "item_name": "REP.PURT.RED UTP COMP. ALTA CAMAGUE",
+            "price_list_rate": 96.3674795
+        },
+        {
+            "item_name": "MANTENIMIENTO DE TORRES",
+            "price_list_rate": 0.25
+        },
+        {
+            "item_name": "DIRECCIÓN UEB METROLOGÍA",
+            "price_list_rate": 0.038
+        },
+        {
+            "item_name": "CTM HABANA",
+            "price_list_rate": 0.38
+        },
+        {
+            "item_name": "CTM MAYABEQUE",
+            "price_list_rate": 0.38
+        },
+        {
+            "item_name": "CTM CÁRDENAS",
+            "price_list_rate": 0.38
+        },
+        {
+            "item_name": "UEB CABAIGUAN",
+            "price_list_rate": 0.38
+        },
+        {
+            "item_name": "UEB METROLOGIA SANTIAGO",
+            "price_list_rate": 0.385
+        },
+        {
+            "item_name": "UEB DIRECCION APLICACIONES",
+            "price_list_rate": 0.26
+        }
+    ]
+}

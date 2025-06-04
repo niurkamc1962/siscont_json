@@ -1,0 +1,165 @@
+{
+    "doctype": "Department",
+    "data": [
+        {
+            "parent_department": "DIRECCION GENERAL (DGE)",
+            "department_name": "TRANSFORMACION DIGITAL"
+        },
+        {
+            "parent_department": null,
+            "department_name": "UEB SOPORTE A APLICACIONES (SOP.AP)"
+        },
+        {
+            "parent_department": null,
+            "department_name": "UEB GESTION DE INFOCOMUNICAC.(UGI)"
+        },
+        {
+            "parent_department": null,
+            "department_name": "DIRECCION DE RECURSOS HUMANOS (DCH)"
+        },
+        {
+            "parent_department": "INVESTIGACIÓN Y DESARROLLO",
+            "department_name": "AUTOM.MONTAJ.CAMIONES DE COMBUSTIB"
+        },
+        {
+            "parent_department": "INVESTIGACIÓN Y DESARROLLO",
+            "department_name": "BIG DATA"
+        },
+        {
+            "parent_department": "INVESTIGACIÓN Y DESARROLLO",
+            "department_name": "UNIVERSIDAD DE LA HABANA"
+        },
+        {
+            "parent_department": "INVESTIGACIÓN Y DESARROLLO",
+            "department_name": "AMPLIACIÓN CONTROL PREDICTIVO RSS"
+        },
+        {
+            "parent_department": "DIRECCIÓN DE INNOVACIÓN  DESARROLLO",
+            "department_name": "DIRECCIÓN"
+        },
+        {
+            "parent_department": "DIRECCIÓN DE INNOVACIÓN  DESARROLLO",
+            "department_name": "DIP"
+        },
+        {
+            "parent_department": null,
+            "department_name": "UEB DESARROLLO SIST.INFORMAT.(UDS)"
+        },
+        {
+            "parent_department": "UEB SOPORTE TECNICO (UST)",
+            "department_name": "DIRECCIÓN UEB SOPORTE TÉCNICO"
+        },
+        {
+            "parent_department": "UEB SOPORTE TECNICO (UST)",
+            "department_name": "BRIGADA MONTAJE RADIOCOMUNICACIONES"
+        },
+        {
+            "parent_department": "UEB SOPORTE TECNICO (UST)",
+            "department_name": "MONTAJE DE REDES"
+        },
+        {
+            "parent_department": "UEB SOPORTE TECNICO (UST)",
+            "department_name": "RADIOCOMUNICACIONES"
+        },
+        {
+            "parent_department": "UEB SOPORTE TECNICO (UST)",
+            "department_name": "SOPORTE CAMAGUEY"
+        },
+        {
+            "parent_department": "UEB SOPORTE TECNICO (UST)",
+            "department_name": "TALLER DE EQUIPOS"
+        },
+        {
+            "parent_department": "UEB SOPORTE TECNICO (UST)",
+            "department_name": "RED INALAMBRICA"
+        },
+        {
+            "parent_department": null,
+            "department_name": "UEB NEGOCIOS (UN)"
+        },
+        {
+            "parent_department": null,
+            "department_name": "AMPLIAC.EDIF.SOCIO-ADMINIST.(ASA)"
+        },
+        {
+            "parent_department": null,
+            "department_name": "UEB AUTOMATIZACION INDUSTRIAL(UAI)"
+        },
+        {
+            "parent_department": "UEB METROLOGIA SANTIAGO DE CUBA UMS",
+            "department_name": "UEB METROLOGIA SANTIAGO DE CUBA"
+        },
+        {
+            "parent_department": null,
+            "department_name": "DIRECCION TECNICA (DTE)"
+        },
+        {
+            "parent_department": null,
+            "department_name": "UEB ASEGURAMEINTO (ULG)"
+        },
+        {
+            "parent_department": null,
+            "department_name": "DIP SISCONT 6 (UDS)"
+        },
+        {
+            "parent_department": "UEB GESTION DE INFOCOMUNICACIONES",
+            "department_name": "DIRECCIÓN UEB INFOCOMUNICACIONES"
+        },
+        {
+            "parent_department": "UEB GESTION DE INFOCOMUNICACIONES",
+            "department_name": "ADMINISTRACION DE LA RED"
+        },
+        {
+            "parent_department": "UEB GESTION DE INFOCOMUNICACIONES",
+            "department_name": "SOPORTE TECNICO"
+        },
+        {
+            "parent_department": "UEB GESTION DE INFOCOMUNICACIONES",
+            "department_name": "MONITOREO"
+        },
+        {
+            "parent_department": "UEB GESTION DE INFOCOMUNICACIONES",
+            "department_name": "INFRAESTRUCTURA"
+        },
+        {
+            "parent_department": "UEB GESTION DE INFOCOMUNICACIONES",
+            "department_name": "CENTRO DE DATOS"
+        },
+        {
+            "parent_department": "UEB SERVICIOS METROLOGICOS (USM)",
+            "department_name": "CTM HABANA (MHA)"
+        },
+        {
+            "parent_department": "UEB SERVICIOS METROLOGICOS (USM)",
+            "department_name": "CTM MAYABEQUE (MMY)"
+        },
+        {
+            "parent_department": "UEB SERVICIOS METROLOGICOS (USM)",
+            "department_name": "LABORATORIO PRODUCTOS CLAROS (MMY)"
+        },
+        {
+            "parent_department": "UEB SERVICIOS METROLOGICOS (USM)",
+            "department_name": "CTM CARDENAS (MMT)"
+        },
+        {
+            "parent_department": "UEB SERVICIOS METROLOGICOS (USM)",
+            "department_name": "CTM CABAIGUAN (MSS)"
+        },
+        {
+            "parent_department": "UEB SERVICIOS METROLOGICOS (USM)",
+            "department_name": "CTM SANTIAGO (MSC)"
+        },
+        {
+            "parent_department": null,
+            "department_name": "DIRECCION MERCADO Y COMUNICACION"
+        },
+        {
+            "parent_department": null,
+            "department_name": "DIRECCION CONTABLE FINANCIERA (DCF)"
+        },
+        {
+            "parent_department": null,
+            "department_name": "MANTENIMIENTO Y SERVICIO"
+        }
+    ]
+}
