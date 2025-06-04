@@ -2,73 +2,73 @@
     "doctype": "Employee Group",
     "data": [
         {
-            "employee_group_name": "SIOC"
+            "employee_group_name": "SIOC                "
         },
         {
-            "employee_group_name": "SIOC CE"
+            "employee_group_name": "SIOC CE             "
         },
         {
-            "employee_group_name": "SIGESGAS"
+            "employee_group_name": "SIGESGAS            "
         },
         {
-            "employee_group_name": "CILINDRO GLP"
+            "employee_group_name": "CILINDRO GLP        "
         },
         {
-            "employee_group_name": "TGESTOR"
+            "employee_group_name": "TGESTOR             "
         },
         {
-            "employee_group_name": "SOPORTE DE INFOPRO"
+            "employee_group_name": "SOPORTE DE INFOPRO  "
         },
         {
-            "employee_group_name": "ECOSISTEMA DIGITAL"
+            "employee_group_name": "ECOSISTEMA DIGITAL  "
         },
         {
-            "employee_group_name": "MTTO FCO.0"
+            "employee_group_name": "MTTO FCO.0          "
         },
         {
-            "employee_group_name": "MTTO SIOC UNIÓN"
+            "employee_group_name": "MTTO SIOC UNIÓN     "
         },
         {
-            "employee_group_name": "MTTO CUINSERVI"
+            "employee_group_name": "MTTO CUINSERVI      "
         },
         {
-            "employee_group_name": "MTTO SISLOG"
+            "employee_group_name": "MTTO SISLOG         "
         },
         {
-            "employee_group_name": "MTTO GISCUPET"
+            "employee_group_name": "MTTO GISCUPET       "
         },
         {
-            "employee_group_name": "SISTEMA INFO. CUPET"
+            "employee_group_name": "SISTEMA INFO. CUPET "
         },
         {
-            "employee_group_name": "BLOCKCHAIN"
+            "employee_group_name": "BLOCKCHAIN          "
         },
         {
-            "employee_group_name": "APK SERVICUPET"
+            "employee_group_name": "APK SERVICUPET      "
         },
         {
-            "employee_group_name": "MSCDAI SCRUM"
+            "employee_group_name": "MSCDAI SCRUM        "
         },
         {
-            "employee_group_name": "FICAG 2.0"
+            "employee_group_name": "FICAG 2.0           "
         },
         {
-            "employee_group_name": "PKI I+D+I CUPET"
+            "employee_group_name": "PKI I+D+I CUPET     "
         },
         {
-            "employee_group_name": "ROCKETCHAT"
+            "employee_group_name": "ROCKETCHAT          "
         },
         {
-            "employee_group_name": "TGESTOR I+D+I"
+            "employee_group_name": "TGESTOR I+D+I       "
         },
         {
-            "employee_group_name": "SICAR2.0"
+            "employee_group_name": "SICAR2.0            "
         },
         {
-            "employee_group_name": "UEB DIRECC APLICA."
+            "employee_group_name": "UEB DIRECC APLICA.  "
         },
         {
-            "employee_group_name": "CONSULTOR APLICA"
+            "employee_group_name": "CONSULTOR APLICA    "
         },
         {
             "employee_group_name": "SOPORTE FUNCIONAL S5"
@@ -77,109 +77,109 @@
             "employee_group_name": "OTRAS APLICA SISCONT"
         },
         {
-            "employee_group_name": "MTTO SISCONT 5"
+            "employee_group_name": "MTTO SISCONT 5      "
         },
         {
-            "employee_group_name": "REDES PRODUCCION"
+            "employee_group_name": "REDES PRODUCCION    "
         },
         {
-            "employee_group_name": "REDES 1+D+I"
+            "employee_group_name": "REDES 1+D+I         "
         },
         {
-            "employee_group_name": "SOPORTE SIOC INNOV"
+            "employee_group_name": "SOPORTE SIOC INNOV  "
         },
         {
-            "employee_group_name": "UEB APLICACIONES"
+            "employee_group_name": "UEB APLICACIONES    "
         },
         {
-            "employee_group_name": "CTROL ALMACEN ENCC"
+            "employee_group_name": "CTROL ALMACEN ENCC  "
         },
         {
-            "employee_group_name": "DIR UEB METROLOGIA"
+            "employee_group_name": "DIR UEB METROLOGIA  "
         },
         {
-            "employee_group_name": "CTM HABANA"
+            "employee_group_name": "CTM HABANA          "
         },
         {
-            "employee_group_name": "CTM MAYABEQUE"
+            "employee_group_name": "CTM MAYABEQUE       "
         },
         {
-            "employee_group_name": "CTM CARDENAS"
+            "employee_group_name": "CTM CARDENAS        "
         },
         {
-            "employee_group_name": "CTM CABAIGUAN"
+            "employee_group_name": "CTM CABAIGUAN       "
         },
         {
             "employee_group_name": "UEB METROLO SANTIAGO"
         },
         {
-            "employee_group_name": "PROYECTO BIMBAM"
+            "employee_group_name": "PROYECTO BIMBAM     "
         },
         {
             "employee_group_name": "SALA SITUACIONAL ENC"
         },
         {
-            "employee_group_name": "PROYECTO DEVOPS"
+            "employee_group_name": "PROYECTO DEVOPS     "
         },
         {
             "employee_group_name": "MANTENIMIENTO TORRES"
         },
         {
-            "employee_group_name": "CERTIF. APKI"
+            "employee_group_name": "CERTIF. APKI        "
         },
         {
-            "employee_group_name": "ESCANEO APKI"
+            "employee_group_name": "ESCANEO APKI        "
         },
         {
-            "employee_group_name": "CONFERENCIAS APKI"
+            "employee_group_name": "CONFERENCIAS APKI   "
         },
         {
-            "employee_group_name": "DIPRO RH"
+            "employee_group_name": "DIPRO RH            "
         },
         {
             "employee_group_name": "SISCONT& INVERSIONES"
         },
         {
-            "employee_group_name": "LOGISTICA COMBUST."
+            "employee_group_name": "LOGISTICA COMBUST.  "
         },
         {
-            "employee_group_name": "PROECTO SIPE"
+            "employee_group_name": "PROECTO SIPE        "
         },
         {
-            "employee_group_name": "OBSERV. CIENTIFICO"
+            "employee_group_name": "OBSERV. CIENTIFICO  "
         },
         {
-            "employee_group_name": "IGUALDAD GENERO"
+            "employee_group_name": "IGUALDAD GENERO     "
         },
         {
             "employee_group_name": "TRANSFORMACION DIGT."
         },
         {
-            "employee_group_name": "SISCONT6 PLANIF."
+            "employee_group_name": "SISCONT6 PLANIF.    "
         },
         {
-            "employee_group_name": "MAYABEQUE 1"
+            "employee_group_name": "MAYABEQUE 1         "
         },
         {
-            "employee_group_name": "SEG.APLIC. WEB"
+            "employee_group_name": "SEG.APLIC. WEB      "
         },
         {
-            "employee_group_name": "TALLER CAMAGUEY EP"
+            "employee_group_name": "TALLER CAMAGUEY EP  "
         },
         {
             "employee_group_name": "TALLER CAMAGUEY TECN"
         },
         {
-            "employee_group_name": "SALA SIT. ONEI"
+            "employee_group_name": "SALA SIT. ONEI      "
         },
         {
-            "employee_group_name": "TRANFORMACION DIG.1"
+            "employee_group_name": "TRANFORMACION DIG.1 "
         },
         {
-            "employee_group_name": "APK SERVICUPET"
+            "employee_group_name": "APK SERVICUPET      "
         },
         {
-            "employee_group_name": "HERRAMIENTAS SISC5"
+            "employee_group_name": "HERRAMIENTAS SISC5  "
         }
     ]
 }

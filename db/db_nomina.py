@@ -1,8 +1,9 @@
 import logging
 from typing import Dict, List
 
-from utils.jsons_utils import save_json_file
-from utils.serializations import serialize_value  # importa tu helper
+# from utils.jsons_utils import save_json_file
+# from utils.serializations import serialize_value  # importa tu helper
+from utils.jsons_utils import export_table_to_json
 
 
 # Funcion para obtener los datos de SCPTrabajadores segun el query necesario
@@ -55,35 +56,14 @@ def get_trabajadores(db) -> List[Dict]:
     LEFT JOIN TEREPARTOS AS R ON PD.TRepartosCodigo = R.TRepartosCodigo
     WHERE (T.TrabDesactivado = '' OR T.TrabDesactivado IS NULL)
     """
-
-    try:
-        with db.cursor() as cursor:
-            cursor.execute(query)
-            columns = [desc[0] for desc in cursor.description]
-            rows = cursor.fetchall()
-
-            # Creamos un diccionario de tipos por campo
-            field_types = {alias: field_type for alias, (_, field_type) in
-                           field_mapping}
-            result = []
-            for row in rows:
-                employee_data = {}
-                for col, val in zip(columns, row):
-                    field_type = field_types.get(col, 'auto')
-                    employee_data[col] = serialize_value(val, field_type)
-
-                result.append(employee_data)
-            output_path = save_json_file(
-                doctype_name, result, module_name, sqlserver_name
-            )
-            logging.info(
-                f"{doctype_name}.json guardado correctamente en {output_path}")
-
-            return result
-
-    except Exception as e:
-        logging.error(f"Error al obtener SCPTrabajadores: {e}")
-        raise Exception(f"Error al obtener datos de SCPTrabajadores: {str(e)}")
+    return export_table_to_json(
+        db=db,
+        doctype_name=doctype_name,
+        sqlserver_name=sqlserver_name,
+        module_name=module_name,
+        field_mapping=field_mapping,
+        table_query=query
+    )
 
 
 # Prepara la relacion entre las tablas con SCPTrabajadores y las muestra en
@@ -180,29 +160,31 @@ def get_categorias_ocupacionales(db):
     sqlserver_name = "SNOCATEGOCUP"
     module_name = "Cuba"
 
-    query = """
-        SELECT CategODescripcion as category_name
+    field_mapping = [
+        # Campos del doctype principal (trabajador)
+        # (alias, (sql_field, doctype_field_type))
+        ("category_name", ("CategODescripcion", 'string'))
+    ]
+    # Construimos la cláusula SELECT
+    select_clauses = [
+        f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
+    ]
+
+    query = f"""
+       SELECT
+           {', '.join(select_clauses)}
         FROM SNOCATEGOCUP
         WHERE CategDesactivado = ' ' OR CategDesactivado IS NULL
     """
 
-    try:
-        with db.cursor() as cursor:
-            cursor.execute(query)
-            columns = [col[0] for col in cursor.description]
-            rows = cursor.fetchall()
-            result = [dict(zip(columns, row)) for row in rows]
-
-            output_path = save_json_file(
-                doctype_name, result, module_name, sqlserver_name
-            )
-            logging.info(
-                f"{doctype_name}.json guardado correctamente en {output_path}")
-            return result
-    except Exception as e:
-        logging.error(
-            f"Error al obtener datos de las categorias ocupacionales: {e}")
-        raise
+    return export_table_to_json(
+        db=db,
+        doctype_name=doctype_name,
+        sqlserver_name=sqlserver_name,
+        module_name=module_name,
+        field_mapping=field_mapping,
+        table_query=query
+    )
 
 
 # Para obtener los cargos de los trabajadores
@@ -211,32 +193,31 @@ def get_cargos_trabajadores(db):
     doctype_name = "Designation"
     sqlserver_name = "SNOCARGOS"
     module_name = "Setup"
-    query = """
-        SELECT CargDescripcion as designation_name
-        FROM SNOCARGOS
-        WHERE CargDesactivado  = '' OR CargDesactivado IS NULL
-    """
-    try:
-        with db.cursor() as cursor:
-            cursor.execute(query)
-            columns = [col[0] for col in cursor.description]
-            rows = cursor.fetchall()
-            # serializando los campos para que no de error los decimales
-            result = [
-                {key: serialize_value(value) for key, value in
-                 zip(columns, row)}
-                for row in rows
-            ]
-            output_path = save_json_file(
-                doctype_name, result, module_name, sqlserver_name
-            )
-            logging.info(
-                f"{doctype_name}.json guardado correctamente en {output_path}")
-            return result
-    except Exception as e:
-        logging.error(
-            f"Error al obtener datos de los cargos de los trabajadores: {e}")
-        raise
+
+    field_mapping = [
+        # Campos del doctype principal (trabajador)
+        # (alias, (sql_field, doctype_field_type))
+        ("designation_name", ("CargDescripcion", 'string'))
+    ]
+    # Construimos la cláusula SELECT
+    select_clauses = [
+        f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
+    ]
+
+    query = f"""
+           SELECT
+               {', '.join(select_clauses)}
+            FROM SNOCARGOS
+            WHERE CargDesactivado  = '' OR CargDesactivado IS NULL
+        """
+    return export_table_to_json(
+        db=db,
+        doctype_name=doctype_name,
+        sqlserver_name=sqlserver_name,
+        module_name=module_name,
+        field_mapping=field_mapping,
+        table_query=query
+    )
 
 
 # Para obtener los tipos de trabajadores
@@ -245,32 +226,31 @@ def get_tipos_trabajadores(db):
     doctype_name = "Employment Type"
     sqlserver_name = "SNOCTIPOTRABAJADOR"
     module_name = "HR"
-    query = """
-        SELECT TipTrabDescripcion as employee_type_name
-        FROM SNOTIPOTRABAJADOR s
-        WHERE TipTrabDesactivado  = '' OR TipTrabDesactivado IS NULL
-    """
-    try:
-        with db.cursor() as cursor:
-            cursor.execute(query)
-            columns = [col[0] for col in cursor.description]
-            rows = cursor.fetchall()
-            # serializando los campos para que no de error los decimales
-            result = [
-                {key: serialize_value(value) for key, value in
-                 zip(columns, row)}
-                for row in rows
-            ]
-            output_path = save_json_file(
-                doctype_name, result, module_name, sqlserver_name
-            )
-            logging.info(
-                f"{doctype_name}.json guardado correctamente en {output_path}")
-            return result
-    except Exception as e:
-        logging.error(
-            f"Error al obtener datos de los tipos de trabajadores: {e}")
-        raise
+
+    field_mapping = [
+        # Campos del doctype principal (trabajador)
+        # (alias, (sql_field, doctype_field_type))
+        ("employee_type_name", ("TipTrabDescripcion", 'string'))
+    ]
+    # Construimos la cláusula SELECT
+    select_clauses = [
+        f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
+    ]
+
+    query = f"""
+          SELECT
+                  {', '.join(select_clauses)}
+            FROM SNOTIPOTRABAJADOR s
+            WHERE TipTrabDesactivado  = '' OR TipTrabDesactivado IS NULL
+        """
+    return export_table_to_json(
+        db=db,
+        doctype_name=doctype_name,
+        sqlserver_name=sqlserver_name,
+        module_name=module_name,
+        field_mapping=field_mapping,
+        table_query=query
+    )
 
 
 # Para obtener los tipos de  retenciones
@@ -301,38 +281,14 @@ def get_tipos_retenciones(db):
         s.ClcuIDCuenta = c.ClcuIDCuenta
         WHERE CRetPDesactivado  = '' OR CRetPDesactivado IS NULL
     """
-    try:
-        with db.cursor() as cursor:
-            cursor.execute(query)
-            columns = [col[0] for col in cursor.description]
-            rows = cursor.fetchall()
-            # serializando los campos
-            # result = [
-            #     {key: serialize_value(value) for key, value in
-            #      zip(columns, row)}
-            #     for row in rows
-            # ]
-
-            field_type_map = {alias: field_type for alias, (_, field_type) in
-                              field_mapping}
-            result = [
-                {
-                    key: serialize_value(value, field_type_map[key])
-                    for key, value in zip(columns, row)
-                }
-                for row in rows
-            ]
-
-            output_path = save_json_file(
-                doctype_name, result, module_name, sqlserver_name
-            )
-            logging.info(
-                f"{doctype_name}.json guardado correctamente en {output_path}")
-            return result
-    except Exception as e:
-        logging.error(
-            f"Error al obtener datos de los tipos de retenciones: {e}")
-        raise
+    return export_table_to_json(
+        db=db,
+        doctype_name=doctype_name,
+        sqlserver_name=sqlserver_name,
+        module_name=module_name,
+        field_mapping=field_mapping,
+        table_query=query
+    )
 
 
 # Para obtener maestro de  retenciones
@@ -375,27 +331,14 @@ def get_maestro_retenciones(db):
              (s2.TrabDesactivado = '' or s2.TrabDesactivado IS NULL) AND 
              s.RetCantPlazo <= 6 
     """
-    try:
-        with db.cursor() as cursor:
-            cursor.execute(query)
-            columns = [col[0] for col in cursor.description]
-            rows = cursor.fetchall()
-            # serializando los campos para que no de error los decimales
-            result = [
-                {key: serialize_value(value) for key, value in
-                 zip(columns, row)}
-                for row in rows
-            ]
-            output_path = save_json_file(
-                doctype_name, result, module_name, sqlserver_name
-            )
-            logging.info(
-                f"{doctype_name}.json guardado correctamente en {output_path}")
-            return result
-    except Exception as e:
-        logging.error(
-            f"Error al obtener datos del maestro de retenciones: {e}")
-        raise
+    return export_table_to_json(
+        db=db,
+        doctype_name=doctype_name,
+        sqlserver_name=sqlserver_name,
+        module_name=module_name,
+        field_mapping=field_mapping,
+        table_query=query
+    )
 
 
 # Para obtener loa pensionados
@@ -422,26 +365,14 @@ def get_pensionados(db):
         FROM SNOMANTPENS
         WHERE MantPensDesactivada  = '' OR MantPensDesactivada IS NULL
     """
-    try:
-        with db.cursor() as cursor:
-            cursor.execute(query)
-            columns = [col[0] for col in cursor.description]
-            rows = cursor.fetchall()
-            # serializando los campos para que no de error los decimales
-            result = [
-                {key: serialize_value(value) for key, value in
-                 zip(columns, row)}
-                for row in rows
-            ]
-            output_path = save_json_file(
-                doctype_name, result, module_name, sqlserver_name
-            )
-            logging.info(
-                f"{doctype_name}.json guardado correctamente en {output_path}")
-            return result
-    except Exception as e:
-        logging.error(f"Error al obtener datos de los pensionados: {e}")
-        raise
+    return export_table_to_json(
+        db=db,
+        doctype_name=doctype_name,
+        sqlserver_name=sqlserver_name,
+        module_name=module_name,
+        field_mapping=field_mapping,
+        table_query=query
+    )
 
 
 # Para obtener tasas de destajo
@@ -452,7 +383,7 @@ def get_tasas_destajos(db):
     field_mapping = [
         # (alias, (sql_field, doctype_field_type))
         ("item_name", ("TasaDDescripcion", 'string')),
-        ("price_list_rate", ("TasaDTasa", 'currency')),
+        ("price_list_rate", ("TasaDTasa", 'float'))
     ]
 
     # Construimos la cláusula SELECT
@@ -466,26 +397,14 @@ def get_tasas_destajos(db):
         FROM SNONOMENCLADORTASASDESTAJO
         WHERE TasaDesactivado  != '' OR TasaDesactivado IS NULL
     """
-    try:
-        with db.cursor() as cursor:
-            cursor.execute(query)
-            columns = [col[0] for col in cursor.description]
-            rows = cursor.fetchall()
-            # serializando los campos para que no de error los decimales
-            result = [
-                {key: serialize_value(value) for key, value in
-                 zip(columns, row)}
-                for row in rows
-            ]
-            output_path = save_json_file(
-                doctype_name, result, module_name, sqlserver_name
-            )
-            logging.info(
-                f"{doctype_name}.json guardado correctamente en {output_path}")
-            return result
-    except Exception as e:
-        logging.error(f"Error al obtener datos de las tasas de destajos: {e}")
-        raise
+    return export_table_to_json(
+        db=db,
+        doctype_name=doctype_name,
+        sqlserver_name=sqlserver_name,
+        module_name=module_name,
+        field_mapping=field_mapping,
+        table_query=query
+    )
 
 
 # Para obtener colectivos
@@ -510,26 +429,14 @@ def get_colectivos(db):
         FROM SNONOMENCLADORCOLECTIVOS
         WHERE ColecDesactivado  != '' OR ColecDesactivado IS NOT NULL
     """
-    try:
-        with db.cursor() as cursor:
-            cursor.execute(query)
-            columns = [col[0] for col in cursor.description]
-            rows = cursor.fetchall()
-            # serializando los campos para que no de error los decimales
-            result = [
-                {key: serialize_value(value) for key, value in
-                 zip(columns, row)}
-                for row in rows
-            ]
-            output_path = save_json_file(
-                doctype_name, result, module_name, sqlserver_name
-            )
-            logging.info(
-                f"{doctype_name}.json guardado correctamente en {output_path}")
-            return result
-    except Exception as e:
-        logging.error(f"Error al obtener datos de los colectivos: {e}")
-        raise
+    return export_table_to_json(
+        db=db,
+        doctype_name=doctype_name,
+        sqlserver_name=sqlserver_name,
+        module_name=module_name,
+        field_mapping=field_mapping,
+        table_query=query
+    )
 
 
 # Para obtener colectivos
@@ -562,23 +469,11 @@ def get_departamentos(db):
         LEFT JOIN
             S5Principal.dbo.SMGAREASUBAREA1 s1 ON s.AreaCodigo = s1.AreaCodigo;
         """
-    try:
-        with db.cursor() as cursor:
-            cursor.execute(query)
-            columns = [col[0] for col in cursor.description]
-            rows = cursor.fetchall()
-            # serializando los campos para que no de error los decimales
-            result = [
-                {key: serialize_value(value) for key, value in
-                 zip(columns, row)}
-                for row in rows
-            ]
-            output_path = save_json_file(
-                doctype_name, result, module_name, sqlserver_name
-            )
-            logging.info(
-                f"{doctype_name}.json guardado correctamente en {output_path}")
-            return result
-    except Exception as e:
-        logging.error(f"Error al obtener datos de los departamentos: {e}")
-        raise
+    return export_table_to_json(
+        db=db,
+        doctype_name=doctype_name,
+        sqlserver_name=sqlserver_name,
+        module_name=module_name,
+        field_mapping=field_mapping,
+        table_query=query
+    )
