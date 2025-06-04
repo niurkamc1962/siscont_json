@@ -521,7 +521,10 @@ def get_submayor_vacaciones(db):
     field_mapping = [
         ("initial_balance_in_amount", ("MAX(s.SMVacSaldoInicialI)", "float")),
         ("initial_balance_in_days", ("MAX(s.SMVacSaldoInicialD)", "float")),
-        ("carnet_identidad_trabajador", ("s.CPTrabConsecutivoID", "string")),
+        ("employee",
+         ("MAX(s2.CPTrabNombre + ' ' + s2.CPTrabPriApellido + ' ' +  "
+          "s2.CPTrabSegApellido)",
+          "string")),
         ("expediente_laboral", ("MAX(s2.CPTrabExp)", "string")),
         ("SMVacId", ("MAX(s.SMVacId)", "integer")),
     ]
