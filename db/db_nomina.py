@@ -286,7 +286,7 @@ def get_tipos_retenciones(db):
         ("debt_to", ("CRetDeudaCon", 'string')),
         ("account", ("c.ClcuDescripcion", 'string')),
         ("priority", ("CRetPPrioridad", 'integer')),
-        ("child_support", ("CRetPPenAlimenticia",'boolean')),
+        ("child_support", ("CRetPPenAlimenticia", 'boolean')),
         ("by_installments", ("CRetPConPlazos", 'check'))
     ]
 
@@ -337,15 +337,17 @@ def get_maestro_retenciones(db):
     # Mapeo de campos con información adicional sobre su tipo
     field_mapping = [
         # (alias, (sql_field, doctype_field_type))
-        ("employee_id", ("", 'string')),
-        ("employee_name", ("", 'string')),
-        ("withholding_type", ("", 'string')),
-        ("banking_record", ("", '')),
-        ("debt", ("", '')),
-        ("term_amount", ("", '')),
-        ("payroll_frecuency", ("", '')),
-        ("fortnight", ("", '')),
-        ("from_date", ("", '')),
+        ("employee_name",
+         ("s2.CPTrabNombre + ' ' + s2.CPTrabPriApellido + ' ' + "
+          "s2.CPTrabSegApellido",
+          'string')),
+        ("withholding_type", ("s.CPCRetPCodigo", 'string')),
+        # ("banking_record", ("", '')),
+        ("debt", ("s.RetDeuda", 'decimal')),
+        ("term_amount", ("s.RetPlazo", 'decimal')),
+        ("payroll_frecuency", ("s.PeriCodigo", 'integer')),
+        ("fortnight", ("s.CorteCodigo", 'integer')),
+        ("from_date", ("s.RetFechaAlta", 'date')),
         ("salary_component", ("", '')),
         ("customer", ("", '')),
     ]
@@ -354,8 +356,16 @@ def get_maestro_retenciones(db):
     select_clauses = [
         f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
     ]
-    query = """
-        
+    query = f"""
+        SELECT
+            {', '.join(select_clauses)}
+        from
+            SCPMAESTRORETENCION s
+        left join SCPTRABAJADORES s2 on s.CPTrabConsecutivoID = 
+        s2.CPTrabConsecutivoID
+        where
+             (s2.TrabDesactivado = '' or s2.TrabDesactivado IS NULL) AND 
+             s.RetCantPlazo <= 6 
     """
     try:
         with db.cursor() as cursor:
@@ -380,7 +390,6 @@ def get_maestro_retenciones(db):
         raise
 
 
-
 # Para obtener loa pensionados
 def get_pensionados(db):
     doctype_name = "Customer"
@@ -389,17 +398,9 @@ def get_pensionados(db):
 
     field_mapping = [
         # (alias, (sql_field, doctype_field_type))
-        ("employee_id", ("", 'string')),
-        ("employee_name", ("", 'string')),
-        ("withholding_type", ("", 'string')),
-        ("banking_record", ("", '')),
-        ("debt", ("", '')),
-        ("term_amount", ("", '')),
-        ("payroll_frecuency", ("", '')),
-        ("fortnight", ("", '')),
-        ("from_date", ("", '')),
-        ("salary_component", ("", '')),
-        ("customer", ("", '')),
+        ("customer_name", ("MantPensNombre + ' ' + MantPensPriApe + ' ' + "
+                           "MantPensSegApe", 'string')),
+        ("customer_primary_address", ("MantPensDir", 'string')),
     ]
 
     # Construimos la cláusula SELECT
@@ -407,12 +408,9 @@ def get_pensionados(db):
         f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
     ]
 
-    query = """
-        (MantPensNombre + ' ' + MantPensPriApe + ' ' + MantPensSegApe ) as 
-        customer_name,
-        MantPensDir as customer_primary_address,
-        MantPensFormPag as NODEFINIDO,
-        MantPensTMagn as NODEFINIDO
+    query = f"""
+        SELECT 
+        {', '.join(select_clauses)}
         FROM SNOMANTPENS
         WHERE MantPensDesactivada  = '' OR MantPensDesactivada IS NULL
     """
@@ -440,14 +438,25 @@ def get_pensionados(db):
 
 # Para obtener tasas de destajo
 def get_tasas_destajos(db):
-    doctype_name = "NODEFINIDO"
+    doctype_name = "Item Price"
     sqlserver_name = "SNONOMENCLADORTASASDESTAJO"
-    module_name = "NODEFINIDO"
-    query = """
-        SELECT TasaDDescripcion as item_name ,
-        TasaDTasa as price_list_rate
+    module_name = "Stock"
+    field_mapping = [
+        # (alias, (sql_field, doctype_field_type))
+        ("item_name", ("TasaDDescripcion", 'string')),
+        ("price_list_rate", ("TasaDTasa", 'currency')),
+    ]
+
+    # Construimos la cláusula SELECT
+    select_clauses = [
+        f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
+    ]
+
+    query = f"""
+        SELECT 
+            {', '.join(select_clauses)}
         FROM SNONOMENCLADORTASASDESTAJO
-        WHERE TasaDDescripcion  != '' OR TasaDDescripcion IS NOT NULL
+        WHERE TasaDesactivado  != '' OR TasaDesactivado IS NULL
     """
     try:
         with db.cursor() as cursor:
@@ -476,8 +485,20 @@ def get_colectivos(db):
     doctype_name = "Employee Group"
     sqlserver_name = "SNONOMENCLADORCOLECTIVOS"
     module_name = "Setup"
-    query = """
-        SELECT ColecId as colecId , ColecDescripcion as employee_group_name
+
+    field_mapping = [
+        # (alias, (sql_field, doctype_field_type))
+        ("employee_group_name", ("ColecDescripcion", 'string')),
+    ]
+
+    # Construimos la cláusula SELECT
+    select_clauses = [
+        f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
+    ]
+
+    query = f"""
+        SELECT 
+            {', '.join(select_clauses)}
         FROM SNONOMENCLADORCOLECTIVOS
         WHERE ColecDesactivado  != '' OR ColecDesactivado IS NOT NULL
     """
@@ -508,16 +529,31 @@ def get_departamentos(db):
     doctype_name = "Department"
     sqlserver_name = "SMGAREASUBAREA"
     module_name = "Setup"
-    query = """
+
+    field_mapping = [
+        # (alias, (sql_field, doctype_field_type))
+        ("parent_department",
+         ("CASE WHEN s1.sareaDescrip IS NULL THEN NULL ELSE s.AreaDescrip END",
+          'string')),
+        ("department_name",
+         ("CASE WHEN s1.sareaDescrip IS NULL THEN s.AreaDescrip ELSE "
+          "s1.sareaDescrip END",
+          'string')),
+    ]
+
+    # Construimos la cláusula SELECT
+    select_clauses = [
+        f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
+    ]
+
+    query = f"""
         SELECT
-            s.AreaCodigo as areacodigo,
-            s.AreaDescrip as parent_department,
-            s1.sareaDescrip as department_name
+            {', '.join(select_clauses)}
         FROM
             S5Principal.dbo.SMGAREASUBAREA s
         LEFT JOIN
-            S5Principal.dbo.SMGAREASUBAREA1 s1 ON s.AreaCodigo = s1.AreaCodigo
-    """
+            S5Principal.dbo.SMGAREASUBAREA1 s1 ON s.AreaCodigo = s1.AreaCodigo;
+        """
     try:
         with db.cursor() as cursor:
             cursor.execute(query)
@@ -536,5 +572,5 @@ def get_departamentos(db):
                 f"{doctype_name}.json guardado correctamente en {output_path}")
             return result
     except Exception as e:
-        logging.error(f"Error al obtener datos de los colectivos: {e}")
+        logging.error(f"Error al obtener datos de los departamentos: {e}")
         raise
