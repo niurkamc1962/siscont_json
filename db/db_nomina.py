@@ -306,12 +306,23 @@ def get_tipos_retenciones(db):
             cursor.execute(query)
             columns = [col[0] for col in cursor.description]
             rows = cursor.fetchall()
-            # serializando los campos para que no de error los decimales
+            # serializando los campos
+            # result = [
+            #     {key: serialize_value(value) for key, value in
+            #      zip(columns, row)}
+            #     for row in rows
+            # ]
+
+            field_type_map = {alias: field_type for alias, (_, field_type) in
+                              field_mapping}
             result = [
-                {key: serialize_value(value) for key, value in
-                 zip(columns, row)}
+                {
+                    key: serialize_value(value, field_type_map[key])
+                    for key, value in zip(columns, row)
+                }
                 for row in rows
             ]
+
             output_path = save_json_file(
                 doctype_name, result, module_name, sqlserver_name
             )

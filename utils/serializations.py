@@ -18,7 +18,7 @@ import logging
 #         return value.decode("utf-8", errors="ignore")
 #     return str(value)
 
-def serialize_value(value, field_type='auto'):
+def serialize_value(value, field_type):
     # 1. Normalización de valores vacíos
     if value is None or (isinstance(value, str) and not value.strip()):
         return None
@@ -49,8 +49,8 @@ def serialize_value(value, field_type='auto'):
             return _serialize_date(value)
         elif field_type == 'string':
             return str(value)
-        elif field_type == 'auto':
-            return _auto_detect(value)
+        # elif field_type == 'auto':
+        #     return _auto_detect(value)
         return None  # Si el tipo no es reconocido
     except Exception as e:
         logging.warning(f"Fallo al serializar: {value} ({e})")
@@ -78,28 +78,28 @@ def _serialize_date(value):
     return str(value)
 
 
-def _auto_detect(value):
-    if isinstance(value, bool):
-        return value
-
-    if isinstance(value, (int, float)):
-        if value in (0, 1):  # tratar 0 y 1 como boolean
-            return bool(value)
-        return value
-
-    str_val = str(value).strip().upper()
-    if str_val in ('1', '0', 'S', 'N', 'TRUE', 'FALSE', 'Y', 'N', 'YES', 'NO'):
-        return _serialize_boolean(value)
-
-    try:
-        return _serialize_numeric(value)
-    except:
-        pass
-
-    if isinstance(value, (datetime.date, datetime.datetime)):
-        return _serialize_date(value)
-
-    return str(value).strip()
+# def _auto_detect(value):
+#     if isinstance(value, bool):
+#         return value
+#
+#     if isinstance(value, (int, float)):
+#         if value in (0, 1):  # tratar 0 y 1 como boolean
+#             return bool(value)
+#         return value
+#
+#     str_val = str(value).strip().upper()
+#     if str_val in ('1', '0', 'S', 'N', 'TRUE', 'FALSE', 'Y', 'N', 'YES', 'NO'):
+#         return _serialize_boolean(value)
+#
+#     try:
+#         return _serialize_numeric(value)
+#     except:
+#         pass
+#
+#     if isinstance(value, (datetime.date, datetime.datetime)):
+#         return _serialize_date(value)
+#
+#     return str(value).strip()
 
 def is_serializable(value):
     try:
