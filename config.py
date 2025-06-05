@@ -64,13 +64,9 @@ def get_output_dir():
     os.makedirs(default_dir, exist_ok=True)
     return default_dir
 
-    # # Obtiene la ruta absoluta de la carpeta donde está este archivo (por ejemplo, db/)
-    # base_dir = os.path.dirname(os.path.abspath(__file__))
-    #
-    # # Sube un nivel para llegar a la raíz del proyecto (siscont_json)
-    # project_root = os.path.abspath(os.path.join(base_dir, ".."))
-    #
-    # # Une la ruta del proyecto con la carpeta deseada
-    # output_dir = os.path.join(project_root, json_dir)
-    #
-    # return output_dir
+
+# funcion utilitaria para obtener la url segun el modulo
+def get_module_api_url(module_name: str) -> str:
+    settings = get_settings()
+    base = settings.API_BASE_URL.rstrip("/")  # viene del .env como API_BASE
+    return f"{base}/{module_name.lower()}"

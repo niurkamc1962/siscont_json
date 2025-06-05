@@ -479,38 +479,6 @@ def get_departamentos(db):
     )
 
 
-# Submayor de vacaciones
-def get_colectivos(db):
-    doctype_name = "Employee Group"
-    sqlserver_name = "SNONOMENCLADORCOLECTIVOS"
-    module_name = "Setup"
-
-    field_mapping = [
-        # (alias, (sql_field, doctype_field_type))
-        ("employee_group_name", ("ColecDescripcion", 'string')),
-    ]
-
-    # Construimos la cláusula SELECT
-    select_clauses = [
-        f"{sql_field} as {alias}" for alias, (sql_field, _) in field_mapping
-    ]
-
-    query = f"""
-        SELECT 
-            {', '.join(select_clauses)}
-        FROM SNONOMENCLADORCOLECTIVOS
-        WHERE ColecDesactivado  != '' OR ColecDesactivado IS NOT NULL
-    """
-    return export_table_to_json(
-        db=db,
-        doctype_name=doctype_name,
-        sqlserver_name=sqlserver_name,
-        module_name=module_name,
-        field_mapping=field_mapping,
-        table_query=query
-    )
-
-
 # Para submayor de vacaciones
 def get_submayor_vacaciones(db):
     doctype_name = "Employee Opening Vacation Subledger"

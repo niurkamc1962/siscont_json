@@ -3,8 +3,8 @@ from nicegui import app, ui
 
 from config import DEFAULT_MODULE
 from ui.components import header, sidebar
-from ui.pages.modules import (cobros_pagos, contabilidad, general, inventario,
-                              nomina, recursos_humanos)
+from ui.pages.modules import (view_cobros_pagos, view_contabilidad, view_general, view_inventario,
+                              view_nomina, view_recursos_humanos)
 
 
 # Definimos la función show_module_content como "refrescable"
@@ -23,17 +23,17 @@ def show_module_content(module_name: str):
     # No necesitamos un div con ID aquí, NiceGUI gestiona el contenedor.
 
     if module_name == "General":
-        general.show()
+        view_general.show()
     elif module_name == "Contabilidad":
-        contabilidad.show()
+        view_contabilidad.show()
     elif module_name == "Nómina":
-        nomina.show()
+        view_nomina.show()
     elif module_name == "Recursos Humanos":
-        recursos_humanos.show()
+        view_recursos_humanos.show()
     elif module_name == "Cobros y Pagos":
-        cobros_pagos.show()
+        view_cobros_pagos.show()
     elif module_name == "Inventario":
-        inventario.show()
+        view_inventario.show()
     else:
         ui.label(f"Módulo '{module_name}' no encontrado.").classes(
             "text-red-500 text-lg"
