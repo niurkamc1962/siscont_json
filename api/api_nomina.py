@@ -193,7 +193,7 @@ async def get_departamentos_endpoint(params: ConexionParams):
 
 
 @router.post(
-    "/vacaciones",
+    "/submayor_vacaciones",
     summary="Lista Submayor de Vacaciones",
     description="Muestra Submayor de Vacaciones",
     tags=["Nómina"],
@@ -212,12 +212,12 @@ async def get_submayor_vacaciones_endpoint(params: ConexionParams):
 
 
 @router.post(
-    "/salarios",
+    "/submayor_salarios_no_reclamados",
     summary="Lista Submayor de salarios no reclamados",
     description="Muestra Submayor de Salarios No Reclamados",
     tags=["Nómina"],
 )
-async def get_ssubmayor_salarios_no_reclamados_endpoint(params: ConexionParams):
+async def get_submayor_salarios_no_reclamados_endpoint(params: ConexionParams):
     try:
         with create_db_manager(params) as db:
             data = nomina.get_submayor_salarios_no_reclamados(db)
@@ -227,5 +227,24 @@ async def get_ssubmayor_salarios_no_reclamados_endpoint(params: ConexionParams):
             status_code=500,
             detail=f"Error al obtener los datos del submayor de salarios no "
                    f"reclamados"
+                   f" {str(e)}",
+        )
+
+
+@router.post(
+    "/pagos_trabajadores",
+    summary="Lista de los pagos de los trabajadores SC408",
+    description="Muestra Pagos de los trabajadores SC408",
+    tags=["Nómina"],
+)
+async def get_corte_sc408_endpoint(params: ConexionParams):
+    try:
+        with create_db_manager(params) as db:
+            data = nomina.get_corte_sc408(db)
+            return JSONResponse(content=data)
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error al obtener los datos del pago de los trabajadores"
                    f" {str(e)}",
         )

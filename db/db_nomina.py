@@ -1,10 +1,9 @@
 import logging
-import math
-from typing import Dict, List, Any
+import datetime
+from typing import Dict, List
 
-from utils.jsons_utils import export_table_to_json, save_json_file, \
-    serialize_value, export_table_to_json_paginated
-from config import DEFAULT_PAGE_SIZE, PAGINATION_THRESHOLD
+from utils.jsons_utils import export_table_to_json, \
+    export_table_to_json_paginated
 
 
 # Funcion para obtener los datos de SCPTrabajadores segun el query necesario
@@ -572,6 +571,81 @@ def get_submayor_salarios_no_reclamados(db):
     """
 
     order_clause = "ORDER BY s.SMrnrIdentificador"
+
+    return export_table_to_json_paginated(
+        db=db,
+        doctype_name=doctype_name,
+        sqlserver_name=sqlserver_name,
+        module_name=module_name,
+        field_mapping=field_mapping,
+        base_query_from=base_query_from,
+        order_clause=order_clause
+    )
+
+
+def get_corte_sc408(db, current_year=None):
+    doctype_name = "Salary Slip"
+    sqlserver_name = "SNOMODSC408CORTE"
+    module_name = "Payroll"
+
+    # Si no se proporciona el año actual, lo obtenemos
+    if current_year is None:
+        current_year = datetime.datetime.now().year
+
+    previous_year = current_year - 1
+
+    # Definimos el mapping con funciones agregadas donde corresponde
+    field_mapping = [
+        ("employee", ("s2.CPTrabConsecutivoID", 'string')),
+        ("employee_name", (
+            "MAX(s2.CPTrabNombre + ' ' + s2.CPTrabPriApellido + ' ' + s2.CPTrabSegApellido)",
+            'string')),
+        ("year_to_date", ("MAX(s.sccorteanoCalendario)", 'integer')),
+        ("month_to_date", ("MAX(s.sccorteMesCalendario)", 'integer')),
+        ("worked_days", ("SUM(s.sccorteSalarioTiempoDias)", 'float')),
+        ("formed_salary", ("SUM(s.sccorteSalarioTiempoImporte)", 'float')),
+        ("total_vacations_accrued", ("SUM(s.sccorteVacacionesDias)", 'float')),
+        ("amount_for_accrued_vacations",
+         ("SUM(s.sccorteVacacionesImporte)", 'float')),
+        ("total_of_subsidies_days", ("SUM(s.sccorteSubsidioDias)", 'float')),
+        ("total_amount_of_subsidies",
+         ("SUM(s.sccorteSubsidioImporte)", 'float'))
+    ]
+
+    # Consulta para contar el total de registros (número de empleados distintos)
+    count_query = f"""
+        SELECT COUNT(DISTINCT s2.CPTrabConsecutivoID)
+        FROM SNOMODSC408CORTE s
+        JOIN SCPTRABAJADORES s2 ON s.CPTrabConsecutivoID = s2.CPTrabConsecutivoID
+        WHERE (s2.TrabDesactivado = '' OR s2.TrabDesactivado IS NULL)
+          AND s.sccorteanoCalendario IN ({current_year}, {previous_year})
+    """
+
+    # Consulta base con GROUP BY para obtener los datos agregados
+    base_query_from = f"""
+        FROM SNOMODSC408CORTE s
+        JOIN SCPTRABAJADORES s2 ON s.CPTrabConsecutivoID = s2.CPTrabConsecutivoID
+        WHERE (s2.TrabDesactivado = '' OR s2.TrabDesactivado IS NULL)
+          AND s.sccorteanoCalendario IN ({current_year}, {previous_year})
+        GROUP BY s2.CPTrabConsecutivoID
+    """
+
+    order_clause = "ORDER BY s2.CPTrabConsecutivoID"
+
+    # Obtenemos el total de registros primero
+    with db.cursor() as cursor:
+        cursor.execute(count_query)
+        total_items = cursor.fetchone()[0]
+
+    if total_items == 0:
+        logging.warning(
+            f"No hay datos de Corte para los años {current_year} o {previous_year}")
+        return []
+
+    # Construimos la consulta SELECT completa con alias y funciones agregadas
+    select_clauses = [f"{sql_field} AS {alias}" for alias, (sql_field, _) in
+                      field_mapping]
+    select_query = f"SELECT {', '.join(select_clauses)} {base_query_from} {order_clause}"
 
     return export_table_to_json_paginated(
         db=db,

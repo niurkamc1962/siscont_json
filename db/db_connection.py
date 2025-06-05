@@ -16,7 +16,8 @@ settings = get_settings()
 
 
 class DatabaseManager:
-    def __init__(self, host: str, password: str, database: str, port: str, user: str):
+    def __init__(self, host: str, password: str, database: str, port: str,
+                 user: str):
         self.connection_params = {
             "host": host,
             "password": password,
@@ -57,8 +58,22 @@ class DatabaseManager:
         try:
             return pyodbc.connect(url)
         except pyodbc.Error as ex:
-            print(f"Error al conectar: {ex}")
-            raise
+            error_msg = str(ex)
+            code = ex.args[0] if len(ex.args) > 0 else None
+
+            # Mapeo por código o texto conocido
+            if "Cannot open database" in error_msg:
+                raise Exception(
+                    "La base de datos especificada no existe o no se puede acceder.")
+            elif "Login failed for user" in error_msg:
+                raise Exception(
+                    "Error de autenticación: usuario o contraseña incorrectos.")
+            elif code == '08001':
+                raise Exception(
+                    "No se puede conectar al servidor. Verifique la IP y el puerto.")
+            else:
+                raise Exception(
+                    f"Error de conexión a la base de datos: {error_msg}")
 
     @contextmanager
     def cursor(self):
@@ -72,7 +87,8 @@ class DatabaseManager:
     def get_all_tables(self) -> Dict[str, Any]:
         with self.cursor() as cursor:
             cursor.execute(
-                "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE'"
+                "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE "
+                "TABLE_TYPE = 'BASE TABLE'"
             )
             tables = [row.TABLE_NAME for row in cursor.fetchall()]
             return {"tables": tables, "total_tables": len(tables)}
@@ -81,7 +97,8 @@ class DatabaseManager:
         with self.cursor() as cursor:
             cursor.execute(
                 """
-                SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, IS_NULLABLE
+                SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, 
+                IS_NULLABLE
                 FROM INFORMATION_SCHEMA.COLUMNS
                 WHERE TABLE_NAME = ?
                 """,
@@ -104,13 +121,16 @@ class DatabaseManager:
                     f"""
                     SELECT
                         OBJECT_NAME(f.parent_object_id) AS tabla_padre,
-                        COL_NAME(fc.parent_object_id, fc.parent_column_id) AS columna_padre,
+                        COL_NAME(fc.parent_object_id, fc.parent_column_id) AS 
+                        columna_padre,
                         OBJECT_NAME(f.referenced_object_id) AS tabla_hija,
-                        COL_NAME(fc.referenced_object_id, fc.referenced_column_id) AS columna_hija
+                        COL_NAME(fc.referenced_object_id, 
+                        fc.referenced_column_id) AS columna_hija
                     FROM
                         sys.foreign_keys f
                     INNER JOIN
-                        sys.foreign_key_columns fc ON f.object_id = fc.constraint_object_id
+                        sys.foreign_key_columns fc ON f.object_id = 
+                        fc.constraint_object_id
                     WHERE
                         OBJECT_NAME(f.parent_object_id) = '{table_name}'
                     OR
@@ -130,13 +150,16 @@ class DatabaseManager:
                     """
                     SELECT
                         OBJECT_NAME(f.parent_object_id) AS tabla_padre,
-                        COL_NAME(fc.parent_object_id, fc.parent_column_id) AS columna_padre,
+                        COL_NAME(fc.parent_object_id, fc.parent_column_id) AS 
+                        columna_padre,
                         OBJECT_NAME(f.referenced_object_id) AS tabla_hija,
-                        COL_NAME(fc.referenced_object_id, fc.referenced_column_id) AS columna_hija
+                        COL_NAME(fc.referenced_object_id, 
+                        fc.referenced_column_id) AS columna_hija
                     FROM
                         sys.foreign_keys f
                     INNER JOIN
-                        sys.foreign_key_columns fc ON f.object_id = fc.constraint_object_id
+                        sys.foreign_key_columns fc ON f.object_id = 
+                        fc.constraint_object_id
                 """
                 )
                 columns = [column[0] for column in cursor.description]
@@ -146,7 +169,8 @@ class DatabaseManager:
             raise
 
     def export_table_to_json(
-        self, table_name: str, fields: List[str], output_folder: str = "formatos_json"
+            self, table_name: str, fields: List[str],
+            output_folder: str = "formatos_json"
     ) -> Dict[str, Any]:
         if not path.exists(output_folder):
             makedirs(output_folder)
