@@ -3,8 +3,9 @@ from nicegui import app, ui
 
 from config import DEFAULT_MODULE
 from ui.components import header, sidebar
-from ui.pages.modules import (view_cobros_pagos, view_contabilidad, view_general, view_inventario,
-                              view_nomina, view_recursos_humanos)
+from ui.pages.modules import (cobros_pagos_view, contabilidad_view,
+                              general_view, inventario_view,
+                              nomina_view, recursos_humanos_view)
 
 
 # Definimos la función show_module_content como "refrescable"
@@ -23,17 +24,17 @@ def show_module_content(module_name: str):
     # No necesitamos un div con ID aquí, NiceGUI gestiona el contenedor.
 
     if module_name == "General":
-        view_general.show()
+        general_view.show()
     elif module_name == "Contabilidad":
-        view_contabilidad.show()
+        contabilidad_view.show()
     elif module_name == "Nómina":
-        view_nomina.show()
+        nomina_view.show()
     elif module_name == "Recursos Humanos":
-        view_recursos_humanos.show()
+        recursos_humanos_view.show()
     elif module_name == "Cobros y Pagos":
-        view_cobros_pagos.show()
+        cobros_pagos_view.show()
     elif module_name == "Inventario":
-        view_inventario.show()
+        inventario_view.show()
     else:
         ui.label(f"Módulo '{module_name}' no encontrado.").classes(
             "text-red-500 text-lg"
@@ -49,7 +50,8 @@ def show():
 
     # Crea el encabezado de la aplicación
     header.create_header(
-        server_ip=app.storage.user.get("server_ip_display", ""), on_logout=handle_logout
+        server_ip=app.storage.user.get("server_ip_display", ""),
+        on_logout=handle_logout
     )
 
     # Área principal de contenido (barra lateral + contenido del módulo)

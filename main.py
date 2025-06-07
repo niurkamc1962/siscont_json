@@ -5,10 +5,13 @@ from nicegui import app, ui
 
 import config
 from api import api_db, api_nomina
+from middleware.auth_middleware import AuthMiddleware
 from ui.pages import login, main_page
 
-from db.db_manager import AppState
-store = AppState()
+# from db.db_manager import AppState
+# store = AppState()
+
+from state.store import store
 
 # Configuración FastAPI
 fastapi_app = FastAPI(title=config.APP_TITLE)
@@ -17,9 +20,12 @@ fastapi_app = FastAPI(title=config.APP_TITLE)
 # porque sino no reconoce swagguer para los endpoints
 # y muestra html en lugar de formatos JSON
 fastapi_app.include_router(api_db.router, prefix="/api")
-fastapi_app.include_router(api_nomina.router, prefix="/nomina")
+fastapi_app.include_router(api_nomina.router, prefix="/api/nomina")
 
-# Integración NiceGUI con FastAPI
+# ⛔ Agregar middleware de autenticación
+# fastapi_app.add_middleware(AuthMiddleware)
+
+# Integración NiceGUI con FastAPI pero no se inicia el servidor
 ui.run_with(
     fastapi_app,
     storage_secret=config.STORAGE_SECRET,
@@ -32,7 +38,7 @@ ui.run_with(
 
 # Configurar rutas UI
 @ui.page("/")
-def index():
+async def index(client):
     if not app.storage.user.get("connected"):
         login.connection_form(store)
     else:
@@ -40,7 +46,8 @@ def index():
 
 
 # Iniciar con: uvicorn main:fastapi_app --reload
-
+# Punto de entrada que inicial el proyecto combinando FastAPI con NiceGui
 if __name__ == "__main__":
     settings = config.get_settings()
-    uvicorn.run("main:fastapi_app", host="0.0.0.0", port=settings.PORT, reload=True)
+    uvicorn.run("main:fastapi_app", host="0.0.0.0", port=settings.PORT,
+                reload=True)

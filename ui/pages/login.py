@@ -1,14 +1,14 @@
 # views/connection_view.py
 from datetime import datetime
-
 from nicegui import app, ui
 
+from state.store import store
 from config import get_settings
 from db.db_connection import create_db_manager
-from db.db_manager import AppState, ConexionParams
+# from db.db_manager import AppState, ConexionParams
+from db.db_manager import  ConexionParams
 
-
-def connection_form(store: AppState):
+def connection_form(request):
     settings = get_settings()
 
     with ui.column().classes(
@@ -45,7 +45,10 @@ def connection_form(store: AppState):
                         password=password_input.value,
                         database=database_input.value,
                     )
-                    store.db_params = params.model_dump()
+                    # store.db_params = params.model_dump() # convirtiendo a
+                    # dict
+                    store.db_params = params # guardando como instancia de
+                    # ConexionParams
                     db_manager = create_db_manager(params)
 
                     with db_manager.cursor() as cursor:

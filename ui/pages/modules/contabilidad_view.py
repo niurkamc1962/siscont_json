@@ -1,4 +1,4 @@
-# ui/pages/modules/view_contabilidad.py
+# ui/pages/modules/contabilidad_view.py
 from nicegui import ui
 
 
