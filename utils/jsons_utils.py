@@ -1,18 +1,19 @@
 # db/jsons_utils.py
 # helpers
+import datetime
+import decimal
 import json
 import logging
 import math
 import os
 from collections import OrderedDict
-import datetime
-import decimal
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Tuple, Any
 
-from config import get_output_dir, DEFAULT_MODULE, PAGINATION_THRESHOLD, \
+from config import get_output_dir, PAGINATION_THRESHOLD, \
     DEFAULT_PAGE_SIZE
 
 
+# funcion para salvar el archivo json
 def save_json_file(
         doctype_name: str, data: list, module_name: str = None,
         sqlserver_name: str = None
@@ -44,6 +45,7 @@ def save_json_file(
         raise
 
 
+# funcion para serializar los datos antes de pasarlos al JSON
 def serialize_value(value, field_type):
     # 1. Normalización de valores vacíos
     if value is None or (isinstance(value, str) and not value.strip()):
@@ -110,15 +112,11 @@ def is_serializable(value):
         return False
 
 
+# Ejecuta consulta SQL, serializa los datos según tipo y guarda un archivo JSON.
 def export_table_to_json(db, doctype_name, sqlserver_name, module_name,
                          field_mapping, table_query) -> list:
-    """
-    Ejecuta una consulta SQL, serializa los datos según su tipo y guarda un
-    archivo JSON.
-    """
     field_type_map = {alias: field_type for alias, (_, field_type) in
                       field_mapping}
-
     try:
         with db.cursor() as cursor:
             cursor.execute(table_query)
@@ -173,7 +171,8 @@ def export_table_to_json_paginated(
 
         select_query = f"{select_clause} {base_query_from} {order_clause}"
         # ❗ IMPORTANTE: Eliminar ORDER BY de la subconsulta del conteo
-        count_query = f"SELECT COUNT(*) FROM ({select_clause} {base_query_from}) AS sub"
+        count_query = (f"SELECT COUNT(*) FROM ({select_clause} "
+                       f"{base_query_from}) AS sub")
 
         field_type_map = {alias: field_type for alias, (_, field_type) in
                           field_mapping}
@@ -196,7 +195,9 @@ def export_table_to_json_paginated(
                 )
                 for page_num in range(total_pages):
                     offset = page_num * DEFAULT_PAGE_SIZE
-                    paginated_query = f"{select_query} OFFSET {offset} ROWS FETCH NEXT {DEFAULT_PAGE_SIZE} ROWS ONLY"
+                    paginated_query = (f"{select_query} OFFSET {offset} R"
+                                       f"OWS FETCH NEXT {DEFAULT_PAGE_SIZE} "
+                                       f"ROWS ONLY")
                     cursor.execute(paginated_query)
                     columns = [col[0] for col in cursor.description]
                     rows = cursor.fetchall()

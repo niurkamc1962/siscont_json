@@ -1,5 +1,8 @@
 # ui/pages/modules/api_nomina.py
+import asyncio
+
 from nicegui import ui
+
 from services.nomina_client import TABLAS_NOMINA, obtener_datos_tabla
 
 
@@ -31,7 +34,7 @@ async def mostrar_tabla(nombre_logico: str):
         print(f"Error al consultar {nombre_logico}: {e}")
 
 
-async def exportar_json(nombre_logico: str):
+async def procesar_tabla_individual(nombre_logico: str):
     """
     Fetches data for a specified table and triggers a JSON file download.
     """
@@ -44,33 +47,53 @@ async def exportar_json(nombre_logico: str):
                       type="warning")
             return
 
-        json_data = json.dumps(data, indent=4,
-                               ensure_ascii=False)  # Convert data to JSON
-        # string
-
         file_name = f"{nombre_logico.replace(' ', '_').lower()}.json"  #
-        # Create a clean filename
 
-        ui.download(json_data.encode('utf-8'),
-                    file_name)  # Download the JSON data
         ui.notify(
             f"Datos de {nombre_logico} exportados a '{file_name}' "
             f"correctamente.",
             type="positive")
 
     except Exception as e:
-        ui.notify(f"Error al exportar {nombre_logico}: {e}", type="negative")
+        ui.notify(f"Error desde nomina_view al exportar {nombre_logico}: {e}",
+                  type="negative")
         print(f"Error al exportar {nombre_logico}: {e}")
 
 
+async def procesar_todas_tablas():
+    with ui.dialog() as dialog, ui.card():
+        ui.label("Exportando todas las tablas...").classes(
+            "text-lg font-semibold")
+        ui.spinner(size='lg', color='green')
+
+    dialog.open()
+
+    try:
+        for nombre_logico in TABLAS_NOMINA.keys():
+            await procesar_tabla_individual(
+                nombre_logico)  # suponiendo que exportar_json es async
+            await asyncio.sleep(0.1)  # pequeña pausa para permitir feedback UI
+
+        dialog.close()
+        ui.notify("✅ Todas las tablas fueron exportadas exitosamente",
+                  type="positive")
+    except Exception as e:
+        dialog.close()
+        ui.notify(f"❌ Error al exportar: {str(e)}", type="negative")
+
+
 def show():
-    """
-    Defines the main UI for the Nómina section, allowing users to consult and
-    export table data.
-    """
     ui.label("Nómina").classes("text-2xl font-bold mb-1")
-    ui.label("Consulta y genera los datos por tabla").classes("text-sm mb-4")
+    ui.label("Consulta y genera los JSON de las tablas de Nomina").classes(
+        "text-sm mb-4")
     ui.separator()
+
+    # Botón para exportar todas las tablas de NOMINA
+    ui.button(
+        "Exportar todas las tablas a JSON",
+        on_click=lambda: procesar_todas_tablas()
+        # ¡Aquí pasas TABLAS_NOMINA!
+    ).props("color=blue size=md icon=cloud_download").classes("mt-4 mb-6")
 
     # Display table names and buttons
     with ui.column().classes("mt-6 gap-2 w-full"):  # Use w-full for full width
@@ -91,6 +114,7 @@ def show():
 
                     ui.button(
                         "Exportar a JSON",
-                        on_click=lambda n=nombre_logico: exportar_json(n)
+                        on_click=lambda
+                            n=nombre_logico: procesar_tabla_individual(n)
                     ).props(
                         "color=green outline size=sm icon=cloud_download")

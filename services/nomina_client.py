@@ -1,13 +1,16 @@
-import httpx
 from typing import Any
+
+import httpx
+
 from config import get_module_api_url
 from db.db_manager import ConexionParams
-from state.store import store # Importas la instancia ya inicializada y compartida
+from state.store import \
+    store  # Importas la instancia ya inicializada y compartida
 
 # Lista de endpoints disponibles para iterar si quieres hacer algo dinámico
 TABLAS_NOMINA = {
     "Trabajadores": "trabajadores",
-    "Relaciones": "relaciones-trabajadores",
+    # "Relaciones": "relaciones-trabajadores",
     "Categorías Ocupacionales": "categorias-ocupacionales",
     "Cargos": "cargos-trabajadores",
     "Tipos Trabajadores": "tipos-trabajadores",
@@ -35,7 +38,7 @@ def get_current_conexion_params() -> ConexionParams:
     )
 
 
-## Este helper consulta una tabla específica
+## Este helper consulta una tabla segun el endpoint
 async def obtener_datos_tabla(nombre_tabla: str,
                               modulo: str | None = None) -> Any:
     modulo = modulo or store.selected_module or 'nomina'
@@ -44,7 +47,7 @@ async def obtener_datos_tabla(nombre_tabla: str,
     url = f"{base_url}/{endpoint}"
 
     conexion_params = get_current_conexion_params()
-    payload = conexion_params.dict()
+    payload = conexion_params.model_dump()
 
     async with httpx.AsyncClient() as client:
         response = await client.post(url, json=payload)
