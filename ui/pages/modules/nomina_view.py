@@ -6,10 +6,8 @@ from nicegui import ui
 from services.nomina_client import TABLAS_NOMINA, obtener_datos_tabla
 
 
+# Muestra ventana modal con los datos de la tabla especificada
 async def mostrar_tabla(nombre_logico: str):
-    """
-    Shows the data of a specified table in a NiceGUI dialog.
-    """
     try:
         data = await obtener_datos_tabla(nombre_logico)
         ui.notify(f"{nombre_logico} consultado correctamente.")
@@ -18,14 +16,34 @@ async def mostrar_tabla(nombre_logico: str):
             ui.notify("No se encontraron datos para mostrar.", type="info")
             return
 
-        columns = [{"name": key, "label": key, "field": key} for key in
-                   data[0].keys()]
+        columns = [{"name": key, "label": key, "field": key, "align": "left"}
+                   for key in data[0].keys()]
+
+        # Configuración de paginación dinámica
+        data_length = len(data)
+        pagination = {
+            "rows_per_page": min(10, data_length)
+        } if data_length > 10 else {"rows_per_page": data_length}
+
+        # Determinar ancho según cantidad de columnas
+        column_count = len(columns)
+        card_classes = "w-full h-full max-h-screen "
+        if column_count > 8:
+            card_classes += "min-w-[90vw] max-w-none"
+        else:
+            card_classes += "max-w-screen-xl"
 
         with ui.dialog() as dialog:
-            with ui.card().classes("w-full h-full"):
+            with ui.card().classes(card_classes):
                 ui.label(f"Datos de {nombre_logico}").classes(
                     "text-lg font-bold")
-                ui.table(columns=columns, rows=data).classes("w-full h-full")
+
+                ui.table(
+                    columns=columns,
+                    rows=data,
+                    pagination=pagination
+                ).classes("w-full h-full overflow-x-auto")
+
                 ui.button("Cerrar", on_click=dialog.close)
         dialog.open()
 
@@ -106,7 +124,7 @@ def show():
 
                 with ui.row():  # Group the buttons together
                     ui.button(
-                        "Consultar",
+                        "Visualizar datos",
                         on_click=lambda n=nombre_logico: mostrar_tabla(n)
                     ).props(
                         "color=primary outline size=sm")  # Added size for
