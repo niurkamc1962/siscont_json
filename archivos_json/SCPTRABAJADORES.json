@@ -19,27 +19,50 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
-            "identity_number": "00032166882",
-            "first_name": "JOAQUÍN",
-            "last_name": "LEAL",
-            "second_surname": "LUGONES",
+            "identity_number": "00040782969",
+            "first_name": "PEDRO",
+            "last_name": "ALMEIDA",
+            "second_surname": "COBAS",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "TECNICO SUPERIOR EN ADIESTRAMIENTO ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2023-09-11 00:00:00",
+            "designation": "ESP C CIENCIAS INFORMATICAS        ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2025-05-05 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
-            "banc_ac_no": "0598712147112711",
+            "banc_ac_no": "0598712159772710",
             "company_email": null,
             "accumulate_vacations": "1",
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
+        },
+        {
+            "identity_number": "00050566886",
+            "first_name": "DARIAN",
+            "last_name": "ORIA",
+            "second_surname": "PÉREZ",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "TECNICO SUPERIOR EN ADIESTRAMIENTO ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2025-01-06 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712150076811",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "00052668642",
@@ -59,7 +82,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
+        },
+        {
+            "identity_number": "00082682642",
+            "first_name": "CARLOS ALBERTO",
+            "last_name": "MASIP",
+            "second_surname": "RODRIGUEZ",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "TECNICO SUPERIOR EN ADIESTRAMIENTO ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2024-08-01 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0699912162237714",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "00112560300",
@@ -79,7 +124,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
+        },
+        {
+            "identity_number": "01013068650",
+            "first_name": "MARIA CARLA",
+            "last_name": "FERNÁNDEZ",
+            "second_surname": "XPHONAINE",
+            "gender": "F",
+            "occupational_category": "TÉCNICO",
+            "designation": "TECNICO SUPERIOR EN ADIESTRAMIENTO ",
+            "employment_type": "ADIESTRADO",
+            "date_of_joining": "2024-10-01 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712165337517",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 42
         },
         {
             "identity_number": "01020867617",
@@ -88,8 +155,8 @@
             "second_surname": "BOLAÑO",
             "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "TECNICO CIENCIAS INFORMATICAS      ",
-            "employment_type": "CONTRATADO",
+            "designation": "TECNICO SUPERIOR EN ADIESTRAMIENTO ",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2023-08-15 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -99,7 +166,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "01021568460",
@@ -108,7 +176,7 @@
             "second_surname": "FIGUEROA",
             "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "TECNICO MEDIO EN ADIESTRAMIENTO    ",
+            "designation": "TÉCNICO EN METROLOGIA              ",
             "employment_type": "DESTAJO",
             "date_of_joining": "2020-01-08 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -119,7 +187,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "01040568259",
@@ -139,7 +208,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
+        },
+        {
+            "identity_number": "01041081705",
+            "first_name": "DAIRON",
+            "last_name": "AZCANIO",
+            "second_surname": "ZAPATA",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "TECNICO EN INSTRUMENTACIÓN         ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2025-05-05 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0699912326414316",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "01042968463",
@@ -159,7 +250,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
+        },
+        {
+            "identity_number": "01062067368",
+            "first_name": "HANSEL",
+            "last_name": "TAPIA",
+            "second_surname": "LLODY",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "TECNICO SUPERIOR EN ADIESTRAMIENTO ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2024-05-21 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712156427712",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "01071866737",
@@ -179,7 +292,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "01073081731",
@@ -199,7 +313,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "01111468033",
@@ -208,8 +323,8 @@
             "second_surname": "BOLAÑO",
             "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "TECNICO SUPERIOR EN ADIESTRAMIENTO ",
-            "employment_type": "ADIESTRADO",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
+            "employment_type": "INDETERMINADO",
             "date_of_joining": "2023-01-04 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -219,27 +334,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "02011365770",
-            "first_name": "DIANA",
-            "last_name": "RODRIGUEZ",
-            "second_surname": "MONTES",
-            "gender": "F",
-            "occupational_category": "TÉCNICO",
-            "designation": "TECNICO GESTION DOCUMENTAL         ",
-            "employment_type": "CONTRATADO",
-            "date_of_joining": "2023-09-07 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": null,
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "02021364491",
@@ -259,7 +355,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
+        },
+        {
+            "identity_number": "02060770095",
+            "first_name": "MARIA DE LOURDES",
+            "last_name": "CHOY",
+            "second_surname": "FERNÁNDEZ",
+            "gender": "F",
+            "occupational_category": "TÉCNICO",
+            "designation": "TECNICO SUPERIOR EN ADIESTRAMIENTO ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2025-05-15 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712205582714",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "02101361880",
@@ -268,7 +386,7 @@
             "second_surname": "POPA",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESPECIALISTA C EN GESTION ECONOMICA",
+            "designation": "ESP.B GESTION ECONOMICA            ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2023-04-17 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -279,7 +397,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 42
         },
         {
             "identity_number": "02110766885",
@@ -299,47 +418,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "02111266773",
-            "first_name": "XABETH",
-            "last_name": "DUÁREZ",
-            "second_surname": "SUÁREZ",
-            "gender": "F",
-            "occupational_category": "TÉCNICO",
-            "designation": "TECNICO GESTION DOCUMENTAL         ",
-            "employment_type": "CONTRATADO",
-            "date_of_joining": "2023-09-07 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": null,
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "03012166916",
-            "first_name": "LIETY",
-            "last_name": "ELEJALDE",
-            "second_surname": "MARTINEZ",
-            "gender": "F",
-            "occupational_category": "TÉCNICO",
-            "designation": "CONTADOR D                         ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2024-01-04 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712224449518",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "03022260411",
@@ -359,7 +439,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
+        },
+        {
+            "identity_number": "03081767454",
+            "first_name": "MELANI",
+            "last_name": "FORSYTHE",
+            "second_surname": "MATOS",
+            "gender": "F",
+            "occupational_category": "TÉCNICO",
+            "designation": "TECNICO CIENCIAS INFORMATICAS      ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2024-05-17 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712215802313",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "03112967703",
@@ -369,7 +471,7 @@
             "gender": "M",
             "occupational_category": "OBRERO",
             "designation": "OPERADOR A INSTALADOR REPARADOR    ",
-            "employment_type": "INDETERMINADO",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2023-03-20 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -379,7 +481,71 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
+        },
+        {
+            "identity_number": "03112968408",
+            "first_name": "ADRIAN ALEJANDRO",
+            "last_name": "SOUTO",
+            "second_surname": "MORALES",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "TECNICO CIENCIAS INFORMATICAS      ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2024-05-17 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598711140330315",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 17
+        },
+        {
+            "identity_number": "04020381244",
+            "first_name": "ALBERTO",
+            "last_name": "ARIAS",
+            "second_surname": "TORRES",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "TECNICO MEDIO EN ADIESTRAMIENTO    ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2025-02-10 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0699912183502513",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 22
+        },
+        {
+            "identity_number": "04021468578",
+            "first_name": "LAURA",
+            "last_name": "ALONSO",
+            "second_surname": "RIVERO",
+            "gender": "F",
+            "occupational_category": "TÉCNICO",
+            "designation": "TECNICO CIENCIAS INFORMATICAS      ",
+            "employment_type": "INDETERMINADO",
+            "date_of_joining": "2025-04-11 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712224789413",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "04123167705",
@@ -388,8 +554,8 @@
             "second_surname": "TUERO",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "TECNICO MEDIO EN ADIESTRAMIENTO    ",
-            "employment_type": "ADIESTRADO",
+            "designation": "TECNICO CIENCIAS INFORMATICAS      ",
+            "employment_type": "INDETERMINADO",
             "date_of_joining": "2023-01-04 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -399,7 +565,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "44112700209",
@@ -419,7 +586,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "48091922809",
@@ -439,7 +607,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "50042100804",
@@ -459,7 +628,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "52071214905",
@@ -479,7 +649,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "52091610773",
@@ -499,7 +670,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "53011506846",
@@ -519,27 +691,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "53041901822",
-            "first_name": "JORGE LUIS",
-            "last_name": "DÍAZ",
-            "second_surname": "VALDÉS",
-            "gender": "M",
-            "occupational_category": "OBRERO",
-            "designation": "AYUDANTE                           ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2016-04-20 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712038814610",
-            "company_email": "reinierm@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "53071310166",
@@ -548,7 +701,7 @@
             "second_surname": "FERNANDEZ",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC.",
+            "designation": "ESP.A COMUNICACIONES Y TELECONTROL ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2013-03-04 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -559,7 +712,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "53111426851",
@@ -579,7 +733,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "54052609319",
@@ -599,7 +754,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "54060900020",
@@ -619,27 +775,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "54112310206",
-            "first_name": "ALEXIS",
-            "last_name": "RODRÍGUEZ",
-            "second_surname": "ROSABAL",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP.A EN AUTOMATIZACION (EP)       ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2018-07-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0699912023538117",
-            "company_email": "arrosabal@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 19
         },
         {
             "identity_number": "55031224446",
@@ -659,7 +796,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "56031212668",
@@ -679,7 +817,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "56081507615",
@@ -699,7 +838,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "56123014421",
@@ -719,7 +859,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "57062501617",
@@ -739,7 +880,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "57070110022",
@@ -759,7 +901,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "57120800602",
@@ -779,7 +922,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "58032310548",
@@ -799,7 +943,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "58042107793",
@@ -819,27 +964,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "58061809809",
-            "first_name": "ARMANDO",
-            "last_name": "PERDOMO",
-            "second_surname": "SÁNCHEZ",
-            "gender": "M",
-            "occupational_category": "OBRERO",
-            "designation": "MECANICO B AUTOMOTOR               ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2022-10-17 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712136955510",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "58110301744",
@@ -859,7 +985,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "58110701978",
@@ -879,7 +1006,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "58111512534",
@@ -899,7 +1027,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "58122901495",
@@ -919,27 +1048,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "59032810660",
-            "first_name": "JUAN LUIS",
-            "last_name": "CANO",
-            "second_surname": "GIRÓN",
-            "gender": "M",
-            "occupational_category": "OBRERO",
-            "designation": "MECÁNICO A DE TALLER               ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2018-07-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0699912023542814",
-            "company_email": "jlcano@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 14
         },
         {
             "identity_number": "59070405140",
@@ -959,7 +1069,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 23
         },
         {
             "identity_number": "59071104585",
@@ -979,7 +1090,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "59091512986",
@@ -999,7 +1111,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "59092610779",
@@ -1019,7 +1132,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 23
         },
         {
             "identity_number": "59120737394",
@@ -1039,7 +1153,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "60020411994",
@@ -1059,7 +1174,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "60031600409",
@@ -1079,7 +1195,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "60061800102",
@@ -1088,7 +1205,7 @@
             "second_surname": "NUBIOLA",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC.",
+            "designation": "ESP.A EN PROYECTO E INGENIERIA     ",
             "employment_type": "DESTAJO",
             "date_of_joining": "2013-10-28 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -1099,7 +1216,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 21
         },
         {
             "identity_number": "60061908918",
@@ -1119,7 +1237,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "60072325181",
@@ -1139,7 +1258,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "60081311597",
@@ -1159,7 +1279,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "60092509624",
@@ -1179,7 +1300,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "61012114684",
@@ -1199,7 +1321,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "61013130984",
@@ -1219,7 +1342,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "61020912428",
@@ -1228,7 +1352,7 @@
             "second_surname": "AGUIRRE",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC.",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2015-02-16 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -1239,27 +1363,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "61021013243",
-            "first_name": "JUSTO GUILLERMO",
-            "last_name": "TORRENS",
-            "second_surname": "JUNQUE",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "TÉCNICO EN METROLOGIA              ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2018-07-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0699912057521517",
-            "company_email": "jtorrens@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "61040215600",
@@ -1268,7 +1373,7 @@
             "second_surname": "VEITÍA",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TEC.COM.AUT.Y SERV.TEC(EP",
+            "designation": "ESP.A COMUNIC. Y TELECONTROL (EP)  ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2023-04-03 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -1279,7 +1384,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "61041514073",
@@ -1299,7 +1405,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "61090815769",
@@ -1319,7 +1426,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "61110603939",
@@ -1339,7 +1447,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "61111004421",
@@ -1359,7 +1468,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "62012414685",
@@ -1379,7 +1489,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "62030100909",
@@ -1399,7 +1510,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
+        },
+        {
+            "identity_number": "62072421333",
+            "first_name": "ROSA CRISTINA",
+            "last_name": "GARCÍA",
+            "second_surname": "GONZÁLEZ",
+            "gender": "F",
+            "occupational_category": "TÉCNICO",
+            "designation": "ESP.B GESTION ECONOMICA            ",
+            "employment_type": "CONTRATADO",
+            "date_of_joining": "2025-03-18 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712224710919",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 42
         },
         {
             "identity_number": "62080120399",
@@ -1419,27 +1552,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
-            "identity_number": "62092013053",
-            "first_name": "ALINA LÁZARA",
-            "last_name": "DIAGO",
+            "identity_number": "62082710629",
+            "first_name": "JESÚS ARNOLDO",
+            "last_name": "TAULER",
             "second_surname": "ALONSO",
-            "gender": "F",
+            "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "CONTADOR D                         ",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
             "employment_type": "INDETERMINADO",
-            "date_of_joining": "2023-09-25 00:00:00",
+            "date_of_joining": "2025-03-13 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
-            "banc_ac_no": "0598712028608619",
-            "company_email": null,
+            "banc_ac_no": "0598712115256218",
+            "company_email": "andres@tm.cupet.cu",
             "accumulate_vacations": "1",
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "62100616222",
@@ -1448,7 +1583,7 @@
             "second_surname": "RIOS",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TEC.COM.AUT.Y SERV.TEC(EP",
+            "designation": "ESP.A COMUNIC. Y TELECONTROL (EP)  ",
             "employment_type": "DESTAJO",
             "date_of_joining": "1982-05-18 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -1459,7 +1594,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "62102112478",
@@ -1468,7 +1604,7 @@
             "second_surname": "SILVA",
             "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TEC.COM.AUT.Y SERV.TEC(EP",
+            "designation": "ESP.A EN PROYECTO E INGENIERIA (EP)",
             "employment_type": "DESTAJO",
             "date_of_joining": "2009-11-23 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -1479,7 +1615,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 21
         },
         {
             "identity_number": "62110407625",
@@ -1499,7 +1636,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "62121213429",
@@ -1519,7 +1657,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "62121415152",
@@ -1539,7 +1678,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "63012903201",
@@ -1559,7 +1699,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "63022400679",
@@ -1579,7 +1720,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "63033011409",
@@ -1599,7 +1741,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "63060209449",
@@ -1619,7 +1762,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "63060432157",
@@ -1639,7 +1783,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "63071332297",
@@ -1659,7 +1804,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "63090716955",
@@ -1668,7 +1814,7 @@
             "second_surname": "LÓPEZ",
             "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP. B EN GESTION DE LA CALIDAD(EP)",
+            "designation": "ESP B GESTION DE CALIDAD           ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2018-08-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -1679,7 +1825,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 23
         },
         {
             "identity_number": "63091713447",
@@ -1699,27 +1846,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "63110910091",
-            "first_name": "MARTA ELENA",
-            "last_name": "BELL",
-            "second_surname": "MILLET",
-            "gender": "F",
-            "occupational_category": "ADMINISTRATIVO",
-            "designation": "AGENTE DE SEGURIDAD Y PROTECCIÓN   ",
-            "employment_type": "CONTRATADO",
-            "date_of_joining": "2024-03-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0699912059504514",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "63112013099",
@@ -1739,7 +1867,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 42
         },
         {
             "identity_number": "63120612865",
@@ -1748,7 +1877,7 @@
             "second_surname": "GARCÍA",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC.",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2019-01-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -1759,27 +1888,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "63121515197",
-            "first_name": "CRISTINA",
-            "last_name": "DRAGO",
-            "second_surname": "VILDA",
-            "gender": "F",
-            "occupational_category": "SERVICIO",
-            "designation": "ENCARGADO RECEP Y PIZARRA TELEFON. ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2013-01-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712084482614",
-            "company_email": "nelson@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "64011002001",
@@ -1799,7 +1909,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "64060502286",
@@ -1819,7 +1930,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "64070212605",
@@ -1839,7 +1951,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "64082627337",
@@ -1849,7 +1962,7 @@
             "gender": "F",
             "occupational_category": "TÉCNICO",
             "designation": "ESPECIALISTA B GESTION COMERCIAL   ",
-            "employment_type": "INDETERMINADO",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2009-11-23 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -1859,7 +1972,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "64090916067",
@@ -1879,7 +1993,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "64091211135",
@@ -1899,7 +2014,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "64100614317",
@@ -1919,7 +2035,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "64101800709",
@@ -1939,7 +2056,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "64102433806",
@@ -1959,7 +2077,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "64111113073",
@@ -1979,7 +2098,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
+        },
+        {
+            "identity_number": "64120600841",
+            "first_name": "JOSÉ DANIEL",
+            "last_name": "MENESES",
+            "second_surname": "MIRANDA",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "ESP.A EN NMCC                      ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2025-05-09 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712243614617",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "65010203132",
@@ -1999,7 +2140,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "65011100751",
@@ -2019,7 +2161,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "65012100819",
@@ -2029,7 +2172,7 @@
             "gender": "F",
             "occupational_category": "TÉCNICO",
             "designation": "ESP. C GESTIÓN CALIDAD             ",
-            "employment_type": "INDETERMINADO",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2021-11-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -2039,7 +2182,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "65020302310",
@@ -2059,7 +2203,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 14
         },
         {
             "identity_number": "65021208470",
@@ -2068,8 +2213,8 @@
             "second_surname": "MIGOYO",
             "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.B EN CIENCIAS INFORMATICAS (EP)",
-            "employment_type": "DESTAJO",
+            "designation": "ESP.A COMUNICACIONES Y TELECONTROL ",
+            "employment_type": "INDETERMINADO",
             "date_of_joining": "2009-11-23 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -2079,27 +2224,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "65052741605",
-            "first_name": "EDUARDO",
-            "last_name": "PUIG",
-            "second_surname": "SARMIENTOS",
-            "gender": "M",
-            "occupational_category": "OBRERO",
-            "designation": "CHOFER D                           ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2008-04-21 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712040134312",
-            "company_email": "aperezm@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "65062801334",
@@ -2119,7 +2245,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "65080710955",
@@ -2139,7 +2266,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "65100301963",
@@ -2159,7 +2287,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "65100828046",
@@ -2179,7 +2308,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "65113006695",
@@ -2199,7 +2329,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
+        },
+        {
+            "identity_number": "66011631840",
+            "first_name": "YVAN",
+            "last_name": "RAMIREZ",
+            "second_surname": "MARIN",
+            "gender": "M",
+            "occupational_category": "OBRERO",
+            "designation": "CHOFER C                           ",
+            "employment_type": "INDETERMINADO",
+            "date_of_joining": "2025-04-01 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712040126012",
+            "company_email": "aperezm@tm.cupet.cu",
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "66021014731",
@@ -2219,7 +2371,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 14
         },
         {
             "identity_number": "66032609913",
@@ -2239,7 +2392,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "66042318899",
@@ -2259,7 +2413,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "66042706903",
@@ -2279,7 +2434,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
+        },
+        {
+            "identity_number": "66051508045",
+            "first_name": "ISIDRO",
+            "last_name": "LEGRÁ",
+            "second_surname": "COBAS",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "TÉCNICO EN METROLOGIA              ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2024-09-02 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0699912305204318",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "66070701597",
@@ -2299,7 +2476,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "66071301536",
@@ -2309,7 +2487,7 @@
             "gender": "F",
             "occupational_category": "TÉCNICO",
             "designation": "ESP B CIENCIAS INFORMATICAS        ",
-            "employment_type": "INDETERMINADO",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2020-10-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -2319,7 +2497,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "66071512721",
@@ -2329,7 +2508,7 @@
             "gender": "M",
             "occupational_category": "TÉCNICO",
             "designation": "ESP.A EN AUTOMATIZACION            ",
-            "employment_type": "INDETERMINADO",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2022-01-04 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -2339,7 +2518,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "66071909334",
@@ -2359,7 +2539,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 19
         },
         {
             "identity_number": "66121614613",
@@ -2379,7 +2560,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "66122221764",
@@ -2389,7 +2571,7 @@
             "gender": "M",
             "occupational_category": "TÉCNICO",
             "designation": "MECÁNICO A ELECT.MONT.EQ.MED.CONT. ",
-            "employment_type": "INDETERMINADO",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2022-01-04 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -2399,7 +2581,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "67031012497",
@@ -2419,7 +2602,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 23
         },
         {
             "identity_number": "67040401352",
@@ -2439,27 +2623,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "67080601065",
-            "first_name": "WALTER OMAR",
-            "last_name": "DIMAS",
-            "second_surname": "NODAL",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESPECIALISTA B GESTION COMERCIAL   ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2014-04-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712006708116",
-            "company_email": "walter@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "67082711832",
@@ -2479,7 +2644,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "67082919113",
@@ -2499,7 +2665,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 42
         },
         {
             "identity_number": "67100416944",
@@ -2508,7 +2675,7 @@
             "second_surname": "HERNÁNDEZ",
             "gender": "M",
             "occupational_category": "OBRERO",
-            "designation": "CHOFER D                           ",
+            "designation": "MECÁNICO A ELECT.MONT.EQ.MED.CONT. ",
             "employment_type": "DESTAJO",
             "date_of_joining": "2018-07-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -2519,7 +2686,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "67101100203",
@@ -2539,7 +2707,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "67101301590",
@@ -2559,7 +2728,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 19
         },
         {
             "identity_number": "67101520259",
@@ -2579,7 +2749,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "67110214750",
@@ -2599,7 +2770,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "68011022269",
@@ -2619,13 +2791,14 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "68020223204",
             "first_name": "OMAR BERTO",
             "last_name": "MARTÍNEZ",
-            "second_surname": "FERNÁNDEZ",
+            "second_surname": "BORGES",
             "gender": "M",
             "occupational_category": "TÉCNICO",
             "designation": "ESPECIALISTA METROLOGIA            ",
@@ -2639,7 +2812,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "68031431551",
@@ -2659,7 +2833,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "68042828842",
@@ -2679,7 +2854,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "68061101495",
@@ -2699,7 +2875,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "68072831736",
@@ -2719,7 +2896,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "68082901410",
@@ -2739,7 +2917,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "68112210141",
@@ -2759,7 +2938,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 21
         },
         {
             "identity_number": "68112701419",
@@ -2779,7 +2959,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 19
         },
         {
             "identity_number": "68122720203",
@@ -2799,7 +2980,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "69020609077",
@@ -2819,7 +3001,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "69062601447",
@@ -2828,7 +3011,7 @@
             "second_surname": "PÉREZ",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC.",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2014-09-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -2839,7 +3022,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "69070526229",
@@ -2859,7 +3043,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
+        },
+        {
+            "identity_number": "69090402089",
+            "first_name": "FRANCISCO",
+            "last_name": "RODRÍGUEZ",
+            "second_surname": "SOSA",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "ESP B GESTION DE CALIDAD           ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2024-06-03 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712125558812",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "69110632184",
@@ -2879,27 +3085,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "70042707628",
-            "first_name": "SERGIO",
-            "last_name": "HERNANDEZ",
-            "second_surname": "BARDANCA",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP C CIENCIAS INFORMATICAS        ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2009-11-23 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712045030616",
-            "company_email": "babycmg@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "70053014583",
@@ -2909,7 +3096,7 @@
             "gender": "M",
             "occupational_category": "OBRERO",
             "designation": "ELECTRICISTA B AUTOMOTOR           ",
-            "employment_type": "DESTAJO",
+            "employment_type": "CONTRATADO",
             "date_of_joining": "2023-08-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -2919,7 +3106,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "70060113916",
@@ -2939,7 +3127,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 19
         },
         {
             "identity_number": "70061711880",
@@ -2959,7 +3148,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "70081909843",
@@ -2979,7 +3169,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "70090232902",
@@ -2988,7 +3179,7 @@
             "second_surname": "PEREZ",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TEC.COM.AUT.Y SERV.TEC(EP",
+            "designation": "ESP.B EN CIENCIAS INFORMATICAS (EP)",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2013-01-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -2999,7 +3190,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "70121613831",
@@ -3019,7 +3211,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "70122713634",
@@ -3028,7 +3221,7 @@
             "second_surname": "DE LA NUEZ",
             "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP B CIENCIAS INFORMATICAS        ",
+            "designation": "DIRECTOR UEB SOPORTE A APLICACIONES",
             "employment_type": "DESTAJO",
             "date_of_joining": "2009-11-23 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -3039,7 +3232,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "71020411640",
@@ -3048,7 +3242,7 @@
             "second_surname": "PÉREZ",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.A EN AUTOMATIZACION            ",
+            "designation": "ESP.A EN AUTOMATIZACION (EP)       ",
             "employment_type": "DESTAJO",
             "date_of_joining": "2023-07-04 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -3059,7 +3253,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "71021015293",
@@ -3079,7 +3274,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 23
         },
         {
             "identity_number": "71071401070",
@@ -3099,7 +3295,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
+        },
+        {
+            "identity_number": "71091109876",
+            "first_name": "YAMILA",
+            "last_name": "RUIZ",
+            "second_surname": "MIYARES",
+            "gender": "F",
+            "occupational_category": "TÉCNICO",
+            "designation": "ESP.A EN AUTOMATIZACION            ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2025-05-05 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0699912122776612",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "71091302482",
@@ -3119,7 +3337,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "71100404315",
@@ -3128,8 +3347,8 @@
             "second_surname": "PADRON",
             "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.C GESTION COMERCIAL            ",
-            "employment_type": "INDETERMINADO",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2013-01-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -3139,7 +3358,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "71102900618",
@@ -3159,7 +3379,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "72011402366",
@@ -3179,27 +3400,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "72011405144",
-            "first_name": "ARIEL",
-            "last_name": "VILLAREAL",
-            "second_surname": "ALONSO",
-            "gender": "M",
-            "occupational_category": "OBRERO",
-            "designation": "OPERADOR A INSTALADOR REPARADOR    ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2009-11-23 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712040134815",
-            "company_email": "avillarreal@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "72011801188",
@@ -3208,7 +3410,7 @@
             "second_surname": "LANDIN",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.GRAL.TECNOL.COM.AUT.Y SERV.TEC ",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2013-01-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -3219,7 +3421,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "72022232122",
@@ -3239,7 +3442,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "72022501830",
@@ -3259,7 +3463,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "72052600151",
@@ -3279,7 +3484,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 19
         },
         {
             "identity_number": "72090214936",
@@ -3299,7 +3505,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "72092112041",
@@ -3319,7 +3526,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "72120513573",
@@ -3339,7 +3547,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "73022507152",
@@ -3359,7 +3568,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "73060317826",
@@ -3368,7 +3578,7 @@
             "second_surname": "LABORDE",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TEC.COM.AUT.Y SERV.TEC(EP",
+            "designation": "ESP.A EN PROYECTO E INGENIERIA     ",
             "employment_type": "DESTAJO",
             "date_of_joining": "2014-12-15 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -3379,7 +3589,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 21
+        },
+        {
+            "identity_number": "73070709384",
+            "first_name": "JORGE ALBERTO",
+            "last_name": "GARCÍA ",
+            "second_surname": "PUIG",
+            "gender": "M",
+            "occupational_category": "OBRERO",
+            "designation": "CHOFER D                           ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2025-05-19 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": null,
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "73081800054",
@@ -3399,7 +3631,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "73092506265",
@@ -3419,7 +3652,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "73102201389",
@@ -3439,7 +3673,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "73103112290",
@@ -3448,7 +3683,7 @@
             "second_surname": "RUBIO",
             "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC.",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2015-05-11 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -3459,27 +3694,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
-            "identity_number": "74020903131",
-            "first_name": "ANA JACQUELINE",
-            "last_name": "SANCHEZ",
-            "second_surname": "ROQUE",
-            "gender": "F",
-            "occupational_category": "TÉCNICO",
-            "designation": "TÉCNICO GESTIÓN COMERCIAL          ",
+            "identity_number": "74011121926",
+            "first_name": "ILSON JOEL",
+            "last_name": "INFANTE",
+            "second_surname": "BRITO",
+            "gender": "M",
+            "occupational_category": "OBRERO",
+            "designation": "TORRERO A                          ",
             "employment_type": "INDETERMINADO",
-            "date_of_joining": "2015-03-23 00:00:00",
+            "date_of_joining": "2024-06-17 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
-            "banc_ac_no": "0598712108392310",
-            "company_email": "anaj@tm.cupet.cu",
+            "banc_ac_no": "0598712072647610",
+            "company_email": null,
             "accumulate_vacations": "1",
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "74031400934",
@@ -3499,7 +3736,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "74062432273",
@@ -3519,7 +3757,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "74080202985",
@@ -3539,7 +3778,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "74083104982",
@@ -3559,7 +3799,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
+        },
+        {
+            "identity_number": "74102824940",
+            "first_name": "JUAN CARLOS",
+            "last_name": "HERNÁNDEZ",
+            "second_surname": "RAMOS",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
+            "employment_type": "INDETERMINADO",
+            "date_of_joining": "2024-10-01 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712125103816",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "75021503226",
@@ -3579,7 +3841,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
+        },
+        {
+            "identity_number": "75021604608",
+            "first_name": "EDDY",
+            "last_name": "PÉREZ",
+            "second_surname": "COBAS",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
+            "employment_type": "INDETERMINADO",
+            "date_of_joining": "2024-09-02 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712151620713",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "75082732919",
@@ -3599,7 +3883,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "75102101862",
@@ -3619,7 +3904,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "76020601494",
@@ -3639,7 +3925,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 42
         },
         {
             "identity_number": "76022501488",
@@ -3659,7 +3946,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "76050801464",
@@ -3668,7 +3956,7 @@
             "second_surname": "PÉREZ",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC.",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2015-08-03 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -3679,7 +3967,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "76072212550",
@@ -3699,7 +3988,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 19
         },
         {
             "identity_number": "76090405486",
@@ -3719,7 +4009,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "76101004480",
@@ -3739,7 +4030,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "76101811667",
@@ -3753,53 +4045,14 @@
             "date_of_joining": "2020-09-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
-            "banc_ac_no": "0699912018569118",
+            "banc_ac_no": "0598712236381514",
             "company_email": "oruiz@tm.cupet.cu",
             "accumulate_vacations": "1",
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "76103045717",
-            "first_name": "MERLEIDIS",
-            "last_name": "TURRO",
-            "second_surname": "MILIAN",
-            "gender": "F",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP. C GESTIÓN CALIDAD             ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2023-04-03 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712071468818",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "76103100761",
-            "first_name": "LIERLY",
-            "last_name": "ORTEGA",
-            "second_surname": "GROERO",
-            "gender": "M",
-            "occupational_category": "DIRIGENTE",
-            "designation": "DIRECTOR UEB DESAR.SISTEMA INFORMAT",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2010-03-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712060485619",
-            "company_email": "lierly@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 23
         },
         {
             "identity_number": "76110411432",
@@ -3819,7 +4072,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "76111802301",
@@ -3839,7 +4093,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "77061106410",
@@ -3849,7 +4104,7 @@
             "gender": "F",
             "occupational_category": "TÉCNICO",
             "designation": "ESP B CIENCIAS INFORMATICAS        ",
-            "employment_type": "INDETERMINADO",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2013-01-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -3859,7 +4114,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "77070917325",
@@ -3879,7 +4135,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
+        },
+        {
+            "identity_number": "77072107102",
+            "first_name": "RENOULD",
+            "last_name": "BATLLE",
+            "second_surname": "RODRÍGUEZ",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "ESP C CIENCIAS INFORMATICAS        ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2025-03-03 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712125942410",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "77072409588",
@@ -3888,7 +4166,7 @@
             "second_surname": "PIESTRO",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC.",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2011-03-14 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -3899,7 +4177,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "77100411811",
@@ -3919,7 +4198,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 23
         },
         {
             "identity_number": "77111804598",
@@ -3929,7 +4209,7 @@
             "gender": "F",
             "occupational_category": "TÉCNICO",
             "designation": "ESP B CIENCIAS INFORMATICAS        ",
-            "employment_type": "DESTAJO",
+            "employment_type": "INDETERMINADO",
             "date_of_joining": "2021-05-13 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -3939,7 +4219,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "77122906206",
@@ -3959,7 +4240,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "78022606391",
@@ -3979,7 +4261,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "78070530837",
@@ -3999,7 +4282,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "78071817664",
@@ -4019,7 +4303,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "78081200306",
@@ -4033,13 +4318,14 @@
             "date_of_joining": "2023-12-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
-            "banc_ac_no": null,
+            "banc_ac_no": "0699912018571610",
             "company_email": null,
             "accumulate_vacations": "1",
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "78092232031",
@@ -4059,47 +4345,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
-            "identity_number": "78120517686",
-            "first_name": "EDEIDY",
-            "last_name": "GARCÍA",
-            "second_surname": "MARICHAL",
-            "gender": "M",
-            "occupational_category": "DIRIGENTE",
-            "designation": "ESPECIALISTA METROLOGIA            ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2018-07-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0699912057522216",
-            "company_email": "egarcia@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "78122120906",
-            "first_name": "ADRIAN",
-            "last_name": "RODRIGUEZ",
-            "second_surname": "BERNET",
-            "gender": "M",
+            "identity_number": "78122808211",
+            "first_name": "AURORA",
+            "last_name": "MONTERO",
+            "second_surname": "RODRIGUEZ",
+            "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "TECNICO CIENCIAS INFORMATICAS      ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2016-03-11 00:00:00",
+            "designation": "ESP. B EN GESTION DOCUMENTAL       ",
+            "employment_type": "INDETERMINADO",
+            "date_of_joining": "2025-04-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
-            "banc_ac_no": "0598712119944013",
-            "company_email": "babycmg@tm.cupet.cu",
+            "banc_ac_no": "0598712160821417",
+            "company_email": null,
             "accumulate_vacations": "1",
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "79022723451",
@@ -4119,7 +4387,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "79030923413",
@@ -4139,27 +4408,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "79040205100",
-            "first_name": "ARLEY",
-            "last_name": "SÁNCHEZ",
-            "second_surname": "GARCÍA",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "TÉCNICO EN METROLOGIA              ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2018-07-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712060413411",
-            "company_email": "rmendoza@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "79070211084",
@@ -4179,7 +4429,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "79090608073",
@@ -4199,27 +4450,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "79100705218",
-            "first_name": "SISI FRANCISCA",
-            "last_name": "MENDEZ",
-            "second_surname": "HERMIDA",
-            "gender": "F",
-            "occupational_category": "DIRIGENTE",
-            "designation": "DIRECTOR CONTABLE FINANCIEROS      ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2011-12-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712040130217",
-            "company_email": "sisi@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "79112504547",
@@ -4229,7 +4461,7 @@
             "gender": "M",
             "occupational_category": "OBRERO",
             "designation": "OPERADOR A INSTALADOR REPARADOR    ",
-            "employment_type": "DESTAJO",
+            "employment_type": "INDETERMINADO",
             "date_of_joining": "2014-06-04 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -4239,7 +4471,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
+        },
+        {
+            "identity_number": "79113012195",
+            "first_name": "NIOSOTIS CARIDAD",
+            "last_name": "MESTRE",
+            "second_surname": "CARRERAS",
+            "gender": "F",
+            "occupational_category": "TÉCNICO",
+            "designation": "ESPECIALISTA C EN GESTION ECONOMICA",
+            "employment_type": "INDETERMINADO",
+            "date_of_joining": "2024-08-01 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712081229915",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 42
         },
         {
             "identity_number": "80021023415",
@@ -4249,7 +4503,7 @@
             "gender": "F",
             "occupational_category": "TÉCNICO",
             "designation": "ESP.A EN AUTOMATIZACION            ",
-            "employment_type": "INDETERMINADO",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2022-12-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -4259,7 +4513,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "80050303779",
@@ -4268,7 +4523,7 @@
             "second_surname": "LÓPEZ",
             "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TEC.COM.AUT.Y SERV.TEC(EP",
+            "designation": "ESP.A EN PROYECTO E INGENIERIA     ",
             "employment_type": "DESTAJO",
             "date_of_joining": "2015-07-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -4279,7 +4534,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 21
         },
         {
             "identity_number": "80051608180",
@@ -4293,13 +4549,14 @@
             "date_of_joining": "2024-04-09 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
-            "banc_ac_no": null,
+            "banc_ac_no": "0598712059071610",
             "company_email": null,
             "accumulate_vacations": "1",
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "80063006019",
@@ -4319,7 +4576,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "81013104141",
@@ -4328,7 +4586,7 @@
             "second_surname": "MONIER",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC.",
+            "designation": "ESP.A COMUNICACIONES Y TELECONTROL ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2013-01-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -4339,7 +4597,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
+        },
+        {
+            "identity_number": "81051915984",
+            "first_name": "HENRY RAÚL",
+            "last_name": "GONZÁLEZ  ",
+            "second_surname": "BRITO",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
+            "employment_type": "INDETERMINADO",
+            "date_of_joining": "2024-05-06 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712012631712",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "81082904152",
@@ -4359,7 +4639,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 14
         },
         {
             "identity_number": "81101823439",
@@ -4379,27 +4660,50 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 42
         },
         {
-            "identity_number": "81111915288",
-            "first_name": "YASSER",
-            "last_name": "DOMINGUEZ",
-            "second_surname": "RODRIGUEZ",
+            "identity_number": "81102706680",
+            "first_name": "MICHEL",
+            "last_name": "CASTANEDA",
+            "second_surname": "PEDROSO",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP C CIENCIAS INFORMATICAS        ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2009-11-23 00:00:00",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
+            "employment_type": "CONTRATADO",
+            "date_of_joining": "2024-08-12 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
-            "banc_ac_no": "0598712045030511",
-            "company_email": "babycmg@tm.cupet.cu",
+            "banc_ac_no": "0598712092744213",
+            "company_email": null,
             "accumulate_vacations": "1",
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
+        },
+        {
+            "identity_number": "81121623508",
+            "first_name": "ALFREDO OSCAR",
+            "last_name": "ATENCIO",
+            "second_surname": "PUJOL",
+            "gender": "F",
+            "occupational_category": "TÉCNICO",
+            "designation": "ESP C CIENCIAS INFORMATICAS        ",
+            "employment_type": "INDETERMINADO",
+            "date_of_joining": "2024-05-13 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712030918517",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "81121805778",
@@ -4409,7 +4713,7 @@
             "gender": "F",
             "occupational_category": "TÉCNICO",
             "designation": "ESP B GESTION DE CALIDAD           ",
-            "employment_type": "INDETERMINADO",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2019-06-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -4419,7 +4723,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "81121823467",
@@ -4439,7 +4744,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "82012508016",
@@ -4459,7 +4765,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "82062907210",
@@ -4479,7 +4786,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "82071507077",
@@ -4499,7 +4807,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 14
         },
         {
             "identity_number": "82081106611",
@@ -4519,7 +4828,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "82081507867",
@@ -4529,7 +4839,7 @@
             "gender": "M",
             "occupational_category": "DIRIGENTE",
             "designation": "DIRECTOR UEB DESAR.SISTEMA INFORMAT",
-            "employment_type": "INDETERMINADO",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2013-01-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -4539,7 +4849,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "82082217473",
@@ -4559,7 +4870,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "82090406028",
@@ -4579,7 +4891,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "82110107069",
@@ -4599,27 +4912,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "83013027850",
-            "first_name": "INDHIRA AIZU",
-            "last_name": "HERNANDEZ",
-            "second_surname": "ALVAREZ",
-            "gender": "F",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP B CIENCIAS INFORMATICAS        ",
-            "employment_type": "CONTRATADO",
-            "date_of_joining": "2023-03-13 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": null,
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "83021619390",
@@ -4639,27 +4933,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "83022003782",
-            "first_name": "DANIEL",
-            "last_name": "HERRERA",
-            "second_surname": "PÉREZ",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "TÉCNICO EN METROLOGIA              ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2018-07-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0699912057522813",
-            "company_email": "egarcia@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "83040729386",
@@ -4679,7 +4954,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "83072130026",
@@ -4699,27 +4975,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "83120528216",
-            "first_name": "YENEY",
-            "last_name": "LAUREN",
-            "second_surname": "PALACIOS",
-            "gender": "F",
-            "occupational_category": "SERVICIO",
-            "designation": "OPERARIO.CTRO SUP.CONTROL RADIOCOM.",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2017-09-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712084481119",
-            "company_email": "anaibis@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "83122125234",
@@ -4739,27 +4996,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "84032708888",
-            "first_name": "DENYS",
-            "last_name": "GARCIA",
-            "second_surname": "MORALES",
-            "gender": "M",
-            "occupational_category": "OBRERO",
-            "designation": "CHOFER C                           ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2009-11-23 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712040137017",
-            "company_email": "aperezm@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "84041306261",
@@ -4768,7 +5006,7 @@
             "second_surname": "DE LA FE",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC.",
+            "designation": "ESP.A EN PROYECTO E INGENIERIA     ",
             "employment_type": "DESTAJO",
             "date_of_joining": "2011-10-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -4779,7 +5017,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 21
         },
         {
             "identity_number": "84061905700",
@@ -4788,7 +5027,7 @@
             "second_surname": "ÁLVAREZ",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "TEC.GRA.INF.TEC.COMUN.ELEC.AUT.STEC",
+            "designation": "TÉCNICO EN PROYECTOS E INGENIERÍA  ",
             "employment_type": "DESTAJO",
             "date_of_joining": "2018-02-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -4799,7 +5038,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 21
         },
         {
             "identity_number": "84062405452",
@@ -4819,7 +5059,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "84080206181",
@@ -4839,7 +5080,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "84080226961",
@@ -4848,7 +5090,7 @@
             "second_surname": "POLANCO",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.GRAL SERV. TEC.EQUIPOS Y SIST. ",
+            "designation": "ESP C CIENCIAS INFORMATICAS        ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2023-12-11 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -4859,7 +5101,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "84082926745",
@@ -4879,27 +5122,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "84090704856",
-            "first_name": "YISEL",
-            "last_name": "VILLALOBOS",
-            "second_surname": "PEDRAYES",
-            "gender": "F",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP B CIENCIAS INFORMATICAS        ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2016-03-02 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712117031012",
-            "company_email": "yiselvp@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "84091505700",
@@ -4908,7 +5132,7 @@
             "second_surname": "CHAVECO",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TEC.COM.AUT.Y SERV.TEC(EP",
+            "designation": "ESP.A EN PROYECTO E INGENIERIA (EP)",
             "employment_type": "DESTAJO",
             "date_of_joining": "2011-09-05 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -4919,7 +5143,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 21
         },
         {
             "identity_number": "84111522684",
@@ -4939,7 +5164,50 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
+        },
+        {
+            "identity_number": "84112805784",
+            "first_name": "WILMAN",
+            "last_name": "GUEDES",
+            "second_surname": "CASTRO",
+            "gender": "M",
+            "occupational_category": "OBRERO",
+            "designation": "CHOFER D                           ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2024-08-26 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712077017213",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 27
+        },
+        {
+            "identity_number": "85050125134",
+            "first_name": "ODALIS",
+            "last_name": "DELGADO",
+            "second_surname": "FONSECA",
+            "gender": "F",
+            "occupational_category": "TÉCNICO",
+            "designation": "CONTADOR C                         ",
+            "employment_type": "INDETERMINADO",
+            "date_of_joining": "2024-06-17 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712148142210",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 42
         },
         {
             "identity_number": "85050306188",
@@ -4959,27 +5227,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "85062222984",
-            "first_name": "ERLAN ORESTES",
-            "last_name": "TOLL",
-            "second_surname": "PALMA",
-            "gender": "M",
-            "occupational_category": "ADMINISTRATIVO",
-            "designation": "AGENTE DE SEGURIDAD Y PROTECCIÓN   ",
-            "employment_type": "CONTRATADO",
-            "date_of_joining": "2024-03-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0699912198460718",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "85082026926",
@@ -4999,7 +5248,50 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
+        },
+        {
+            "identity_number": "85101717812",
+            "first_name": "MAILENIS",
+            "last_name": "GUILLÉN",
+            "second_surname": "MANTECÓN",
+            "gender": "F",
+            "occupational_category": "TÉCNICO",
+            "designation": "ESPECIALISTA C EN GESTION ECONOMICA",
+            "employment_type": "INDETERMINADO",
+            "date_of_joining": "2024-05-02 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712104868917",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 42
+        },
+        {
+            "identity_number": "85102308420",
+            "first_name": "GUILLERMO",
+            "last_name": "BRITO",
+            "second_surname": "ACUÑA",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
+            "employment_type": "CONTRATADO",
+            "date_of_joining": "2024-11-04 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712108111111",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "85110104937",
@@ -5008,7 +5300,7 @@
             "second_surname": "VERDECIA",
             "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.B GESTION ECONOMICA ESP PRINC. ",
+            "designation": "ESP.B GESTION ECONOMICA (EP)       ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2024-03-13 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -5019,7 +5311,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 42
         },
         {
             "identity_number": "85122515217",
@@ -5028,7 +5321,7 @@
             "second_surname": "GÁNDARA",
             "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC.",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2015-08-17 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -5039,7 +5332,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "86011025647",
@@ -5048,7 +5342,7 @@
             "second_surname": "MATOS",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "TÉCNICO EN METROLOGIA              ",
+            "designation": "ESP.A EN AUTOMATIZACION            ",
             "employment_type": "DESTAJO",
             "date_of_joining": "2018-07-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -5059,7 +5353,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "86022814902",
@@ -5079,7 +5374,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "86030424575",
@@ -5088,7 +5384,7 @@
             "second_surname": "ALCALÁ",
             "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "SISTEMATIZADOR C                   ",
+            "designation": "ESPECIALISTA B GESTION COMERCIAL   ",
             "employment_type": "DESTAJO",
             "date_of_joining": "2024-04-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -5099,7 +5395,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "86041008748",
@@ -5119,7 +5416,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "86061705784",
@@ -5128,7 +5426,7 @@
             "second_surname": "GOLLES",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TEC.COM.AUT.Y SERV.TEC(EP",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2014-07-17 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -5139,27 +5437,50 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
-            "identity_number": "86072525862",
-            "first_name": "JULIO ANTONIO",
-            "last_name": "LEE",
-            "second_surname": "FONSECA",
-            "gender": "M",
+            "identity_number": "86080506173",
+            "first_name": "YANET",
+            "last_name": "LAGUNA",
+            "second_surname": "PIEDRA",
+            "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP C CIENCIAS INFORMATICAS        ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2021-05-25 00:00:00",
+            "designation": "GESTOR B DE COMUNIC Y MARKETING    ",
+            "employment_type": "INDETERMINADO",
+            "date_of_joining": "2024-06-11 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
-            "banc_ac_no": "0598712210487819",
-            "company_email": "lierly@tm.cupet.cu",
+            "banc_ac_no": "0598712059801018",
+            "company_email": null,
             "accumulate_vacations": "1",
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 19
+        },
+        {
+            "identity_number": "86101614908",
+            "first_name": "OSBEL",
+            "last_name": "DÍAZ",
+            "second_surname": "TOSTE",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "ESPECIALISTA METROLOGIA            ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2024-07-01 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0699912054369410",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "86102208394",
@@ -5168,7 +5489,7 @@
             "second_surname": "ZURITA",
             "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.B GESTION ECONOMICA ESP PRINC. ",
+            "designation": "ESP.B GESTION ECONOMICA (EP)       ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2010-01-15 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -5179,7 +5500,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 42
         },
         {
             "identity_number": "86121505535",
@@ -5199,27 +5521,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "87020910060",
-            "first_name": "GEILE",
-            "last_name": "GARCÍA",
-            "second_surname": "GONZÁLEZ",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "SISTEMATIZADOR C                   ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2023-04-10 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712048550310",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 24
         },
         {
             "identity_number": "87042507930",
@@ -5239,7 +5542,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "87042933505",
@@ -5259,47 +5563,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "87051525822",
-            "first_name": "JOSÉ REINIER",
-            "last_name": "PLAZA",
-            "second_surname": "RODRÍGUEZ",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESPECIALISTA C EN GESTION ECONOMICA",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2023-11-27 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712206600010",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "87071506898",
-            "first_name": "JULIA",
-            "last_name": "RODRIGUEZ",
-            "second_surname": "SERRA",
-            "gender": "F",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESPECIALISTA B GESTION COMERCIAL   ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2013-10-14 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712051710413",
-            "company_email": "julia@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "87071911784",
@@ -5309,7 +5574,7 @@
             "gender": "M",
             "occupational_category": "TÉCNICO",
             "designation": "ESP.B EN CIENCIAS INFORMATICAS (EP)",
-            "employment_type": "INDETERMINADO",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2020-10-12 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -5319,7 +5584,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "87091006761",
@@ -5339,7 +5605,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "87092908330",
@@ -5359,7 +5626,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 23
         },
         {
             "identity_number": "87111133547",
@@ -5379,47 +5647,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
-            "identity_number": "87122133500",
-            "first_name": "RAINER MANUEL",
-            "last_name": "CAMIADE",
-            "second_surname": "PEÑA",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP.A EN AUTOMATIZACION (EP)       ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2018-07-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0699912023565010",
-            "company_email": "rmcamiade@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "88041708419",
-            "first_name": "YANETT",
-            "last_name": "FERNANDEZ",
-            "second_surname": "CARRERO",
+            "identity_number": "87122733415",
+            "first_name": "YULEIDIS",
+            "last_name": "EODRÍGUEZ",
+            "second_surname": "CUADRA",
             "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "ESPECIALISTA B GESTION COMERCIAL   ",
+            "designation": "ESP B CIENCIAS INFORMATICAS        ",
             "employment_type": "DESTAJO",
-            "date_of_joining": "2013-03-21 00:00:00",
+            "date_of_joining": "2024-06-11 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
-            "banc_ac_no": "0598712087892410",
-            "company_email": "yanett@tm.cupet.cu",
+            "banc_ac_no": "0598712012831012",
+            "company_email": null,
             "accumulate_vacations": "1",
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "88050701385",
@@ -5439,7 +5689,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
+        },
+        {
+            "identity_number": "88091110234",
+            "first_name": "ELAINE",
+            "last_name": "GUTIERREZ",
+            "second_surname": "ZAMORA",
+            "gender": "F",
+            "occupational_category": "TÉCNICO",
+            "designation": "ESP.B GESTION ECONOMICA            ",
+            "employment_type": "INDETERMINADO",
+            "date_of_joining": "2024-07-15 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712228211619",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 42
         },
         {
             "identity_number": "88091409586",
@@ -5459,7 +5731,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "88101407058",
@@ -5479,7 +5752,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 21
         },
         {
             "identity_number": "88110212096",
@@ -5499,7 +5773,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
+        },
+        {
+            "identity_number": "88112140782",
+            "first_name": "ADRIAN",
+            "last_name": "TAMAYO",
+            "second_surname": "AGUEDO",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "TÉCNICO EN METROLOGIA              ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2025-03-03 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0598712061339312",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "88112808110",
@@ -5519,7 +5815,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "88122735050",
@@ -5539,7 +5836,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "89010920566",
@@ -5559,27 +5857,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
-            "identity_number": "89021024292",
-            "first_name": "MADELVYS ISABEL",
-            "last_name": "MARTÍNEZ",
-            "second_surname": "CEPEDA",
-            "gender": "F",
+            "identity_number": "89012222980",
+            "first_name": "GONZALO",
+            "last_name": "SANCHEZ",
+            "second_surname": "FIDALGO",
+            "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.GRAL.TECNOL.COM.AUT.Y SERV.TEC ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2024-03-04 00:00:00",
+            "designation": "TECNICO CIENCIAS INFORMATICAS      ",
+            "employment_type": "CONTRATADO",
+            "date_of_joining": "2025-03-24 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
-            "banc_ac_no": "0598712210082319",
+            "banc_ac_no": "0598712106829213",
             "company_email": null,
             "accumulate_vacations": "1",
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
         },
         {
             "identity_number": "89031322985",
@@ -5599,27 +5899,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "89042620231",
-            "first_name": "GRETEL",
-            "last_name": "GARCÍA",
-            "second_surname": "BARRETO",
-            "gender": "F",
-            "occupational_category": "TÉCNICO",
-            "designation": "TECNICO A GESTION ECONOMICA        ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2023-05-02 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712157707812",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "89070318656",
@@ -5639,7 +5920,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 14
         },
         {
             "identity_number": "89092146148",
@@ -5659,27 +5941,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "89110222545",
-            "first_name": "EULISES",
-            "last_name": "MUÑOZ",
-            "second_surname": "ROJAS",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC.",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2016-12-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712101755613",
-            "company_email": "eulises@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "89110521169",
@@ -5699,47 +5962,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
-            "identity_number": "90051128845",
-            "first_name": " ALEJANDRO",
-            "last_name": "CAMPOS",
-            "second_surname": "ATAY",
+            "identity_number": "90030446589",
+            "first_name": "YEIDIEL",
+            "last_name": "ORTIZ",
+            "second_surname": "ROSALES",
             "gender": "M",
-            "occupational_category": "OBRERO",
-            "designation": "TORRERO A                          ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2018-11-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712110238910",
-            "company_email": "leo@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "90073027536",
-            "first_name": "LEYDI MILAGROS",
-            "last_name": "PÉREZ",
-            "second_surname": "QUIVEIRO",
-            "gender": "F",
             "occupational_category": "TÉCNICO",
-            "designation": "ASPIRANTE A COMPRADOR INTERNACIONAL",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2017-09-01 00:00:00",
+            "designation": "ESP.A EN AUTOMATIZACION            ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2024-09-17 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
-            "banc_ac_no": "0598712122944615",
-            "company_email": "lmilagros@tm.cupet.cu",
+            "banc_ac_no": "0699912305204213",
+            "company_email": null,
             "accumulate_vacations": "1",
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "90111746183",
@@ -5748,7 +5993,7 @@
             "second_surname": "PÉREZ",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.A EN AUTOMATIZACION            ",
+            "designation": "ESP.A EN AUTOMATIZACION (EP)       ",
             "employment_type": "DESTAJO",
             "date_of_joining": "2019-01-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -5759,7 +6004,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "90112126433",
@@ -5779,7 +6025,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "90112137858",
@@ -5799,27 +6046,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "90120628415",
-            "first_name": "WENDY",
-            "last_name": "CALVO",
-            "second_surname": "PORTILLO",
-            "gender": "F",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESPECIALISTA B EN INVERSIONES      ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2023-09-18 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712141934510",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "90120928205",
@@ -5829,7 +6057,7 @@
             "gender": "M",
             "occupational_category": "TÉCNICO",
             "designation": "SISTEMATIZADOR C                   ",
-            "employment_type": "INDETERMINADO",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2023-05-02 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -5839,27 +6067,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "91010130094",
-            "first_name": "JESSICA",
-            "last_name": "ALBELO",
-            "second_surname": "MIRANDA",
-            "gender": "F",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP B CIENCIAS INFORMATICAS        ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2019-10-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712071425613",
-            "company_email": "yalbelo@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "91042836749",
@@ -5879,7 +6088,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "91070330890",
@@ -5899,37 +6109,18 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "91070347148",
-            "first_name": "REYNALDO SANTIAGO",
-            "last_name": "CORTES",
-            "second_surname": "CAMACHO",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP.A EN AUTOMATIZACION            ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2023-09-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0699912019618815",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "91080328667",
             "first_name": "GERAD",
             "last_name": "BUENO",
             "second_surname": "GARCÍA",
-            "gender": "F",
+            "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.GRAL.TECNOL.COM.AUT.Y SERV.TEC ",
-            "employment_type": "INDETERMINADO",
+            "designation": "ESP.A EN PROYECTO E INGENIERIA (EP)",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2017-07-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -5939,7 +6130,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 21
         },
         {
             "identity_number": "91092528621",
@@ -5959,7 +6151,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "91102107818",
@@ -5979,47 +6172,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "91103128671",
-            "first_name": "AILYN",
-            "last_name": "VIERA",
-            "second_surname": "ARIAS",
-            "gender": "F",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP B CIENCIAS INFORMATICAS        ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2013-01-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712084481412",
-            "company_email": "ailyn@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "92013036426",
-            "first_name": "OSNIEL",
-            "last_name": "CÁRDENAS",
-            "second_surname": "CABRERA",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP.B SEG Y PROTECCION (EP)        ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2023-04-17 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712226558615",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "92020731215",
@@ -6039,7 +6193,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "92032731158",
@@ -6059,7 +6214,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "92040748185",
@@ -6079,7 +6235,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "92062931055",
@@ -6099,27 +6256,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "92070428977",
-            "first_name": "YENEIRY",
-            "last_name": "BARROSO",
-            "second_surname": "GARCÍA",
-            "gender": "F",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC.",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2016-10-11 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712126720017",
-            "company_email": "yeneiry@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "92100127764",
@@ -6128,7 +6266,7 @@
             "second_surname": "ABÓN",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.GRAL SERV. TEC.EQUIPOS Y SIST. ",
+            "designation": "ESP C CIENCIAS INFORMATICAS        ",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2023-05-02 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -6139,7 +6277,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "92111628820",
@@ -6159,7 +6298,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "93032506269",
@@ -6179,7 +6319,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "93070114739",
@@ -6199,27 +6340,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "93072248217",
-            "first_name": "DIMELSA",
-            "last_name": "ARENCIBIA",
-            "second_surname": "GARCIA",
-            "gender": "F",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP C CIENCIAS INFORMATICAS        ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2013-01-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712084481716",
-            "company_email": "dimelsa@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "93112505545",
@@ -6228,7 +6350,7 @@
             "second_surname": "HERNÁNDEZ",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.GRAL SERV. TEC.EQUIPOS Y SIST. ",
+            "designation": "ESP. B PROYECTOS E INGEIERÍA       ",
             "employment_type": "DESTAJO",
             "date_of_joining": "2022-06-23 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -6239,7 +6361,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 21
         },
         {
             "identity_number": "93120819966",
@@ -6248,7 +6371,7 @@
             "second_surname": "AVILA",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC.",
+            "designation": "ESP.A EN PROYECTO E INGENIERIA     ",
             "employment_type": "DESTAJO",
             "date_of_joining": "2022-06-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -6259,7 +6382,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 21
         },
         {
             "identity_number": "94071429534",
@@ -6279,27 +6403,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "94073029908",
-            "first_name": "YUNIEL MARIO",
-            "last_name": "SILVA",
-            "second_surname": "MENÉNDEZ",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP C CIENCIAS INFORMATICAS        ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2022-03-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712096056911",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 11
         },
         {
             "identity_number": "94110228594",
@@ -6319,7 +6424,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 19
         },
         {
             "identity_number": "94113030827",
@@ -6339,7 +6445,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "95100728648",
@@ -6359,27 +6466,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "95102833059",
-            "first_name": "DANIELA",
-            "last_name": "IZQUIERDO",
-            "second_surname": "CASTAÑEDA",
-            "gender": "F",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP.PCPAL.TECNO.COM.AUT.Y SERV.TEC.",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2023-08-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0699912067352418",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 18
         },
         {
             "identity_number": "95122523501",
@@ -6388,8 +6476,8 @@
             "second_surname": "BLANCO",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "TECNICO SUPERIOR EN ADIESTRAMIENTO ",
-            "employment_type": "ADIESTRADO",
+            "designation": "ESP.A EN PROYECTO E INGENIERIA     ",
+            "employment_type": "DESTAJO",
             "date_of_joining": "2019-09-01 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
@@ -6399,27 +6487,29 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 21
         },
         {
-            "identity_number": "96030723684",
-            "first_name": "WALTER",
-            "last_name": "RAMÍREZ",
-            "second_surname": "MENDOZA",
+            "identity_number": "96052108020",
+            "first_name": "AHMED",
+            "last_name": "VALDÉS",
+            "second_surname": "OROZCO",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "ESP.A EN AUTOMATIZACION            ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2023-10-02 00:00:00",
+            "designation": "TECNICO CIENCIAS INFORMATICAS      ",
+            "employment_type": "INDETERMINADO",
+            "date_of_joining": "2024-09-02 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
-            "banc_ac_no": "0699912081347818",
+            "banc_ac_no": "0598712122654415",
             "company_email": null,
             "accumulate_vacations": "1",
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "96071508988",
@@ -6428,7 +6518,7 @@
             "second_surname": "MARTIJA",
             "gender": "M",
             "occupational_category": "TÉCNICO",
-            "designation": "TECNICO CIENCIAS INFORMATICAS      ",
+            "designation": "ESP.B EN CIENCIAS INFORMATICAS (EP)",
             "employment_type": "INDETERMINADO",
             "date_of_joining": "2023-04-03 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
@@ -6439,7 +6529,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "96071907556",
@@ -6459,7 +6550,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "96101825400",
@@ -6479,47 +6571,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "96111809985",
-            "first_name": "ANDRY",
-            "last_name": "GARCÍA",
-            "second_surname": "ZARRALUQUI",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "TECNICO SUPERIOR EN ADIESTRAMIENTO ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2020-11-11 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712130901218",
-            "company_email": "agarciaz@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "96112500102",
-            "first_name": "ALVARO",
-            "last_name": "HIDALGO",
-            "second_surname": "MÉNDEZ",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP.A EN AUTOMATIZACION            ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2023-03-06 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0699912081729614",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 27
         },
         {
             "identity_number": "97033007133",
@@ -6539,47 +6592,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "97070606423",
-            "first_name": "ADRIAN",
-            "last_name": "RODRIGUEZ",
-            "second_surname": "ALVAREZ",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "ESP C CIENCIAS INFORMATICAS        ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2022-02-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712113981318",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "97081421404",
-            "first_name": "CARLOS RAFAEL",
-            "last_name": "ARENCIBIA",
-            "second_surname": "GARCÍA",
-            "gender": "M",
-            "occupational_category": "OBRERO",
-            "designation": "OPERADOR A INSTALADOR REPARADOR    ",
-            "employment_type": "INDETERMINADO",
-            "date_of_joining": "2017-04-01 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712130665710",
-            "company_email": "reinierm@tm.cupet.cu",
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "97092006982",
@@ -6593,13 +6607,35 @@
             "date_of_joining": "2024-04-22 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
-            "banc_ac_no": null,
+            "banc_ac_no": "0598712119488719",
             "company_email": null,
             "accumulate_vacations": "1",
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 10
+        },
+        {
+            "identity_number": "97102621303",
+            "first_name": "ALEJANDRO JAVIER",
+            "last_name": "JAIME",
+            "second_surname": "FERNANDEZ",
+            "gender": "M",
+            "occupational_category": "TÉCNICO",
+            "designation": "ESP.A EN AUTOMATIZACION            ",
+            "employment_type": "DESTAJO",
+            "date_of_joining": "2025-02-03 00:00:00",
+            "contract_end_date": "1753-01-01 00:00:00",
+            "salary_mode": null,
+            "banc_ac_no": "0699912319880919",
+            "company_email": null,
+            "accumulate_vacations": "1",
+            "current_address": null,
+            "permanent_address": null,
+            "state_province": null,
+            "city_town": null,
+            "department": 22
         },
         {
             "identity_number": "97123106821",
@@ -6619,7 +6655,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 26
         },
         {
             "identity_number": "99020405613",
@@ -6639,7 +6676,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "99082806338",
@@ -6659,47 +6697,8 @@
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "99101207324",
-            "first_name": "MARLON",
-            "last_name": "SALINAS",
-            "second_surname": "DÍAZ",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "TECNICO SUPERIOR EN ADIESTRAMIENTO ",
-            "employment_type": "ADIESTRADO",
-            "date_of_joining": "2023-09-11 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712147204915",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
-        },
-        {
-            "identity_number": "99111907007",
-            "first_name": "SIDNEY ELIER",
-            "last_name": "BALLAGA",
-            "second_surname": "EDWARDS",
-            "gender": "M",
-            "occupational_category": "TÉCNICO",
-            "designation": "TÉCNICO EN METROLOGIA              ",
-            "employment_type": "DESTAJO",
-            "date_of_joining": "2023-08-03 00:00:00",
-            "contract_end_date": "1753-01-01 00:00:00",
-            "salary_mode": null,
-            "banc_ac_no": "0598712153418714",
-            "company_email": null,
-            "accumulate_vacations": "1",
-            "current_address": null,
-            "permanent_address": null,
-            "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 17
         },
         {
             "identity_number": "99111921182",
@@ -6707,19 +6706,20 @@
             "last_name": "MERIÑO",
             "second_surname": "GONZÁLEZ",
             "gender": "M",
-            "occupational_category": "OBRERO",
-            "designation": "MECÁNICO A ELECT.MONT.EQ.MED.CONT. ",
+            "occupational_category": "TÉCNICO",
+            "designation": "TÉCNICO EN METROLOGIA              ",
             "employment_type": "DESTAJO",
-            "date_of_joining": "2021-05-03 00:00:00",
+            "date_of_joining": "2024-09-17 00:00:00",
             "contract_end_date": "1753-01-01 00:00:00",
             "salary_mode": null,
             "banc_ac_no": "0699912137284217",
-            "company_email": "fjacas@tm.cupet.cu",
+            "company_email": "rroca@tm.cupet.cu",
             "accumulate_vacations": "1",
             "current_address": null,
             "permanent_address": null,
             "state_province": null,
-            "city_town": null
+            "city_town": null,
+            "department": 22
         }
     ]
 }

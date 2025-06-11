@@ -44,9 +44,6 @@
             "designation_name": "ESP C CIENCIAS INFORMATICAS        "
         },
         {
-            "designation_name": "ESPECIALISTA EN INFORMATICA        "
-        },
-        {
             "designation_name": "ESP COMPRAS VENTAS COMERCIO INTER. "
         },
         {
@@ -68,22 +65,13 @@
             "designation_name": "ESP.A COMPRAS.VENTAS COMERCIO INTER"
         },
         {
-            "designation_name": "ESP.SERVICIOS TEC.EQ.Y SISTEMAS    "
-        },
-        {
-            "designation_name": "ESP.B GESTION ECONOMICA ESP PRINC. "
+            "designation_name": "ESP.B GESTION ECONOMICA (EP)       "
         },
         {
             "designation_name": "ESP.A EN AUTOMATIZACION            "
         },
         {
             "designation_name": "ESP. COMPRA VENTA COMERCIO EXTERIOR"
-        },
-        {
-            "designation_name": "ESPECIALISTA GENERAL AUTOMATICA.   "
-        },
-        {
-            "designation_name": "ESP.COMERC. PROGRAMC CONTROL PROY I"
         },
         {
             "designation_name": "ESPECIALISTA GENERAL TELEMATICA    "
@@ -110,16 +98,10 @@
             "designation_name": "TECNICO A COMUNICACION Y TELECONTRO"
         },
         {
-            "designation_name": "DIRECTOR MERCADO Y COMUNICACIÓN    "
-        },
-        {
             "designation_name": "TECNICO GESTION DOCUMENTAL         "
         },
         {
             "designation_name": "TECNICO SUPERIOR EN ADIESTRAMIENTO "
-        },
-        {
-            "designation_name": "TEC B COMPRA VENTA COMERC INTERNAC "
         },
         {
             "designation_name": "TEC ABASTECIM TECNICO MATERIAL     "
@@ -144,9 +126,6 @@
         },
         {
             "designation_name": "CONTADOR C                         "
-        },
-        {
-            "designation_name": "CONTADOR B ESPECIALISTA PRINCIPAL  "
         },
         {
             "designation_name": "CHOFER D                           "
@@ -176,13 +155,7 @@
             "designation_name": "ASESOR B JURIDICO                  "
         },
         {
-            "designation_name": "AUXILIAR ECONOMICO                 "
-        },
-        {
             "designation_name": "AYUDANTE                           "
-        },
-        {
-            "designation_name": "AUXILIAR ESP. OPERATIVO OPERARIO   "
         },
         {
             "designation_name": "DEPENDIENTE DE ALMACEN             "
@@ -192,12 +165,6 @@
         },
         {
             "designation_name": "TRAMITADOR DE PASAJES Y VISA INTERN"
-        },
-        {
-            "designation_name": "EJECUTIVO COMERCIAL DE TELEMATICA  "
-        },
-        {
-            "designation_name": "OPERARIO EN TELEMATICA Y COMUNICACI"
         },
         {
             "designation_name": "ENCARGADO RECEP Y PIZARRA TELEFON. "
@@ -236,9 +203,6 @@
             "designation_name": "TEC. AHORRO Y USO RAC.ENERGIA      "
         },
         {
-            "designation_name": "AUXILIAR DE OFICINA                "
-        },
-        {
             "designation_name": "ESP. TRAMITADOR ANTE ADUANA        "
         },
         {
@@ -246,9 +210,6 @@
         },
         {
             "designation_name": "DIRECTOR UEB SOPORTE TECNICO       "
-        },
-        {
-            "designation_name": "JEFE DEPARTAMENTO DE CONTABILIDAD  "
         },
         {
             "designation_name": "ESPECIALISTA A EN CUADROS          "
@@ -435,6 +396,33 @@
         },
         {
             "designation_name": "ESP. TRANSP. AUTOMOTOR (EP)        "
+        },
+        {
+            "designation_name": "ESP.A EN PROYECTO E INGENIERIA (EP)"
+        },
+        {
+            "designation_name": "ESP.A EN PROYECTO E INGENIERIA     "
+        },
+        {
+            "designation_name": "TÉCNICO EN AUTOMATIZACIÓN          "
+        },
+        {
+            "designation_name": "ESP.A COMUNIC. Y TELECONTROL (EP)  "
+        },
+        {
+            "designation_name": "ESP. A PROYECTOS E INGENIERÍA      "
+        },
+        {
+            "designation_name": "ESP. B PROYECTOS E INGEIERÍA       "
+        },
+        {
+            "designation_name": "TÉCNICO EN PROYECTOS E INGENIERÍA  "
+        },
+        {
+            "designation_name": "ESP. A PROTECTO E INGENIERÍA (EP)  "
+        },
+        {
+            "designation_name": "ESP.A EN NMCC                      "
         }
     ]
 }

@@ -12,7 +12,7 @@ TABLAS_NOMINA = {
     "Trabajadores": "trabajadores",
     # "Relaciones": "relaciones-trabajadores",
     "Categorías Ocupacionales": "categorias-ocupacionales",
-    "Cargos": "cargos-trabajadores",
+    "Cargos Trabajdores": "cargos-trabajadores",
     "Tipos Trabajadores": "tipos-trabajadores",
     "Retenciones": "tipos-retenciones",
     "Pensionados": "pensionados",
@@ -20,7 +20,7 @@ TABLAS_NOMINA = {
     "Colectivos": "colectivos",
     "Departamentos": "departamentos",
     "Submayor Vacaciones": "submayor_vacaciones",
-    "Submayor Salarios": "submayor_salarios_no_reclamados",
+    "Submayor Salarios No Reclamados": "submayor_salarios_no_reclamados",
     "Pagos Trabajadores": "pagos_trabajadores",
 }
 
@@ -38,7 +38,8 @@ def get_current_conexion_params() -> ConexionParams:
     )
 
 
-## Este helper consulta una tabla segun el endpoint
+## Este helper consulta una tabla segun el endpoint para obtener sus datos
+# haciendo uso del diccionario que tiene la relacion de las tablas
 async def obtener_datos_tabla(nombre_tabla: str,
                               modulo: str | None = None) -> Any:
     modulo = modulo or store.selected_module or 'nomina'

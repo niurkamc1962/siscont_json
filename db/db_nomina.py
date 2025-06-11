@@ -1,5 +1,5 @@
-import logging
 import datetime
+import logging
 from typing import Dict, List
 
 from utils.jsons_utils import export_table_to_json, \
@@ -37,6 +37,7 @@ def get_trabajadores(db) -> List[Dict]:
         ("permanent_address", ("PD.SRHPersDireccionOficial", 'string')),
         ("state_province", ("R.ProvCod", 'string')),
         ("city_town", ("R.MunicCod", 'string')),
+        ("department", ("T.AreaCodigo", 'integer'))
     ]
 
     # Construimos la cláusula SELECT
@@ -535,7 +536,8 @@ def get_submayor_salarios_no_reclamados(db):
     base_query_from = """
         FROM SNOSMREINTEGRONR s join SCPTRABAJADORES s2 on 
         s.CPTrabConsecutivoID = s2.CPTrabConsecutivoID 
-        WHERE s.SMrnrDebito = 0 AND s.SMrnrIdenPaga IS NULL
+        WHERE (s.SMrnrDebito = 0 AND s.SMrnrIdenPaga IS NULL) AND 
+        s2.TrabDesactivado = ''
     """
 
     order_clause = "ORDER BY s.SMrnrIdentificador"
@@ -566,7 +568,8 @@ def get_corte_sc408(db, current_year=None):
     field_mapping = [
         ("employee", ("s2.CPTrabConsecutivoID", 'string')),
         ("employee_name", (
-            "MAX(s2.CPTrabNombre + ' ' + s2.CPTrabPriApellido + ' ' + s2.CPTrabSegApellido)",
+            "MAX(s2.CPTrabNombre + ' ' + s2.CPTrabPriApellido + ' ' + "
+            "s2.CPTrabSegApellido)",
             'string')),
         ("year_to_date", ("MAX(s.sccorteanoCalendario)", 'integer')),
         ("month_to_date", ("MAX(s.sccorteMesCalendario)", 'integer')),
@@ -584,7 +587,8 @@ def get_corte_sc408(db, current_year=None):
     count_query = f"""
         SELECT COUNT(DISTINCT s2.CPTrabConsecutivoID)
         FROM SNOMODSC408CORTE s
-        JOIN SCPTRABAJADORES s2 ON s.CPTrabConsecutivoID = s2.CPTrabConsecutivoID
+        JOIN SCPTRABAJADORES s2 ON s.CPTrabConsecutivoID = 
+        s2.CPTrabConsecutivoID
         WHERE (s2.TrabDesactivado = '' OR s2.TrabDesactivado IS NULL)
           AND s.sccorteanoCalendario IN ({current_year}, {previous_year})
     """
@@ -592,7 +596,8 @@ def get_corte_sc408(db, current_year=None):
     # Consulta base con GROUP BY para obtener los datos agregados
     base_query_from = f"""
         FROM SNOMODSC408CORTE s
-        JOIN SCPTRABAJADORES s2 ON s.CPTrabConsecutivoID = s2.CPTrabConsecutivoID
+        JOIN SCPTRABAJADORES s2 ON s.CPTrabConsecutivoID = 
+        s2.CPTrabConsecutivoID
         WHERE (s2.TrabDesactivado = '' OR s2.TrabDesactivado IS NULL)
           AND s.sccorteanoCalendario IN ({current_year}, {previous_year})
         GROUP BY s2.CPTrabConsecutivoID
@@ -607,13 +612,15 @@ def get_corte_sc408(db, current_year=None):
 
     if total_items == 0:
         logging.warning(
-            f"No hay datos de Corte para los años {current_year} o {previous_year}")
+            f"No hay datos de Corte para los años {current_year} o "
+            f"{previous_year}")
         return []
 
     # Construimos la consulta SELECT completa con alias y funciones agregadas
     select_clauses = [f"{sql_field} AS {alias}" for alias, (sql_field, _) in
                       field_mapping]
-    select_query = f"SELECT {', '.join(select_clauses)} {base_query_from} {order_clause}"
+    select_query = (f"SELECT {', '.join(select_clauses)} {base_query_from} "
+                    f"{order_clause}")
 
     return export_table_to_json_paginated(
         db=db,

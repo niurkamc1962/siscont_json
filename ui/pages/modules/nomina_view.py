@@ -51,11 +51,8 @@ async def mostrar_tabla(nombre_logico: str):
         ui.notify(f"Error al consultar {nombre_logico}: {e}", type="negative")
         print(f"Error al consultar {nombre_logico}: {e}")
 
-
+# funcion que obtiene los datos de la tabla especificada
 async def procesar_tabla_individual(nombre_logico: str):
-    """
-    Fetches data for a specified table and triggers a JSON file download.
-    """
     try:
         ui.notify(f"Preparando exportación de {nombre_logico}...")
         data = await obtener_datos_tabla(nombre_logico)
