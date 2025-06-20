@@ -1,4 +1,4 @@
-# ui/pages/modules/cobros y pagos.py
+# ui/pages/modules/cobors_pagos_view.py
 from nicegui import ui
 
 

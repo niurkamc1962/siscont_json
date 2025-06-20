@@ -534,13 +534,6 @@
             "SMVacId": 139126
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "SHEYLA LEÓN PINO",
-            "expediente_laboral": null,
-            "SMVacId": 139125
-        },
-        {
             "initial_balance_in_amount": 10433.35,
             "initial_balance_in_days": 22.194,
             "employee": "LAUREN REYES VIERA",
@@ -646,25 +639,11 @@
             "SMVacId": 139107
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "DAYDEE MOLINET HECHAVARRÍA",
-            "expediente_laboral": null,
-            "SMVacId": 139106
-        },
-        {
             "initial_balance_in_amount": 1881.29,
             "initial_balance_in_days": 2.198,
             "employee": "HANSEL TAPIA LLODY",
             "expediente_laboral": null,
             "SMVacId": 139105
-        },
-        {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "HELEN GONZÁLEZ AZCÁRRAGA",
-            "expediente_laboral": null,
-            "SMVacId": 139104
         },
         {
             "initial_balance_in_amount": 6257.63,
@@ -679,13 +658,6 @@
             "employee": "WALTER BALUJA ANDRÉ",
             "expediente_laboral": null,
             "SMVacId": 139102
-        },
-        {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "RACIEL RODRÍGUEZ CRESPO",
-            "expediente_laboral": null,
-            "SMVacId": 139101
         },
         {
             "initial_balance_in_amount": 3534.58,
@@ -912,13 +884,6 @@
             "SMVacId": 139064
         },
         {
-            "initial_balance_in_amount": 23712.25,
-            "initial_balance_in_days": 24.949,
-            "employee": "DELIA ADRIANA DIAZ HERNANDEZ",
-            "expediente_laboral": "984  ",
-            "SMVacId": 139063
-        },
-        {
             "initial_balance_in_amount": 21820.0,
             "initial_balance_in_days": 25.318,
             "employee": "YAMILE QUINTANA LEON",
@@ -973,13 +938,6 @@
             "employee": "BÁRBARA ARISBEL FERNÁNDEZ MACÍAS",
             "expediente_laboral": null,
             "SMVacId": 139050
-        },
-        {
-            "initial_balance_in_amount": 18322.04,
-            "initial_balance_in_days": 24.603,
-            "employee": "ALIBECH JUANA REYES GARCÍA",
-            "expediente_laboral": null,
-            "SMVacId": 139049
         },
         {
             "initial_balance_in_amount": 17234.01,
@@ -1204,13 +1162,6 @@
             "employee": "FRANCISCO JAVIER DE LA TEJERA ROJAS",
             "expediente_laboral": null,
             "SMVacId": 139001
-        },
-        {
-            "initial_balance_in_amount": 16809.23,
-            "initial_balance_in_days": 25.518,
-            "employee": "MARTHA ROSA ALFONSO FERRER",
-            "expediente_laboral": "321  ",
-            "SMVacId": 139000
         },
         {
             "initial_balance_in_amount": 12547.23,
@@ -1458,13 +1409,6 @@
             "SMVacId": 138914
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "GONZALO SANCHEZ FIDALGO",
-            "expediente_laboral": null,
-            "SMVacId": 138908
-        },
-        {
             "initial_balance_in_amount": 6983.94,
             "initial_balance_in_days": 17.254,
             "employee": "ELAINE GUTIERREZ ZAMORA",
@@ -1514,13 +1458,6 @@
             "SMVacId": 138896
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "GUILLERMO BRITO ACUÑA",
-            "expediente_laboral": null,
-            "SMVacId": 138895
-        },
-        {
             "initial_balance_in_amount": 6619.71,
             "initial_balance_in_days": 16.549,
             "employee": "ODALIS DELGADO FONSECA",
@@ -1554,13 +1491,6 @@
             "employee": "ALFREDO OSCAR ATENCIO PUJOL",
             "expediente_laboral": null,
             "SMVacId": 138884
-        },
-        {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "MICHEL CASTANEDA PEDROSO",
-            "expediente_laboral": null,
-            "SMVacId": 138883
         },
         {
             "initial_balance_in_amount": 8828.44,
@@ -1766,13 +1696,6 @@
             "SMVacId": 138826
         },
         {
-            "initial_balance_in_amount": 7296.7,
-            "initial_balance_in_days": 24.283,
-            "employee": "ZENIA IVIS MENESES SANTIESTEBAN",
-            "expediente_laboral": null,
-            "SMVacId": 138820
-        },
-        {
             "initial_balance_in_amount": 7357.44,
             "initial_balance_in_days": 26.476,
             "employee": "ANGEL EDUARDO YERO QUESADA",
@@ -1841,13 +1764,6 @@
             "employee": "JESÚS ARNOLDO TAULER ALONSO",
             "expediente_laboral": null,
             "SMVacId": 138800
-        },
-        {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "ROSA CRISTINA GARCÍA GONZÁLEZ",
-            "expediente_laboral": null,
-            "SMVacId": 138799
         },
         {
             "initial_balance_in_amount": 17321.48,
@@ -1934,13 +1850,6 @@
             "SMVacId": 138778
         },
         {
-            "initial_balance_in_amount": 756.54,
-            "initial_balance_in_days": 25.492,
-            "employee": "ALFREDO OCTAVIO BARYOLO DIAZ",
-            "expediente_laboral": null,
-            "SMVacId": 138777
-        },
-        {
             "initial_balance_in_amount": 9813.84,
             "initial_balance_in_days": 26.562,
             "employee": "FRANKLIN DENIS AGUIAR VILLAFRUELA",
@@ -1983,13 +1892,6 @@
             "SMVacId": 138706
         },
         {
-            "initial_balance_in_amount": 5885.71,
-            "initial_balance_in_days": 25.522,
-            "employee": "ALEXANDER ORTIZ MINGO",
-            "expediente_laboral": "1597 ",
-            "SMVacId": 138687
-        },
-        {
             "initial_balance_in_amount": 11395.33,
             "initial_balance_in_days": 24.815,
             "employee": "MAGELA MENA MARTÍNEZ",
@@ -2004,55 +1906,6 @@
             "SMVacId": 138670
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "GURSKI VERA ZAMORA",
-            "expediente_laboral": null,
-            "SMVacId": 138653
-        },
-        {
-            "initial_balance_in_amount": 37932.93,
-            "initial_balance_in_days": 23.906,
-            "employee": "OLGA LIDIA RIVERO BELLO",
-            "expediente_laboral": null,
-            "SMVacId": 138573
-        },
-        {
-            "initial_balance_in_amount": 11823.71,
-            "initial_balance_in_days": 24.089,
-            "employee": "NILDA MARIA HENRIQUEZ LÓPEZ",
-            "expediente_laboral": null,
-            "SMVacId": 138567
-        },
-        {
-            "initial_balance_in_amount": 8103.25,
-            "initial_balance_in_days": 25.763,
-            "employee": "ADOLFO CARRERA SABIN",
-            "expediente_laboral": "1570 ",
-            "SMVacId": 138526
-        },
-        {
-            "initial_balance_in_amount": 16780.96,
-            "initial_balance_in_days": 24.88,
-            "employee": "ORLANDO PÉREZ CARMONA",
-            "expediente_laboral": null,
-            "SMVacId": 138525
-        },
-        {
-            "initial_balance_in_amount": 6387.99,
-            "initial_balance_in_days": 26.096,
-            "employee": "MARIO LEROUX DEL ROSARIO",
-            "expediente_laboral": "1391 ",
-            "SMVacId": 138516
-        },
-        {
-            "initial_balance_in_amount": 57.69,
-            "initial_balance_in_days": 0.0,
-            "employee": "IVÓN ORISTELA BENÍTEZ GONZÁLEZ",
-            "expediente_laboral": null,
-            "SMVacId": 138409
-        },
-        {
             "initial_balance_in_amount": 10776.73,
             "initial_balance_in_days": 24.609,
             "employee": "CINDY CHARON MARQUEZ",
@@ -2060,137 +1913,102 @@
             "SMVacId": 138224
         },
         {
-            "initial_balance_in_amount": 5850.79,
-            "initial_balance_in_days": 25.916,
-            "employee": "OSMÍN ORLANDO DÍAZ LABORDE",
-            "expediente_laboral": null,
-            "SMVacId": 137707
+            "initial_balance_in_amount": 5885.71,
+            "initial_balance_in_days": 25.522,
+            "employee": "ALEXANDER ORTIZ MINGO",
+            "expediente_laboral": "1597 ",
+            "SMVacId": 138202
         },
         {
-            "initial_balance_in_amount": 3895.94,
-            "initial_balance_in_days": 25.447,
-            "employee": "GILBERTO MORALES PINTO",
-            "expediente_laboral": "416  ",
-            "SMVacId": 137368
+            "initial_balance_in_amount": 37932.93,
+            "initial_balance_in_days": 23.906,
+            "employee": "OLGA LIDIA RIVERO BELLO",
+            "expediente_laboral": null,
+            "SMVacId": 138173
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "YULEIDIS EODRÍGUEZ CUADRA",
+            "initial_balance_in_amount": 11823.71,
+            "initial_balance_in_days": 24.089,
+            "employee": "NILDA MARIA HENRIQUEZ LÓPEZ",
             "expediente_laboral": null,
-            "SMVacId": 136969
+            "SMVacId": 138170
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "JORGE EDRIAN SANABRIA RODRÍGUEZ",
-            "expediente_laboral": null,
-            "SMVacId": 135732
+            "initial_balance_in_amount": 8103.25,
+            "initial_balance_in_days": 25.763,
+            "employee": "ADOLFO CARRERA SABIN",
+            "expediente_laboral": "1570 ",
+            "SMVacId": 138156
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "DAILY MILANÉS HERMOSILLA",
+            "initial_balance_in_amount": 16780.96,
+            "initial_balance_in_days": 24.88,
+            "employee": "ORLANDO PÉREZ CARMONA",
             "expediente_laboral": null,
-            "SMVacId": 135662
+            "SMVacId": 138155
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "MICHEL SANZ PÉREZ",
-            "expediente_laboral": null,
-            "SMVacId": 135653
+            "initial_balance_in_amount": 6387.99,
+            "initial_balance_in_days": 26.096,
+            "employee": "MARIO LEROUX DEL ROSARIO",
+            "expediente_laboral": "1391 ",
+            "SMVacId": 138151
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "HENRY RAÚL GONZÁLEZ   BRITO",
-            "expediente_laboral": null,
-            "SMVacId": 135647
+            "initial_balance_in_amount": 23712.25,
+            "initial_balance_in_days": 24.949,
+            "employee": "DELIA ADRIANA DIAZ HERNANDEZ",
+            "expediente_laboral": "984  ",
+            "SMVacId": 130732
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "KSENIA ARIAS GRANDA",
+            "initial_balance_in_amount": 18322.04,
+            "initial_balance_in_days": 24.603,
+            "employee": "ALIBECH JUANA REYES GARCÍA",
             "expediente_laboral": null,
-            "SMVacId": 135635
+            "SMVacId": 130731
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "GEOLVIS GUERRA DE LEON",
-            "expediente_laboral": null,
-            "SMVacId": 135634
+            "initial_balance_in_amount": 16809.23,
+            "initial_balance_in_days": 25.518,
+            "employee": "MARTHA ROSA ALFONSO FERRER",
+            "expediente_laboral": "321  ",
+            "SMVacId": 130729
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "LEONARDO PEÑA PUPO",
+            "initial_balance_in_amount": 7296.7,
+            "initial_balance_in_days": 24.283,
+            "employee": "ZENIA IVIS MENESES SANTIESTEBAN",
             "expediente_laboral": null,
-            "SMVacId": 135626
-        },
-        {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "CARLOS JESÚS CASTELLANO PERDOMO",
-            "expediente_laboral": null,
-            "SMVacId": 135578
-        },
-        {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "LUISA VILLAFRUELA LOPERENA",
-            "expediente_laboral": null,
-            "SMVacId": 135573
+            "SMVacId": 126029
         },
         {
             "initial_balance_in_amount": 5883.25,
             "initial_balance_in_days": 22.507,
             "employee": "ZUSSELL FERRERA BARROSO",
             "expediente_laboral": null,
-            "SMVacId": 135517
+            "SMVacId": 126026
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "JORGE ALMEIDA TORREGOSA",
-            "expediente_laboral": null,
-            "SMVacId": 135484
+            "initial_balance_in_amount": 3895.94,
+            "initial_balance_in_days": 25.447,
+            "employee": "GILBERTO MORALES PINTO",
+            "expediente_laboral": "416  ",
+            "SMVacId": 126019
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "NORQUI ORTIZ MACHADO",
+            "initial_balance_in_amount": 4303.33,
+            "initial_balance_in_days": 25.916,
+            "employee": "OSMÍN ORLANDO DÍAZ LABORDE",
             "expediente_laboral": null,
-            "SMVacId": 135482
+            "SMVacId": 108223
         },
         {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "VICTOR DÍAZ DESPAIGNE",
+            "initial_balance_in_amount": 756.54,
+            "initial_balance_in_days": 25.492,
+            "employee": "ALFREDO OCTAVIO BARYOLO DIAZ",
             "expediente_laboral": null,
-            "SMVacId": 135478
-        },
-        {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "BERTHA CORBEA PACHECO",
-            "expediente_laboral": null,
-            "SMVacId": 135473
-        },
-        {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "ADRIAN ALEJANDRO SOUTO MORALES",
-            "expediente_laboral": null,
-            "SMVacId": 135457
-        },
-        {
-            "initial_balance_in_amount": 0.0,
-            "initial_balance_in_days": 0.0,
-            "employee": "MELANI FORSYTHE MATOS",
-            "expediente_laboral": null,
-            "SMVacId": 135455
+            "SMVacId": 96796
         }
     ]
 }

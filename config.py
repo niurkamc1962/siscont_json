@@ -20,16 +20,19 @@ DEFAULT_PAGE_SIZE = 1000
 
 # UI Modules Config(modulo:icon)
 MODULES = {
-    "General": "home",
-    "Contabilidad": "account_balance_wallet",
+    "Inicio": "home",
+    "General": "dashboard",
+    "Contabilidad General": "account_balance_wallet",
+    "Inventarios" : "inventory_2",
+    "Activos Fijos" : "precision_manufacturing",
     "Nómina": "payments",
-    "Recursos Humanos": "people_alt",
     "Cobros y Pagos": "receipt_long",
-    "Inventario": "inventory_2",
-    "Configuración": "settings",
+    "Gestion Comercial Ventas": "sell",
+    "Gestion Comercial Compras": "shopping_cart",
+    "Recursos Humanos": "people_alt",
 }
 
-DEFAULT_MODULE = "General"
+DEFAULT_MODULE = "Inicio"
 
 
 class Settings(BaseSettings):

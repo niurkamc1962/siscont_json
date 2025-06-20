@@ -1,0 +1,131 @@
+{
+    "doctype": "UOM",
+    "data": [
+        {
+            "uom_name": "UNIDAD"
+        },
+        {
+            "uom_name": "KILOGRAMO"
+        },
+        {
+            "uom_name": "LITRO"
+        },
+        {
+            "uom_name": "GRAMO"
+        },
+        {
+            "uom_name": "CAJA"
+        },
+        {
+            "uom_name": "BOLSA"
+        },
+        {
+            "uom_name": "BOTELLA"
+        },
+        {
+            "uom_name": "CILINDRO"
+        },
+        {
+            "uom_name": "GALONES"
+        },
+        {
+            "uom_name": "JUEGOS"
+        },
+        {
+            "uom_name": "KILOGRAMOS"
+        },
+        {
+            "uom_name": "KIT"
+        },
+        {
+            "uom_name": "LATA"
+        },
+        {
+            "uom_name": "LITROS"
+        },
+        {
+            "uom_name": "MILLAR"
+        },
+        {
+            "uom_name": "METROS CUADRADOS"
+        },
+        {
+            "uom_name": "METROS CUBICOS"
+        },
+        {
+            "uom_name": "MILLAR"
+        },
+        {
+            "uom_name": "METROS"
+        },
+        {
+            "uom_name": "MAZOS"
+        },
+        {
+            "uom_name": "PACK"
+        },
+        {
+            "uom_name": "PAR"
+        },
+        {
+            "uom_name": "PIE"
+        },
+        {
+            "uom_name": "PAQUETE"
+        },
+        {
+            "uom_name": "PIEZA"
+        },
+        {
+            "uom_name": "REMA"
+        },
+        {
+            "uom_name": "ROLLOS"
+        },
+        {
+            "uom_name": "TONELADAS"
+        },
+        {
+            "uom_name": "TR"
+        },
+        {
+            "uom_name": "ROLLO"
+        },
+        {
+            "uom_name": "MILLT"
+        },
+        {
+            "uom_name": "SACOS"
+        },
+        {
+            "uom_name": "UNO"
+        },
+        {
+            "uom_name": "POTE"
+        },
+        {
+            "uom_name": "MILES"
+        },
+        {
+            "uom_name": "LIBRAS"
+        },
+        {
+            "uom_name": "TIRAS"
+        },
+        {
+            "uom_name": "METROS DE LONGITUD"
+        },
+        {
+            "uom_name": "KILOMETRO"
+        },
+        {
+            "uom_name": "TRAMO"
+        },
+        {
+            "uom_name": "BOBINA"
+        },
+        {
+            "uom_name": "HORAS HOMBRE"
+        }
+    ]
+}

@@ -5,7 +5,7 @@ from config import DEFAULT_MODULE
 from ui.components import header, sidebar
 from ui.pages.modules import (cobros_pagos_view, contabilidad_view,
                               general_view, inventario_view,
-                              nomina_view, recursos_humanos_view)
+                              nomina_view, recursos_humanos_view, inicio_view)
 
 
 # Definimos la función show_module_content como "refrescable"
@@ -23,7 +23,9 @@ def show_module_content(module_name: str):
     # pero a veces es útil tenerlo explícito o para depuración.
     # No necesitamos un div con ID aquí, NiceGUI gestiona el contenedor.
 
-    if module_name == "General":
+    if module_name == "Inicio":
+        inicio_view.show()
+    elif module_name == "General":
         general_view.show()
     elif module_name == "Contabilidad":
         contabilidad_view.show()

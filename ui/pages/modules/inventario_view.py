@@ -1,4 +1,4 @@
-# ui/pages/modules/api_nomina.py
+# ui/pages/modules/inventario_view.py
 from nicegui import ui
 
 

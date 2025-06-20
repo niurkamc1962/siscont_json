@@ -4,8 +4,8 @@ from fastapi import FastAPI
 from nicegui import app, ui
 
 import config
-from api import api_db, api_nomina
-from middleware.auth_middleware import AuthMiddleware
+from api import api_db, api_nomina, api_general
+# from middleware.auth_middleware import AuthMiddleware
 from ui.pages import login, main_page
 
 # from db.db_manager import AppState
@@ -21,6 +21,7 @@ fastapi_app = FastAPI(title=config.APP_TITLE)
 # y muestra html en lugar de formatos JSON
 fastapi_app.include_router(api_db.router, prefix="/api")
 fastapi_app.include_router(api_nomina.router, prefix="/api/nomina")
+fastapi_app.include_router(api_general.router, prefix="/api/general")
 
 # ⛔ Agregar middleware de autenticación
 # fastapi_app.add_middleware(AuthMiddleware)

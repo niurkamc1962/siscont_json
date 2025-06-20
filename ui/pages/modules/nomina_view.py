@@ -1,4 +1,4 @@
-# ui/pages/modules/api_nomina.py
+# ui/pages/modules/nomina_view.py
 import asyncio
 
 from nicegui import ui

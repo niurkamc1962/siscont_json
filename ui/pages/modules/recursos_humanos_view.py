@@ -1,4 +1,4 @@
-# ui/pages/modules/recursos humanos.py
+# ui/pages/modules/recursos_humanos_view.py
 from nicegui import ui
 
 

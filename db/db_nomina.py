@@ -501,7 +501,8 @@ def get_submayor_vacaciones(db):
         FROM S5Principal.dbo.SNOSMVACACIONES s
         JOIN S5Principal.dbo.SCPTRABAJADORES s2
             ON s.CPTrabConsecutivoID = s2.CPTrabConsecutivoID
-        WHERE s.SMVacDesactivado = '' AND s2.TrabDesactivado = ''
+        WHERE (s.SMVacDesactivado = '' AND s2.TrabDesactivado = '')
+            AND s.SMVacSaldoInicialD > 0
         GROUP BY s.CPTrabConsecutivoID
     """
 
@@ -554,9 +555,9 @@ def get_submayor_salarios_no_reclamados(db):
 
 
 def get_corte_sc408(db, current_year=None):
-    doctype_name = "Salary Slip"
+    doctype_name = "sc408 model"
     sqlserver_name = "SNOMODSC408CORTE"
-    module_name = "Payroll"
+    module_name = "Cuba"
 
     # Si no se proporciona el año actual, lo obtenemos
     if current_year is None:
