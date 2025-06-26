@@ -37,7 +37,7 @@ def get_trabajadores(db) -> List[Dict]:
         ("permanent_address", ("PD.SRHPersDireccionOficial", 'string')),
         ("state_province", ("R.ProvCod", 'string')),
         ("city_town", ("R.MunicCod", 'string')),
-        ("department", ("T.AreaCodigo", 'integer'))
+        ("department", ("Area.AreaDescrip", 'string'))
     ]
 
     # Construimos la cláusula SELECT
@@ -55,6 +55,7 @@ def get_trabajadores(db) -> List[Dict]:
     LEFT JOIN SRHPersonas AS P ON T.CPTrabConsecutivoID = P.SRHPersonasId
     LEFT JOIN SRHPersonasDireccion AS PD ON P.SRHPersonasId = PD.SRHPersonasId
     LEFT JOIN TEREPARTOS AS R ON PD.TRepartosCodigo = R.TRepartosCodigo
+    LEFT JOIN SMGAREASUBAREA AS AREA ON T.AreaCodigo = AREA.AreaCodigo
     WHERE (T.TrabDesactivado = '' OR T.TrabDesactivado IS NULL)
     """
     return export_table_to_json(
